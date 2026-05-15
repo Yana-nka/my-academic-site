@@ -1,18 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Academic Site</title><link>https://Yana-nka.github.io/my-academic-site/</link><atom:link href="https://Yana-nka.github.io/my-academic-site/index.xml" rel="self" type="application/rss+xml"/><description>My Academic Site</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 May 2026 00:00:00 +0300</lastBuildDate><image><url>https://Yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>My Academic Site</title><link>https://Yana-nka.github.io/my-academic-site/</link></image><item><title>Первая неделя работы над сайтом</title><link>https://Yana-nka.github.io/my-academic-site/post/week1/</link><pubDate>Sat, 16 May 2026 00:00:00 +0300</pubDate><guid>https://Yana-nka.github.io/my-academic-site/post/week1/</guid><description>&lt;h2 id="что-сделано-за-неделю">Что сделано за неделю&lt;/h2>
-&lt;ol>
-&lt;li>Установлен генератор статических сайтов Hugo&lt;/li>
-&lt;li>Установлена тема Hugo Academic (Wowchemy)&lt;/li>
-&lt;li>Создан репозиторий на GitHub&lt;/li>
-&lt;li>Настроен GitHub Pages с автоматическим деплоем&lt;/li>
-&lt;li>Добавлены данные о владельце сайта&lt;/li>
-&lt;li>Добавлено фото владельца&lt;/li>
-&lt;/ol>
-&lt;h2 id="планы-на-следующую-неделю">Планы на следующую неделю&lt;/h2>
-&lt;ul>
-&lt;li>Добавить информацию о навыках и опыте&lt;/li>
-&lt;li>Наполнить сайт контентом&lt;/li>
-&lt;li>Добавить научные ссылки&lt;/li>
-&lt;/ul></description></item><item><title>Управление версиями. Git</title><link>https://Yana-nka.github.io/my-academic-site/post/git-version-control/</link><pubDate>Sat, 16 May 2026 00:00:00 +0300</pubDate><guid>https://Yana-nka.github.io/my-academic-site/post/git-version-control/</guid><description>&lt;h2 id="что-такое-git">Что такое Git?&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>git | My Academic Site</title><link>https://Yana-nka.github.io/my-academic-site/tags/git/</link><atom:link href="https://Yana-nka.github.io/my-academic-site/tags/git/index.xml" rel="self" type="application/rss+xml"/><description>git</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 May 2026 00:00:00 +0300</lastBuildDate><image><url>https://Yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>git</title><link>https://Yana-nka.github.io/my-academic-site/tags/git/</link></image><item><title>Управление версиями. Git</title><link>https://Yana-nka.github.io/my-academic-site/post/git-version-control/</link><pubDate>Sat, 16 May 2026 00:00:00 +0300</pubDate><guid>https://Yana-nka.github.io/my-academic-site/post/git-version-control/</guid><description>&lt;h2 id="что-такое-git">Что такое Git?&lt;/h2>
 &lt;p>Git — это распределённая система контроля версий, разработанная Линусом Торвальдсом в 2005 году. Она позволяет отслеживать изменения в файлах, синхронизировать работу нескольких участников проекта и откатывать изменения при необходимости.&lt;/p>
 &lt;h2 id="основные-понятия">Основные понятия&lt;/h2>
 &lt;ul>
