@@ -22,9 +22,5 @@ markup:
     renderer:
       unsafe: true
 
-params:
-  color: blue
-  day_night: true
-
 enableEmoji: true
 enableGitInfo: true

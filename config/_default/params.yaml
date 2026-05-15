@@ -1,0 +1,11 @@
+# Theme
+color: blue
+day_night: true
+
+# Header
+header:
+  navbar:
+    show_day_night: true
+    show_search: true
+    show_logo: true
+    highlight_active_link: true
