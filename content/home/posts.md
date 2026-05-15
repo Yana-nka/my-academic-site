@@ -1,12 +1,10 @@
 ---
-# An instance of the Pages widget.
-# Documentation: https://wowchemy.com/docs/page-builder/
 widget: pages
-active: true
 headless: true
+active: true
 weight: 60
-title: Последние посты
-subtitle: ''
+title: "Последние посты"
+subtitle: ""
 
 content:
   page_type: post
@@ -16,5 +14,5 @@ content:
 
 design:
   view: compact
-  columns: '2'
+  columns: "2"
 ---

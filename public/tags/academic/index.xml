@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>academic | My Academic Site</title><link>https://yana-nka.github.io/my-academic-site/tags/academic/</link><atom:link href="https://yana-nka.github.io/my-academic-site/tags/academic/index.xml" rel="self" type="application/rss+xml"/><description>academic</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 May 2026 00:00:00 +0300</lastBuildDate><image><url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>academic</title><link>https://yana-nka.github.io/my-academic-site/tags/academic/</link></image><item><title>Первая неделя работы над сайтом</title><link>https://yana-nka.github.io/my-academic-site/post/week1/</link><pubDate>Sat, 16 May 2026 00:00:00 +0300</pubDate><guid>https://yana-nka.github.io/my-academic-site/post/week1/</guid><description>&lt;h2 id="что-сделано-за-неделю">Что сделано за неделю&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>academic | My Academic Site</title><link>https://yana-nka.github.io/my-academic-site/tags/academic/</link><atom:link href="https://yana-nka.github.io/my-academic-site/tags/academic/index.xml" rel="self" type="application/rss+xml"/><description>academic</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 May 2026 01:00:00 +0300</lastBuildDate><image><url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>academic</title><link>https://yana-nka.github.io/my-academic-site/tags/academic/</link></image><item><title>Вторая неделя: навыки и достижения</title><link>https://yana-nka.github.io/my-academic-site/post/week2/</link><pubDate>Sat, 16 May 2026 01:00:00 +0300</pubDate><guid>https://yana-nka.github.io/my-academic-site/post/week2/</guid><description>&lt;h2 id="что-сделано-на-этой-неделе">Что сделано на этой неделе&lt;/h2>
+&lt;ol>
+&lt;li>Добавлены виджеты навыков (Skills)&lt;/li>
+&lt;li>Добавлен опыт (Experience)&lt;/li>
+&lt;li>Добавлены достижения (Accomplishments)&lt;/li>
+&lt;li>Настроена авто-публикация через GitHub Actions&lt;/li>
+&lt;li>Сайт доступен: &lt;a href="https://yana-nka.github.io/my-academic-site/" target="_blank" rel="noopener">https://yana-nka.github.io/my-academic-site/&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="планы">Планы&lt;/h2>
+&lt;ul>
+&lt;li>Добавить проекты&lt;/li>
+&lt;li>Добавить научные ссылки&lt;/li>
+&lt;li>Настроить двуязычность&lt;/li>
+&lt;/ul></description></item><item><title>Первая неделя работы над сайтом</title><link>https://yana-nka.github.io/my-academic-site/post/week1/</link><pubDate>Sat, 16 May 2026 00:00:00 +0300</pubDate><guid>https://yana-nka.github.io/my-academic-site/post/week1/</guid><description>&lt;h2 id="что-сделано-за-неделю">Что сделано за неделю&lt;/h2>
 &lt;ol>
 &lt;li>Установлен генератор статических сайтов Hugo&lt;/li>
 &lt;li>Установлена тема Hugo Academic (Wowchemy)&lt;/li>
