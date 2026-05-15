@@ -1,8 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Academic Site</title><link>https://yana-nka.github.io/my-academic-site/</link><atom:link href="https://yana-nka.github.io/my-academic-site/index.xml" rel="self" type="application/rss+xml"/><description>My Academic Site</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><image><url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>My Academic Site</title><link>https://yana-nka.github.io/my-academic-site/</link></image><item><title>Интересы</title><link>https://yana-nka.github.io/my-academic-site/home/interests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/home/interests/</guid><description>&lt;ul>
-&lt;li>Архитектура компьютеров и операционные системы&lt;/li>
-&lt;li>Зарубежная литература&lt;/li>
-&lt;li>Шахматы&lt;/li>
-&lt;/ul></description></item><item><title>Последние посты</title><link>https://yana-nka.github.io/my-academic-site/home/posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/home/posts/</guid><description/></item><item><title>Первая неделя работы над сайтом</title><link>https://yana-nka.github.io/my-academic-site/post/week1/</link><pubDate>Sat, 16 May 2026 00:00:00 +0300</pubDate><guid>https://yana-nka.github.io/my-academic-site/post/week1/</guid><description>&lt;h2 id="что-сделано-за-неделю">Что сделано за неделю&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Academic Site</title><link>https://yana-nka.github.io/my-academic-site/</link><atom:link href="https://yana-nka.github.io/my-academic-site/index.xml" rel="self" type="application/rss+xml"/><description>My Academic Site</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><image><url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>My Academic Site</title><link>https://yana-nka.github.io/my-academic-site/</link></image><item><title>Интересы</title><link>https://yana-nka.github.io/my-academic-site/home/interests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/home/interests/</guid><description/></item><item><title>Навыки</title><link>https://yana-nka.github.io/my-academic-site/home/skills/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/home/skills/</guid><description/></item><item><title>Опыт</title><link>https://yana-nka.github.io/my-academic-site/home/experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/home/experience/</guid><description/></item><item><title>Достижения</title><link>https://yana-nka.github.io/my-academic-site/home/accomplishments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/home/accomplishments/</guid><description/></item><item><title>Последние посты</title><link>https://yana-nka.github.io/my-academic-site/home/posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/home/posts/</guid><description/></item><item><title>Вторая неделя: навыки и достижения</title><link>https://yana-nka.github.io/my-academic-site/post/week2/</link><pubDate>Sat, 16 May 2026 01:00:00 +0300</pubDate><guid>https://yana-nka.github.io/my-academic-site/post/week2/</guid><description>&lt;h2 id="что-сделано-на-этой-неделе">Что сделано на этой неделе&lt;/h2>
+&lt;ol>
+&lt;li>Добавлены виджеты навыков (Skills)&lt;/li>
+&lt;li>Добавлен опыт (Experience)&lt;/li>
+&lt;li>Добавлены достижения (Accomplishments)&lt;/li>
+&lt;li>Настроена авто-публикация через GitHub Actions&lt;/li>
+&lt;li>Сайт доступен: &lt;a href="https://yana-nka.github.io/my-academic-site/" target="_blank" rel="noopener">https://yana-nka.github.io/my-academic-site/&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="планы">Планы&lt;/h2>
+&lt;ul>
+&lt;li>Добавить проекты&lt;/li>
+&lt;li>Добавить научные ссылки&lt;/li>
+&lt;li>Настроить двуязычность&lt;/li>
+&lt;/ul></description></item><item><title>Непрерывная интеграция и непрерывное развертывание (CI/CD)</title><link>https://yana-nka.github.io/my-academic-site/post/cicd/</link><pubDate>Sat, 16 May 2026 01:00:00 +0300</pubDate><guid>https://yana-nka.github.io/my-academic-site/post/cicd/</guid><description>&lt;h2 id="что-такое-cicd">Что такое CI/CD?&lt;/h2>
+&lt;p>&lt;strong>CI/CD (Continuous Integration / Continuous Deployment)&lt;/strong> — это подход к разработке, при котором каждое изменение кода автоматически собирается, тестируется и разворачивается.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>CI (непрерывная интеграция)&lt;/strong> — автоматическая сборка и тестирование при каждом коммите&lt;/li>
+&lt;li>&lt;strong>CD (непрерывное развертывание)&lt;/strong> — автоматическая публикация готового продукта&lt;/li>
+&lt;/ul>
+&lt;h2 id="github-actions">GitHub Actions&lt;/h2>
+&lt;p>GitHub Actions — это встроенная система CI/CD от GitHub. Она позволяет описывать сценарии сборки в YAML-файлах.&lt;/p>
+&lt;p>Пример workflow для Hugo:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">Deploy Hugo site to Pages&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">on&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">push&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">branches&lt;/span>: [&lt;span style="color:#e6db74">&amp;#39;main&amp;#39;&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">jobs&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">deploy&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">runs-on&lt;/span>: &lt;span style="color:#ae81ff">ubuntu-latest&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">steps&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">uses&lt;/span>: &lt;span style="color:#ae81ff">actions/checkout@v4&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">uses&lt;/span>: &lt;span style="color:#ae81ff">peaceiris/actions-hugo@v2&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">with&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">hugo-version&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;0.121.2&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">extended&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">run&lt;/span>: &lt;span style="color:#ae81ff">hugo --gc --minify&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">uses&lt;/span>: &lt;span style="color:#ae81ff">peaceiris/actions-gh-pages@v3&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">with&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">publish_dir&lt;/span>: &lt;span style="color:#ae81ff">./public&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="преимущества-cicd">Преимущества CI/CD&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Автоматизация&lt;/strong> — не нужно вручную собирать и заливать&lt;/li>
+&lt;li>&lt;strong>Надёжность&lt;/strong> — каждый коммит проверяется&lt;/li>
+&lt;li>&lt;strong>Скорость&lt;/strong> — публикация занимает минуты&lt;/li>
+&lt;li>&lt;strong>Прозрачность&lt;/strong> — вся история сборок видна в GitHub&lt;/li>
+&lt;/ol>
+&lt;h2 id="заключение">Заключение&lt;/h2>
+&lt;p>CI/CD — важный инструмент для современной разработки. На примере этого сайта мы используем GitHub Actions для автоматической сборки Hugo и публикации на GitHub Pages.&lt;/p></description></item><item><title>Первая неделя работы над сайтом</title><link>https://yana-nka.github.io/my-academic-site/post/week1/</link><pubDate>Sat, 16 May 2026 00:00:00 +0300</pubDate><guid>https://yana-nka.github.io/my-academic-site/post/week1/</guid><description>&lt;h2 id="что-сделано-за-неделю">Что сделано за неделю&lt;/h2>
 &lt;ol>
 &lt;li>Установлен генератор статических сайтов Hugo&lt;/li>
 &lt;li>Установлена тема Hugo Academic (Wowchemy)&lt;/li>
