@@ -30,4 +30,7 @@ subtitle = ""
   icon = "html5"
   icon_pack = "fab"
   name = "HTML/CSS"
+
+[design.background]
+  text_color_light = false
 +++

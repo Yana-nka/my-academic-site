@@ -14,4 +14,7 @@ subtitle = ""
 
 [design]
   view = 2
+
+[design.background]
+  text_color_light = false
 +++

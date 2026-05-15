@@ -15,4 +15,7 @@ date_format = "Jan 2006"
   date_start = "2025-09-01"
   date_end = ""
   description = "Computer Architecture and Operating Systems"
+
+[design.background]
+  text_color_light = false
 +++
