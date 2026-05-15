@@ -1,13 +1,20 @@
 baseURL: 'https://<your-username>.github.io/my-academic-site/'
 languageCode: en-us
 title: 'My Academic Site'
-theme: wowchemy-hugo-themes-modules/wowchemy/v5
 
 module:
   imports:
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal
+
+security:
+  enableInlineShortcodes: true
+  exec:
+    allow: ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+  funcs:
+    getenv: ['^HUGO_', '^CI$', '^WC_']
+  http:
+    mediaTypes: ['.*']
+    urls: ['.*']
 
 markup:
   defaultMarkdownHandler: goldmark
@@ -18,6 +25,7 @@ markup:
 params:
   day_name: true
   email: your@email.com
+  color: blue
 
 enableEmoji: true
 enableGitInfo: true
