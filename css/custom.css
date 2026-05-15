@@ -1,0 +1,32 @@
+/* Override Academic dark theme to light */
+body.dark {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+body.dark .home-section-bg {
+  background: #f5f5f5 !important;
+}
+body.dark .home-section {
+  background: #fff !important;
+}
+body.dark h1, body.dark h2, body.dark h3 {
+  color: #000 !important;
+}
+body.dark p, body.dark li, body.dark .article-style {
+  color: #333 !important;
+}
+body.dark .portrait-title h2 {
+  color: #000 !important;
+}
+body.dark .portrait-title h3 {
+  color: #555 !important;
+}
+body.dark .nav-link, body.dark .navbar-light .navbar-brand {
+  color: #333 !important;
+}
+/* About section background */
+.wg-about > .container > .row {
+  background: #f0f4ff;
+  border-radius: 8px;
+  padding: 20px;
+}
