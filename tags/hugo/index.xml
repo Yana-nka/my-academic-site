@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo | My Academic Site</title><link>https://yana-nka.github.io/my-academic-site/tags/hugo/</link><atom:link href="https://yana-nka.github.io/my-academic-site/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><description>hugo</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 May 2026 00:00:00 +0300</lastBuildDate><image><url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>hugo</title><link>https://yana-nka.github.io/my-academic-site/tags/hugo/</link></image><item><title>Первая неделя работы над сайтом</title><link>https://yana-nka.github.io/my-academic-site/post/week1/</link><pubDate>Sat, 16 May 2026 00:00:00 +0300</pubDate><guid>https://yana-nka.github.io/my-academic-site/post/week1/</guid><description>&lt;h2 id="что-сделано-за-неделю">Что сделано за неделю&lt;/h2>
+&lt;ol>
+&lt;li>Установлен генератор статических сайтов Hugo&lt;/li>
+&lt;li>Установлена тема Hugo Academic (Wowchemy)&lt;/li>
+&lt;li>Создан репозиторий на GitHub&lt;/li>
+&lt;li>Настроен GitHub Pages с автоматическим деплоем&lt;/li>
+&lt;li>Добавлены данные о владельце сайта&lt;/li>
+&lt;li>Добавлено фото владельца&lt;/li>
+&lt;/ol>
+&lt;h2 id="планы-на-следующую-неделю">Планы на следующую неделю&lt;/h2>
+&lt;ul>
+&lt;li>Добавить информацию о навыках и опыте&lt;/li>
+&lt;li>Наполнить сайт контентом&lt;/li>
+&lt;li>Добавить научные ссылки&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | My Academic Site</title><link>https://yana-nka.github.io/my-academic-site/post/</link><atom:link href="https://yana-nka.github.io/my-academic-site/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 16 May 2026 00:00:00 +0300</lastBuildDate><image><url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>Posts</title><link>https://yana-nka.github.io/my-academic-site/post/</link></image><item><title>Первая неделя работы над сайтом</title><link>https://yana-nka.github.io/my-academic-site/post/week1/</link><pubDate>Sat, 16 May 2026 00:00:00 +0300</pubDate><guid>https://yana-nka.github.io/my-academic-site/post/week1/</guid><description>&lt;h2 id="что-сделано-за-неделю">Что сделано за неделю&lt;/h2>
+&lt;ol>
+&lt;li>Установлен генератор статических сайтов Hugo&lt;/li>
+&lt;li>Установлена тема Hugo Academic (Wowchemy)&lt;/li>
+&lt;li>Создан репозиторий на GitHub&lt;/li>
+&lt;li>Настроен GitHub Pages с автоматическим деплоем&lt;/li>
+&lt;li>Добавлены данные о владельце сайта&lt;/li>
+&lt;li>Добавлено фото владельца&lt;/li>
+&lt;/ol>
+&lt;h2 id="планы-на-следующую-неделю">Планы на следующую неделю&lt;/h2>
+&lt;ul>
+&lt;li>Добавить информацию о навыках и опыте&lt;/li>
+&lt;li>Наполнить сайт контентом&lt;/li>
+&lt;li>Добавить научные ссылки&lt;/li>
+&lt;/ul></description></item><item><title>Управление версиями. Git</title><link>https://yana-nka.github.io/my-academic-site/post/git-version-control/</link><pubDate>Sat, 16 May 2026 00:00:00 +0300</pubDate><guid>https://yana-nka.github.io/my-academic-site/post/git-version-control/</guid><description>&lt;h2 id="что-такое-git">Что такое Git?&lt;/h2>
+&lt;p>Git — это распределённая система контроля версий, разработанная Линусом Торвальдсом в 2005 году. Она позволяет отслеживать изменения в файлах, синхронизировать работу нескольких участников проекта и откатывать изменения при необходимости.&lt;/p>
+&lt;h2 id="основные-понятия">Основные понятия&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Репозиторий&lt;/strong> — хранилище файлов и истории изменений&lt;/li>
+&lt;li>&lt;strong>Коммит (commit)&lt;/strong> — сохранение изменений с комментарием&lt;/li>
+&lt;li>&lt;strong>Ветка (branch)&lt;/strong> — параллельная линия разработки&lt;/li>
+&lt;li>&lt;strong>Слияние (merge)&lt;/strong> — объединение изменений из разных веток&lt;/li>
+&lt;li>&lt;strong>Удалённый репозиторий (remote)&lt;/strong> — репозиторий на сервере (например, GitHub)&lt;/li>
+&lt;/ul>
+&lt;h2 id="git-в-научной-работе">Git в научной работе&lt;/h2>
+&lt;p>Git полезен для:&lt;/p>
+&lt;ol>
+&lt;li>Хранения версий статей и отчётов&lt;/li>
+&lt;li>Совместной работы над проектами&lt;/li>
+&lt;li>Публикации кода и данных&lt;/li>
+&lt;li>Создания персональных сайтов (GitHub Pages)&lt;/li>
+&lt;/ol>
+&lt;h2 id="основные-команды">Основные команды&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>git init &lt;span style="color:#75715e"># Создать новый репозиторий&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git add . &lt;span style="color:#75715e"># Добавить файлы в индекс&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git commit -m &lt;span style="color:#e6db74">&amp;#39;Сообщение&amp;#39;&lt;/span> &lt;span style="color:#75715e"># Создать коммит&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git push &lt;span style="color:#75715e"># Отправить на удалённый репозиторий&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git pull &lt;span style="color:#75715e"># Получить изменения с сервера&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git branch &lt;span style="color:#75715e"># Показать ветки&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git merge &lt;span style="color:#75715e"># Слить ветки&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="заключение">Заключение&lt;/h2>
+&lt;p>Git — необходимый инструмент для современного научного работника. Он позволяет организовать аккуратную работу с файлами, вести историю изменений и публиковать результаты.&lt;/p></description></item></channel></rss>
