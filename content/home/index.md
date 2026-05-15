@@ -1,5 +1,5 @@
----
++++
 # Homepage
-type: widget_page
-headless: false
----
+type = "widget_page"
+headless = false
++++

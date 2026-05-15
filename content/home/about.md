@@ -1,8 +1,8 @@
----
-widget: about
-active: true
-author: admin
-design:
-  background:
-    color: '#f0f0f0'
----
++++
+widget = "about"
+headless = true
+active = true
+weight = 20
+title = "Biography"
+author = "admin"
++++
