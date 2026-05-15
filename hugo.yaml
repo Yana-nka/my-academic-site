@@ -1,37 +1,30 @@
-baseURL: https://yana-nka.github.io/my-academic-site/
-enableEmoji: true
-enableGitInfo: true
-languageCode: en-us
+baseURL: "https://yana-nka.github.io/my-academic-site/"
+languageCode: "en-us"
+title: "My Academic Site"
+
+module:
+  imports:
+    - path: "github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5"
+
+security:
+  enableInlineShortcodes: true
+  exec:
+    allow: ["^dart-sass-embedded$", "^go$", "^npx$", "^postcss$"]
+  funcs:
+    getenv: ["^HUGO_", "^CI$", "^WC_"]
+  http:
+    mediaTypes: [".*"]
+    urls: [".*"]
+
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
     renderer:
       unsafe: true
-module:
-  imports:
-  - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
+
 params:
   color: blue
-  day_name: true
-  day_night: false
-  email: your@email.com
-  theme: light
-security:
-  enableInlineShortcodes: true
-  exec:
-    allow:
-    - ^dart-sass-embedded$
-    - ^go$
-    - ^npx$
-    - ^postcss$
-  funcs:
-    getenv:
-    - ^HUGO_
-    - ^CI$
-    - ^WC_
-  http:
-    mediaTypes:
-    - .*
-    urls:
-    - .*
-title: My Academic Site
+  day_night: true
+
+enableEmoji: true
+enableGitInfo: true
