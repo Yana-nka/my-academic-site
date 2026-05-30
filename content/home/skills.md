@@ -2,8 +2,7 @@
 widget: featurette
 headless: true
 weight: 30
-title: "Навыки"
-subtitle: ""
+title: Навыки
 feature:
   - name: Linux
     icon: linux
