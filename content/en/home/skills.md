@@ -1,6 +1,6 @@
 ---
 widget: featurette
-headless: false
+headless: true
 weight: 30
 title: "Skills"
 subtitle: ""
