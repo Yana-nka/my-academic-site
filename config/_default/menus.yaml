@@ -1,3 +1,7 @@
 main:
-    url: "#"
+  - name: Главная
+    url: /
     weight: 1
+  - name: About
+    url: /#about
+    weight: 2
