@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ens | Мой академический сайт</title><link>https://yana-nka.github.io/my-academic-site/ru/en/</link><atom:link href="https://yana-nka.github.io/my-academic-site/ru/en/index.xml" rel="self" type="application/rss+xml"/><description>Ens</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>Ens</title><link>https://yana-nka.github.io/my-academic-site/ru/en/</link></image><item><title>Continuous Integration and Continuous Deployment (CI/CD)</title><link>https://yana-nka.github.io/my-academic-site/ru/en/post/cicd/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/en/post/cicd/</guid><description>&lt;h2 id="what-is-cicd">What is CI/CD?&lt;/h2>
+&lt;p>CI/CD (Continuous Integration / Continuous Deployment) is a practice of automating software building, testing, and deployment.&lt;/p>
+&lt;h2 id="continuous-integration-ci">Continuous Integration (CI)&lt;/h2>
+&lt;p>CI is a practice where developers frequently (several times a day) merge their changes into a shared repository. Each merge is automatically built and tested.&lt;/p>
+&lt;p>&lt;strong>Benefits of CI:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Early bug detection&lt;/li>
+&lt;li>Fast feedback&lt;/li>
+&lt;li>Reduced integration risks&lt;/li>
+&lt;/ul>
+&lt;h2 id="continuous-deployment-cd">Continuous Deployment (CD)&lt;/h2>
+&lt;p>CD is a practice of automatically deploying every change that passes tests to the production environment.&lt;/p>
+&lt;h2 id="cicd-tools">CI/CD Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>GitHub Actions&lt;/strong> — built-in in GitHub&lt;/li>
+&lt;li>&lt;strong>GitLab CI/CD&lt;/strong> — in GitLab&lt;/li>
+&lt;li>&lt;strong>Jenkins&lt;/strong> — popular open-source tool&lt;/li>
+&lt;li>&lt;strong>Travis CI&lt;/strong> — cloud CI service&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>CI/CD helps teams deliver software to users faster and more reliably.&lt;/p></description></item><item><title>Creating Presentations</title><link>https://yana-nka.github.io/my-academic-site/ru/en/post/creating-presentations/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/en/post/creating-presentations/</guid><description>&lt;h2 id="presentation-tools">Presentation Tools&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>PowerPoint / LibreOffice Impress&lt;/strong> — classic editors&lt;/li>
+&lt;li>&lt;strong>Reveal.js&lt;/strong> — HTML presentations built into Hugo&lt;/li>
+&lt;li>&lt;strong>LaTeX Beamer&lt;/strong> — professional academic presentations&lt;/li>
+&lt;li>&lt;strong>Canva&lt;/strong> — online service with templates&lt;/li>
+&lt;li>&lt;strong>Google Slides&lt;/strong> — cloud tool&lt;/li>
+&lt;/ul>
+&lt;h2 id="good-presentation-rules">Good Presentation Rules&lt;/h2>
+&lt;h3 id="text">Text&lt;/h3>
+&lt;ul>
+&lt;li>No more than 10 lines per slide&lt;/li>
+&lt;li>Large font (at least 24pt)&lt;/li>
+&lt;li>Bullet points, not full sentences&lt;/li>
+&lt;/ul>
+&lt;h3 id="visual-design">Visual Design&lt;/h3>
+&lt;ul>
+&lt;li>Consistent style across all slides&lt;/li>
+&lt;li>Contrasting background and text colors&lt;/li>
+&lt;li>Use images and diagrams&lt;/li>
+&lt;li>Don&amp;rsquo;t overuse animation&lt;/li>
+&lt;/ul>
+&lt;h3 id="structure">Structure&lt;/h3>
+&lt;ul>
+&lt;li>Title slide (topic, author, date)&lt;/li>
+&lt;li>Table of contents slide&lt;/li>
+&lt;li>Main slides (5-7)&lt;/li>
+&lt;li>Conclusion slide&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>A good presentation is when the audience follows your story, not reads your slides.&lt;/p></description></item><item><title>Deploying a Bilingual Site on GitHub</title><link>https://yana-nka.github.io/my-academic-site/ru/en/post/github-deploy/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/en/post/github-deploy/</guid><description>&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;p>To host your site on GitHub Pages, you will need:&lt;/p>
+&lt;ul>
+&lt;li>A GitHub repository&lt;/li>
+&lt;li>A Hugo site ready for building&lt;/li>
+&lt;li>Basic Git skills&lt;/li>
+&lt;/ul>
+&lt;h2 id="build-and-deploy">Build and Deploy&lt;/h2>
+&lt;p>The deployment process consists of several steps:&lt;/p>
+&lt;ol>
+&lt;li>Install Hugo and create your site&lt;/li>
+&lt;li>Configure bilingual support&lt;/li>
+&lt;li>Build the site: &lt;code>hugo --gc --minify&lt;/code>&lt;/li>
+&lt;li>Copy to docs/: &lt;code>cp -r public docs&lt;/code>&lt;/li>
+&lt;li>Add &lt;code>.nojekyll&lt;/code>: &lt;code>touch docs/.nojekyll&lt;/code>&lt;/li>
+&lt;li>Commit and push: &lt;code>git push origin main&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;h2 id="github-pages-settings">GitHub Pages Settings&lt;/h2>
+&lt;p>In your repository settings (Settings → Pages):&lt;/p>
+&lt;ul>
+&lt;li>Source: &lt;strong>Deploy from a branch&lt;/strong>&lt;/li>
+&lt;li>Branch: &lt;strong>main&lt;/strong>, folder: &lt;strong>/docs&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Your site will be available at: &lt;code>https://username.github.io/my-academic-site/&lt;/code>&lt;/p>
+&lt;h2 id="bilingual-site-features">Bilingual Site Features&lt;/h2>
+&lt;p>When using two languages:&lt;/p>
+&lt;ul>
+&lt;li>Primary language (RU) is served at the root &lt;code>/&lt;/code>&lt;/li>
+&lt;li>Secondary language (EN) is at &lt;code>/en/&lt;/code>&lt;/li>
+&lt;li>A redirect from &lt;code>/en/&lt;/code> to &lt;code>/en/home/&lt;/code> may be needed&lt;/li>
+&lt;li>A language switcher is placed in the header&lt;/li>
+&lt;/ul>
+&lt;h2 id="github-pages-benefits">GitHub Pages Benefits&lt;/h2>
+&lt;ul>
+&lt;li>Free hosting&lt;/li>
+&lt;li>Automatic HTTPS&lt;/li>
+&lt;li>Simple git push deployment&lt;/li>
+&lt;li>Full version control&lt;/li>
+&lt;/ul></description></item><item><title>Lightweight Markup Languages. Markdown</title><link>https://yana-nka.github.io/my-academic-site/ru/en/post/markdown-lightweight/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/en/post/markdown-lightweight/</guid><description>&lt;h2 id="what-is-markdown">What is Markdown?&lt;/h2>
+&lt;p>Markdown is a lightweight markup language created by John Gruber in 2004. It allows formatting text using simple syntax and converting it to HTML.&lt;/p>
+&lt;h2 id="basic-syntax">Basic Syntax&lt;/h2>
+&lt;h3 id="headings">Headings&lt;/h3>
+&lt;pre tabindex="0">&lt;code># Heading 1
+## Heading 2
+### Heading 3
+&lt;/code>&lt;/pre>&lt;h3 id="lists">Lists&lt;/h3>
+&lt;pre tabindex="0">&lt;code>- Item 1
+- Item 2
+- Subitem
+1. First
+2. Second
+&lt;/code>&lt;/pre>&lt;h3 id="links-and-images">Links and Images&lt;/h3>
+&lt;pre tabindex="0">&lt;code>[Link text](https://example.com)
+![Alt text](image.png)
+&lt;/code>&lt;/pre>&lt;h2 id="applications">Applications&lt;/h2>
+&lt;p>Markdown is widely used in:&lt;/p>
+&lt;ul>
+&lt;li>Project documentation (README.md)&lt;/li>
+&lt;li>Blogs and static sites (Hugo, Jekyll)&lt;/li>
+&lt;li>Knowledge management systems (Obsidian, Notion)&lt;/li>
+&lt;li>Messengers (Telegram, Discord)&lt;/li>
+&lt;li>Developer platforms (GitHub, GitLab)&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>Markdown is a simple and convenient markup language that has become the standard for IT documentation.&lt;/p></description></item><item><title>Markup Languages. LaTeX</title><link>https://yana-nka.github.io/my-academic-site/ru/en/post/latex-markup/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/en/post/latex-markup/</guid><description>&lt;h2 id="what-is-latex">What is LaTeX?&lt;/h2>
+&lt;p>LaTeX is a document preparation system based on the TeX language. It is widely used in academia for preparing scientific publications, theses, and reports.&lt;/p>
+&lt;h2 id="benefits-of-latex">Benefits of LaTeX&lt;/h2>
+&lt;ul>
+&lt;li>Professional typesetting quality&lt;/li>
+&lt;li>Automatic numbering of equations, tables, and figures&lt;/li>
+&lt;li>Convenient bibliography management (BibTeX)&lt;/li>
+&lt;li>Complex mathematical formula support&lt;/li>
+&lt;li>Git-friendly (plain text format)&lt;/li>
+&lt;li>Free and cross-platform&lt;/li>
+&lt;/ul>
+&lt;h2 id="document-example">Document Example&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-latex" data-lang="latex">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\documentclass&lt;/span>{article}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\title&lt;/span>{My First Paper}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\author&lt;/span>{Yana Kulazhenkova}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\begin&lt;/span>{document}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\maketitle&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\section&lt;/span>{Introduction}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Introduction text...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\end&lt;/span>{document}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="formulas-in-latex">Formulas in LaTeX&lt;/h2>
+&lt;p>LaTeX allows creating beautiful mathematical formulas:&lt;/p>
+&lt;ul>
+&lt;li>$E = mc^2$ — inline formula&lt;/li>
+&lt;li>$$\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$ — displayed formula&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>LaTeX is the standard for scientific publications. Mastering it allows you to format any document professionally.&lt;/p></description></item><item><title>Report Formatting</title><link>https://yana-nka.github.io/my-academic-site/ru/en/post/report-formatting/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/en/post/report-formatting/</guid><description>&lt;h2 id="report-structure">Report Structure&lt;/h2>
+&lt;p>Any scientific or technical report should contain the following sections:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Title page&lt;/strong> — work title, author, date&lt;/li>
+&lt;li>&lt;strong>Introduction&lt;/strong> — objective, relevance&lt;/li>
+&lt;li>&lt;strong>Main part&lt;/strong> — execution description&lt;/li>
+&lt;li>&lt;strong>Results&lt;/strong> — obtained data and analysis&lt;/li>
+&lt;li>&lt;strong>Conclusion&lt;/strong> — findings&lt;/li>
+&lt;li>&lt;strong>References&lt;/strong> — sources used&lt;/li>
+&lt;/ol>
+&lt;h2 id="formatting-requirements">Formatting Requirements&lt;/h2>
+&lt;ul>
+&lt;li>Font: Times New Roman, 14pt&lt;/li>
+&lt;li>Line spacing: 1.5&lt;/li>
+&lt;li>Margins: left 30mm, right 10mm, top/bottom 20mm&lt;/li>
+&lt;li>Page numbering: bottom center&lt;/li>
+&lt;li>Figures and tables must have captions&lt;/li>
+&lt;li>Formulas are numbered in parentheses&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>Proper report formatting is an important part of the learning process. It teaches accuracy and discipline.&lt;/p></description></item><item><title>Version Control. Git</title><link>https://yana-nka.github.io/my-academic-site/ru/en/post/version-control-git/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/en/post/version-control-git/</guid><description>&lt;h2 id="what-is-git">What is Git?&lt;/h2>
+&lt;p>Git is a distributed version control system that tracks changes in files and coordinates work among multiple people.&lt;/p>
+&lt;h2 id="key-concepts">Key Concepts&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Repository&lt;/strong> — storage for files and their change history&lt;/li>
+&lt;li>&lt;strong>Commit&lt;/strong> — saving changes with a description&lt;/li>
+&lt;li>&lt;strong>Branch&lt;/strong> — a separate line of development&lt;/li>
+&lt;li>&lt;strong>Merge&lt;/strong> — combining changes from different branches&lt;/li>
+&lt;li>&lt;strong>Conflict&lt;/strong> — when changes in the same file part contradict each other&lt;/li>
+&lt;/ul>
+&lt;h2 id="basic-commands">Basic Commands&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Command&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;code>git init&lt;/code>&lt;/td>
+&lt;td>Create a new repository&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>git clone&lt;/code>&lt;/td>
+&lt;td>Copy a remote repository&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>git add&lt;/code>&lt;/td>
+&lt;td>Add files to the index&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>git commit&lt;/code>&lt;/td>
+&lt;td>Create a commit&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>git push&lt;/code>&lt;/td>
+&lt;td>Send changes to server&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>git pull&lt;/code>&lt;/td>
+&lt;td>Fetch changes from server&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>git branch&lt;/code>&lt;/td>
+&lt;td>Manage branches&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>git merge&lt;/code>&lt;/td>
+&lt;td>Merge branches&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>Git is an essential tool for any developer. It simplifies collaboration and helps prevent data loss.&lt;/p></description></item><item><title>Chess as a Hobby</title><link>https://yana-nka.github.io/my-academic-site/ru/en/post/chess/</link><pubDate>Sat, 30 May 2026 00:00:00 +0300</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/en/post/chess/</guid><description>&lt;p>Chess develops logical thinking.&lt;/p></description></item><item><title>Registration on Scientific Platforms</title><link>https://yana-nka.github.io/my-academic-site/ru/en/post/platforms/</link><pubDate>Sat, 30 May 2026 00:00:00 +0300</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/en/post/platforms/</guid><description>&lt;p>Important step for researchers.&lt;/p></description></item><item><title>Scientific Programming Languages</title><link>https://yana-nka.github.io/my-academic-site/ru/en/post/scientific-programming/</link><pubDate>Sat, 30 May 2026 00:00:00 +0300</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/en/post/scientific-programming/</guid><description>&lt;p>Python is most popular.&lt;/p></description></item><item><title>Week Four: Multilingual</title><link>https://yana-nka.github.io/my-academic-site/ru/en/post/week4/</link><pubDate>Sat, 30 May 2026 00:00:00 +0300</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/en/post/week4/</guid><description>&lt;p>Expanding the website.&lt;/p></description></item><item><title>Working with Bibliography</title><link>https://yana-nka.github.io/my-academic-site/ru/en/post/bibliography/</link><pubDate>Sat, 30 May 2026 00:00:00 +0300</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/en/post/bibliography/</guid><description>&lt;p>Essential part of research.&lt;/p></description></item><item><title>Home</title><link>https://yana-nka.github.io/my-academic-site/ru/en/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/en/home/</guid><description/></item></channel></rss>
