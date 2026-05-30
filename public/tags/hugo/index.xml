@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo | Мой академический сайт</title><link>https://yana-nka.github.io/my-academic-site/tags/hugo/</link><atom:link href="https://yana-nka.github.io/my-academic-site/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><description>hugo</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>hugo</title><link>https://yana-nka.github.io/my-academic-site/tags/hugo/</link></image><item><title>Deploying a Bilingual Website on GitHub</title><link>https://yana-nka.github.io/my-academic-site/en/post/github-deploy/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/en/post/github-deploy/</guid><description>&lt;h2 id="подготовка">Подготовка&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo | Мой академический сайт</title><link>https://yana-nka.github.io/my-academic-site/tags/hugo/</link><atom:link href="https://yana-nka.github.io/my-academic-site/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><description>hugo</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>hugo</title><link>https://yana-nka.github.io/my-academic-site/tags/hugo/</link></image><item><title>Размещение двуязычного сайта на GitHub</title><link>https://yana-nka.github.io/my-academic-site/post/github-deploy/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/post/github-deploy/</guid><description>&lt;h2 id="подготовка">Подготовка&lt;/h2>
 &lt;p>Для размещения сайта на GitHub Pages понадобится:&lt;/p>
 &lt;ul>
 &lt;li>Репозиторий на GitHub&lt;/li>
@@ -22,7 +22,7 @@
 &lt;li>Branch: &lt;strong>main&lt;/strong>, folder: &lt;strong>/docs&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;p>После этого сайт будет доступен по адресу: &lt;code>https://username.github.io/my-academic-site/&lt;/code>&lt;/p>
-&lt;h2 id="особенности-bilingual-сайта">Особенности bilingual сайта&lt;/h2>
+&lt;h2 id="особенности-двуязычного-сайта">Особенности двуязычного сайта&lt;/h2>
 &lt;p>При использовании двух языков:&lt;/p>
 &lt;ul>
 &lt;li>Основной язык (RU) размещается на корне &lt;code>/&lt;/code>&lt;/li>

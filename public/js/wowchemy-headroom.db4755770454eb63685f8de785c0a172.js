@@ -1,1 +1,1 @@
-(function(){var h=document.querySelector('.page-header');if(h){h.style.position='fixed';}})();
+(function(){var h=document.querySelector(".page-header");if(h)h.style.position="fixed";})();

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>latex-markup | Мой академический сайт</title><link>https://yana-nka.github.io/my-academic-site/tags/latex-markup/</link><atom:link href="https://yana-nka.github.io/my-academic-site/tags/latex-markup/index.xml" rel="self" type="application/rss+xml"/><description>latex-markup</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>latex-markup</title><link>https://yana-nka.github.io/my-academic-site/tags/latex-markup/</link></image><item><title>Markup Languages. LaTeX</title><link>https://yana-nka.github.io/my-academic-site/en/post/latex-markup/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/en/post/latex-markup/</guid><description>&lt;h2 id="что-такое-latex">Что такое LaTeX?&lt;/h2>
-&lt;p>LaTeX — это система вёрстки документов, основанная на языке TeX. Она широко используется в академической среде для подготовки scientific публикаций, диссертаций и отчётов.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>latex-markup | Мой академический сайт</title><link>https://yana-nka.github.io/my-academic-site/tags/latex-markup/</link><atom:link href="https://yana-nka.github.io/my-academic-site/tags/latex-markup/index.xml" rel="self" type="application/rss+xml"/><description>latex-markup</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>latex-markup</title><link>https://yana-nka.github.io/my-academic-site/tags/latex-markup/</link></image><item><title>Языки разметки. LaTeX</title><link>https://yana-nka.github.io/my-academic-site/post/latex-markup/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/post/latex-markup/</guid><description>&lt;h2 id="что-такое-latex">Что такое LaTeX?&lt;/h2>
+&lt;p>LaTeX — это система вёрстки документов, основанная на языке TeX. Она широко используется в академической среде для подготовки научных публикаций, диссертаций и отчётов.&lt;/p>
 &lt;h2 id="преимущества-latex">Преимущества LaTeX&lt;/h2>
 &lt;ul>
 &lt;li>Профессиональное качество вёрстки&lt;/li>
@@ -15,7 +15,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\author&lt;/span>{Яна Кулаженкова}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\begin&lt;/span>{document}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\maketitle&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\section&lt;/span>{Introduction}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\section&lt;/span>{Введение}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Текст введения...
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\end&lt;/span>{document}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="формулы-в-latex">Формулы в LaTeX&lt;/h2>
@@ -25,4 +25,4 @@
 &lt;li>$$\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$ — выключенная формула&lt;/li>
 &lt;/ul>
 &lt;h2 id="заключение">Заключение&lt;/h2>
-&lt;p>LaTeX — стандарт для scientific публикаций. Освоив его, вы сможете профессионально оформлять любые документы.&lt;/p></description></item></channel></rss>
+&lt;p>LaTeX — стандарт для научных публикаций. Освоив его, вы сможете профессионально оформлять любые документы.&lt;/p></description></item></channel></rss>
