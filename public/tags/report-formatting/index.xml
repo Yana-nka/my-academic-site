@@ -2,7 +2,7 @@
 &lt;p>Любой научный или технический отчёт должен содержать следующие разделы:&lt;/p>
 &lt;ol>
 &lt;li>&lt;strong>Титульный лист&lt;/strong> — название работы, автор, дата&lt;/li>
-&lt;li>&lt;strong>Введение&lt;/strong> — цель работы, актуальность&lt;/li>
+&lt;li>&lt;strong>Introduction&lt;/strong> — цель работы, актуальность&lt;/li>
 &lt;li>&lt;strong>Основная часть&lt;/strong> — описание выполнения работы&lt;/li>
 &lt;li>&lt;strong>Результаты&lt;/strong> — полученные данные и их анализ&lt;/li>
 &lt;li>&lt;strong>Заключение&lt;/strong> — выводы по работе&lt;/li>

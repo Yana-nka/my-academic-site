@@ -21,12 +21,12 @@
 &lt;p>CI/CD помогает командам быстрее и надёжнее доставлять программное обеспечение пользователям.&lt;/p></description></item><item><title>Creating Presentations</title><link>https://yana-nka.github.io/my-academic-site/en/post/creating-presentations/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/en/post/creating-presentations/</guid><description>&lt;h2 id="инструменты-для-создания-презентаций">Инструменты для создания презентаций&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>PowerPoint / LibreOffice Impress&lt;/strong> — классические редакторы&lt;/li>
-&lt;li>&lt;strong>Reveal.js&lt;/strong> — HTML-презентации, встроенные в Hugo&lt;/li>
-&lt;li>&lt;strong>LaTeX Beamer&lt;/strong> — профессиональные академические презентации&lt;/li>
+&lt;li>&lt;strong>Reveal.js&lt;/strong> — HTML-presentations, встроенные в Hugo&lt;/li>
+&lt;li>&lt;strong>LaTeX Beamer&lt;/strong> — профессиональные академические presentations&lt;/li>
 &lt;li>&lt;strong>Canva&lt;/strong> — онлайн-сервис с шаблонами&lt;/li>
 &lt;li>&lt;strong>Google Slides&lt;/strong> — облачный инструмент&lt;/li>
 &lt;/ul>
-&lt;h2 id="правила-хорошей-презентации">Правила хорошей презентации&lt;/h2>
+&lt;h2 id="правила-хорошей-presentations">Правила хорошей presentations&lt;/h2>
 &lt;h3 id="текст">Текст&lt;/h3>
 &lt;ul>
 &lt;li>Не более 10 строк на слайде&lt;/li>
@@ -75,7 +75,7 @@
 &lt;/ul>
 &lt;h2 id="заключение">Заключение&lt;/h2>
 &lt;p>Markdown — простой и удобный язык разметки, который стал стандартом для документации в IT.&lt;/p></description></item><item><title>Markup Languages. LaTeX</title><link>https://yana-nka.github.io/my-academic-site/en/post/latex-markup/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/en/post/latex-markup/</guid><description>&lt;h2 id="что-такое-latex">Что такое LaTeX?&lt;/h2>
-&lt;p>LaTeX — это система вёрстки документов, основанная на языке TeX. Она широко используется в академической среде для подготовки научных публикаций, диссертаций и отчётов.&lt;/p>
+&lt;p>LaTeX — это система вёрстки документов, основанная на языке TeX. Она широко используется в академической среде для подготовки scientific публикаций, диссертаций и отчётов.&lt;/p>
 &lt;h2 id="преимущества-latex">Преимущества LaTeX&lt;/h2>
 &lt;ul>
 &lt;li>Профессиональное качество вёрстки&lt;/li>
@@ -91,7 +91,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\author&lt;/span>{Яна Кулаженкова}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\begin&lt;/span>{document}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\maketitle&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\section&lt;/span>{Введение}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\section&lt;/span>{Introduction}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Текст введения...
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\end&lt;/span>{document}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="формулы-в-latex">Формулы в LaTeX&lt;/h2>
@@ -101,11 +101,11 @@
 &lt;li>$$\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$ — выключенная формула&lt;/li>
 &lt;/ul>
 &lt;h2 id="заключение">Заключение&lt;/h2>
-&lt;p>LaTeX — стандарт для научных публикаций. Освоив его, вы сможете профессионально оформлять любые документы.&lt;/p></description></item><item><title>Report Formatting</title><link>https://yana-nka.github.io/my-academic-site/en/post/report-formatting/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/en/post/report-formatting/</guid><description>&lt;h2 id="структура-отчёта">Структура отчёта&lt;/h2>
+&lt;p>LaTeX — стандарт для scientific публикаций. Освоив его, вы сможете профессионально оформлять любые документы.&lt;/p></description></item><item><title>Report Formatting</title><link>https://yana-nka.github.io/my-academic-site/en/post/report-formatting/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/en/post/report-formatting/</guid><description>&lt;h2 id="структура-отчёта">Структура отчёта&lt;/h2>
 &lt;p>Любой научный или технический отчёт должен содержать следующие разделы:&lt;/p>
 &lt;ol>
 &lt;li>&lt;strong>Титульный лист&lt;/strong> — название работы, автор, дата&lt;/li>
-&lt;li>&lt;strong>Введение&lt;/strong> — цель работы, актуальность&lt;/li>
+&lt;li>&lt;strong>Introduction&lt;/strong> — цель работы, актуальность&lt;/li>
 &lt;li>&lt;strong>Основная часть&lt;/strong> — описание выполнения работы&lt;/li>
 &lt;li>&lt;strong>Результаты&lt;/strong> — полученные данные и их анализ&lt;/li>
 &lt;li>&lt;strong>Заключение&lt;/strong> — выводы по работе&lt;/li>

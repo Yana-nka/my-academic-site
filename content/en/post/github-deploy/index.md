@@ -2,7 +2,7 @@
 title: "Deploying a Bilingual Website on GitHub"
 subtitle: "Как бесплатно разместить Hugo-сайт на GitHub Pages"
 date: 2026-05-30
-summary: "Step-by-step deployment guide двуязычного Hugo-сайта на GitHub Pages"
+summary: "Step-by-step deployment guide bilingual Hugo-сайта на GitHub Pages"
 tags: ["hugo", "github-pages", "deploy"]
 ---
 
@@ -34,7 +34,7 @@ tags: ["hugo", "github-pages", "deploy"]
 
 После этого сайт будет доступен по адресу: `https://username.github.io/my-academic-site/`
 
-## Особенности двуязычного сайта
+## Особенности bilingual сайта
 
 При использовании двух языков:
 

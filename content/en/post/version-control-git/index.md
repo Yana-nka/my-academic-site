@@ -2,7 +2,7 @@
 title: "Version Control. Git"
 subtitle: "Основы работы с системой контроля версий"
 date: 2026-05-30
-summary: "Введение в Git: основные команды и принципы работы"
+summary: "Introduction в Git: основные команды и принципы работы"
 tags: ["lab", "version-control-git"]
 ---
 

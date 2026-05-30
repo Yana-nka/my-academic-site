@@ -2,19 +2,19 @@
 title: "Creating Presentations"
 subtitle: "Инструменты и правила для создания презентаций"
 date: 2026-05-30
-summary: "Как создавать эффективные презентации"
+summary: "Как create effective presentations"
 tags: ["lab", "creating-presentations"]
 ---
 
 ## Инструменты для создания презентаций
 
 - **PowerPoint / LibreOffice Impress** — классические редакторы
-- **Reveal.js** — HTML-презентации, встроенные в Hugo
-- **LaTeX Beamer** — профессиональные академические презентации
+- **Reveal.js** — HTML-presentations, встроенные в Hugo
+- **LaTeX Beamer** — профессиональные академические presentations
 - **Canva** — онлайн-сервис с шаблонами
 - **Google Slides** — облачный инструмент
 
-## Правила хорошей презентации
+## Правила хорошей presentations
 
 ### Текст
 - Не более 10 строк на слайде
