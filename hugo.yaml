@@ -38,3 +38,12 @@ markup:
 
 enableEmoji: true
 enableGitInfo: true
+
+params:
+  header:
+    navbar:
+      show_day_night: false
+
+appearance:
+  theme_day:
+  theme_night:
