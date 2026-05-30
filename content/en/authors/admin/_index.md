@@ -1,8 +1,6 @@
 ---
 title: Yana Kulazhenkova
 role: Student of NKAbd-03-25
-avatar:
-  filename: avatar.jpg
 bio: RUDN University student
 interests:
   - Computer and Information Sciences
@@ -26,3 +24,5 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:kulazhenkow@gmail.com
+---
+

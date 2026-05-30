@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>latex-markup | Мой академический сайт</title><link>https://yana-nka.github.io/my-academic-site/tags/latex-markup/</link><atom:link href="https://yana-nka.github.io/my-academic-site/tags/latex-markup/index.xml" rel="self" type="application/rss+xml"/><description>latex-markup</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>latex-markup</title><link>https://yana-nka.github.io/my-academic-site/tags/latex-markup/</link></image><item><title>Markup Languages. LaTeX</title><link>https://yana-nka.github.io/my-academic-site/en/post/latex-markup/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/en/post/latex-markup/</guid><description>&lt;h2 id="что-такое-latex">Что такое LaTeX?&lt;/h2>
+&lt;p>LaTeX — это система вёрстки документов, основанная на языке TeX. Она широко используется в академической среде для подготовки научных публикаций, диссертаций и отчётов.&lt;/p>
+&lt;h2 id="преимущества-latex">Преимущества LaTeX&lt;/h2>
+&lt;ul>
+&lt;li>Профессиональное качество вёрстки&lt;/li>
+&lt;li>Автоматическая нумерация формул, таблиц и рисунков&lt;/li>
+&lt;li>Удобная работа с библиографией (BibTeX)&lt;/li>
+&lt;li>Поддержка сложных математических формул&lt;/li>
+&lt;li>Версионирование через Git (текстовый формат)&lt;/li>
+&lt;li>Бесплатное и кроссплатформенное ПО&lt;/li>
+&lt;/ul>
+&lt;h2 id="пример-документа">Пример документа&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-latex" data-lang="latex">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\documentclass&lt;/span>{article}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\title&lt;/span>{Моя первая статья}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\author&lt;/span>{Яна Кулаженкова}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\begin&lt;/span>{document}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\maketitle&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\section&lt;/span>{Введение}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Текст введения...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\end&lt;/span>{document}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="формулы-в-latex">Формулы в LaTeX&lt;/h2>
+&lt;p>LaTeX позволяет красиво оформлять математические формулы:&lt;/p>
+&lt;ul>
+&lt;li>$E = mc^2$ — встроенная формула&lt;/li>
+&lt;li>$$\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$ — выключенная формула&lt;/li>
+&lt;/ul>
+&lt;h2 id="заключение">Заключение&lt;/h2>
+&lt;p>LaTeX — стандарт для научных публикаций. Освоив его, вы сможете профессионально оформлять любые документы.&lt;/p></description></item></channel></rss>

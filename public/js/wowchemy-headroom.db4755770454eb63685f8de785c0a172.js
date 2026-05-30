@@ -1,4 +1,1 @@
-(function(){
-  var header = document.querySelector('.page-header');
-  if(header) { header.style.position = 'fixed'; }
-})();
+(function(){var h=document.querySelector('.page-header');if(h){h.style.position='fixed';}})();
