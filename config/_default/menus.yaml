@@ -1,0 +1,4 @@
+main:
+  - name: "☀️/🌙"
+    url: "#"
+    weight: 1

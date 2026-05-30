@@ -2,10 +2,6 @@
 color: blue
 day_night: true
 
-appearance:
-  theme_day: minimal
-  theme_night: dark
-
 # Header
 header:
   navbar:
@@ -13,7 +9,3 @@ header:
     show_search: true
     show_logo: true
     highlight_active_link: true
-
-# Sections to show
-sections:
-  - posts

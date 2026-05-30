@@ -1,17 +1,9 @@
-github.com/HugoBlox/kit/modules/blox v0.0.0-20260527025321-61f41d3667f1 h1:JBLSLEfVXqErxi9+DO70n4VX++C+rO103d45CDajzmE=
-github.com/HugoBlox/kit/modules/blox v0.0.0-20260527025321-61f41d3667f1/go.mod h1:0F2Ss2NeylmaBP7+qx0U6zFPeMZ9NoLbAQakKXDqygo=
-github.com/HugoBlox/kit/modules/slides v0.0.0-20260330182742-6a2f1ba2aeb5 h1:Ko2+qpzJUy8p8frRw7aB0ZEa9XlLa6Vh6VU4lifDR2c=
-github.com/HugoBlox/kit/modules/slides v0.0.0-20260330182742-6a2f1ba2aeb5/go.mod h1:/XTQAtd2KCiwg/GVMAoSzKPf/DYPVbAAEysmBdWgYu4=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.2.1-0.20231101183355-53a94b591ea8/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.2.1-0.20231101183733-7b61e2f369e6/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
-github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.3.0 h1:O1bMsWXnd9eu8Am5KZWKRiUvroyOa0ZY0znikS/d38Q=
-github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.3.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.1.0 h1:I0ZJdoU4iGXbrNdIk5alwUZJhb8FABh2e7grpX6ACAU=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.1.0/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal v1.1.0 h1:3ftryJQtT+ECJZ7Xl/EQpo7xXRV9Ol9S6O58mtemdX0=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal v1.1.0/go.mod h1:F7KcUWe4ekU9rMXy33pi9/d+o0PGTUJqPsYbkHRj5J8=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-seo v0.1.1-0.20231101183733-7b61e2f369e6/go.mod h1:ecSfomc5wqJSsZb+WuOJGMqCDxONsooRuWmIObTOpR0=
-github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-seo v0.2.0 h1:7mhT9lnbCxbgCbeyLvEAojDXEb3w0kJ05wTgneVXQyk=
-github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-seo v0.2.0/go.mod h1:ecSfomc5wqJSsZb+WuOJGMqCDxONsooRuWmIObTOpR0=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.9.0 h1:k7vB8NFZ39dWr8MHemJE+MSClGnFN7OrCBa8so/v+UA=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.9.0/go.mod h1:lt2bI75FiRLJ5Z6BnzfVtag2hBpIISLduGq6I8KkLEE=
