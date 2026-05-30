@@ -38,3 +38,7 @@ markup:
 
 enableEmoji: true
 enableGitInfo: true
+
+params:
+  day_night: true
+  theme: dark
