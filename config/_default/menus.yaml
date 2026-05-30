@@ -1,7 +1,16 @@
 main:
-  - name: Главная
-    url: /
+  - name: "Обо мне"
+    url: "/#about"
     weight: 1
-  - name: About
-    url: /#about
+  - name: "Навыки"
+    url: "/#skills"
     weight: 2
+  - name: "Опыт"
+    url: "/#experience"
+    weight: 3
+  - name: "Достижения"
+    url: "/#accomplishments"
+    weight: 4
+  - name: "Посты"
+    url: "/#posts"
+    weight: 5

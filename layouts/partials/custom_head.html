@@ -1,0 +1,21 @@
+<script>
+(function(){
+  function t(){
+    var e = document.body;
+    e.classList.toggle("dark");
+    localStorage.setItem("wcTheme", e.classList.contains("dark") ? "dark" : "light");
+  }
+  function e(){
+    var t, s, n = document.querySelector(".nav-icons");
+    if (!n) { setTimeout(e, 100); return; }
+    t = document.createElement("li");
+    t.className = "nav-item";
+    t.innerHTML = '<a class="nav-link js-dark-toggle" href="#" onclick="event.preventDefault(); themeToggle(); return false;"><i class="fas fa-moon"></i></a>';
+    n.appendChild(t);
+    s = localStorage.getItem("wcTheme");
+    s === "light" && document.body.classList.remove("dark");
+  }
+  document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", e) : e();
+  window.themeToggle = t;
+})()
+</script>
