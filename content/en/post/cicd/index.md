@@ -1,8 +1,8 @@
 ---
-title: "Непрерывная интеграция и непрерывное развертывание (CI/CD)"
+title: "Continuous Integration and Continuous Deployment (CI/CD)"
 subtitle: "Автоматизация сборки, тестирования и деплоя"
 date: 2026-05-30
-summary: "Что такое CI/CD и как это работает"
+summary: "What CI/CD is and how it works"
 tags: ["lab", "cicd"]
 ---
 

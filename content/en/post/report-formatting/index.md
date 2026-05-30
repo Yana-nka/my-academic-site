@@ -1,8 +1,8 @@
 ---
-title: "Оформление отчёта"
+title: "Report Formatting"
 subtitle: "Структура и правила оформления отчётов"
 date: 2026-05-30
-summary: "Как правильно оформить отчёт по лабораторной работе"
+summary: "How to properly format a lab report"
 tags: ["lab", "report-formatting"]
 ---
 

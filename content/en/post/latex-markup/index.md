@@ -1,5 +1,5 @@
 ---
-title: "Языки разметки. LaTeX"
+title: "Markup Languages. LaTeX"
 subtitle: "Профессиональная система вёрстки документов"
 date: 2026-05-30
 summary: "Введение в LaTeX для научных работ"

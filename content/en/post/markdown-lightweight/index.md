@@ -1,8 +1,8 @@
 ---
-title: "Легковесные языки разметки. Markdown"
+title: "Lightweight Markup Languages. Markdown"
 subtitle: "Простой язык для форматирования текста"
 date: 2026-05-30
-summary: "Основы Markdown: синтаксис и применение"
+summary: "Markdown Basics: Syntax and Applications"
 tags: ["lab", "markdown-lightweight"]
 ---
 
