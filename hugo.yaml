@@ -1,6 +1,20 @@
 baseURL: "https://yana-nka.github.io/my-academic-site/"
 languageCode: "en-us"
 title: "My Academic Site"
+defaultContentLanguage: "ru"
+defaultContentLanguageInSubdir: false
+
+languages:
+  ru:
+    languageCode: "ru-RU"
+    languageName: "Русский"
+    title: "Мой академический сайт"
+    weight: 1
+  en:
+    languageCode: "en-US"
+    languageName: "English"
+    title: "My Academic Site"
+    weight: 2
 
 module:
   imports:
