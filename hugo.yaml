@@ -1,19 +1,17 @@
 baseURL: 'https://yana-nka.github.io/my-academic-site/'
-languageCode: ru-RU
-defaultContentLanguage: ru
+defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
-title: Мой академический сайт
 
 languages:
-  ru:
-    languageCode: ru-RU
-    languageName: Русский
-    title: Мой академический сайт
-    weight: 1
   en:
     languageCode: en-US
     languageName: English
     title: My Academic Site
+    weight: 1
+  ru:
+    languageCode: ru-RU
+    languageName: Русский
+    title: Мой академический сайт
     weight: 2
 
 module:
@@ -23,21 +21,12 @@ module:
 security:
   enableInlineShortcodes: true
   exec:
-    allow:
-      - '^dart-sass-embedded$'
-      - '^go$'
-      - '^npx$'
-      - '^postcss$'
+    allow: ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
   funcs:
-    getenv:
-      - '^HUGO_'
-      - '^CI$'
-      - '^WC_'
+    getenv: ['^HUGO_', '^CI$', '^WC_']
   http:
-    mediaTypes:
-      - '.*'
-    urls:
-      - '.*'
+    mediaTypes: ['.*']
+    urls: ['.*']
 
 markup:
   defaultMarkdownHandler: goldmark
