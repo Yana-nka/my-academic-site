@@ -2,6 +2,10 @@
 color: blue
 day_night: true
 
+appearance:
+  theme_day: minimal
+  theme_night: dark
+
 # Header
 header:
   navbar:

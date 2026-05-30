@@ -39,11 +39,10 @@ markup:
 enableEmoji: true
 enableGitInfo: true
 
-params:
-  header:
-    navbar:
-      show_day_night: false
+appearance:
+  theme_day: minimal
+  theme_night: dark
 
 appearance:
-  theme_day:
-  theme_night:
+  theme_day: minimal
+  theme_night: minimal

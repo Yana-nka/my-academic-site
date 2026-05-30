@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Debug</h1>
+<p>show_day_night: {{ site.Params.header.navbar.show_day_night }}</p>
+<p>theme_day: {{ site.Params.appearance.theme_day }}</p>
+<p>theme_night: {{ site.Params.appearance.theme_night }}</p>
+<p>IsTranslated: {{ .IsTranslated }}</p>
+<p>Languages: {{ range site.Home.AllTranslations }}{{ .Lang }} {{ end }}</p>
+</body>
+</html>
