@@ -38,11 +38,3 @@ markup:
 
 enableEmoji: true
 enableGitInfo: true
-
-appearance:
-  theme_day: minimal
-  theme_night: dark
-
-appearance:
-  theme_day: minimal
-  theme_night: minimal

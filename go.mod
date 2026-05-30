@@ -1,6 +1,6 @@
-module github.com/root1982/my-academic-site
+module github.com/Yana-nka/my-academic-site
 
-go 1.24.10
+go 1.19
 
 require (
 	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.3.0 // indirect
