@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Мой академический сайт</title>
+    <link>https://yana-nka.github.io/my-academic-site/</link>
+      <atom:link href="https://yana-nka.github.io/my-academic-site/index.xml" rel="self" type="application/rss+xml" />
+    <description>Мой академический сайт</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language>
+    <image>
+      <url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url>
+      <title>Мой академический сайт</title>
+      <link>https://yana-nka.github.io/my-academic-site/</link>
+    </image>
+    
+    <item>
+      <title>Chess as a Hobby</title>
+      <link>https://yana-nka.github.io/my-academic-site/en/post/chess/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0300</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/en/post/chess/</guid>
+      <description>&lt;p&gt;Chess develops logical thinking.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Registration on Scientific Platforms</title>
+      <link>https://yana-nka.github.io/my-academic-site/en/post/platforms/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0300</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/en/post/platforms/</guid>
+      <description>&lt;p&gt;Important step for researchers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scientific Programming Languages</title>
+      <link>https://yana-nka.github.io/my-academic-site/en/post/scientific-programming/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0300</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/en/post/scientific-programming/</guid>
+      <description>&lt;p&gt;Python is most popular.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Week Four: Multilingual</title>
+      <link>https://yana-nka.github.io/my-academic-site/en/post/week4/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0300</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/en/post/week4/</guid>
+      <description>&lt;p&gt;Expanding the website.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Working with Bibliography</title>
+      <link>https://yana-nka.github.io/my-academic-site/en/post/bibliography/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0300</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/en/post/bibliography/</guid>
+      <description>&lt;p&gt;Essential part of research.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Работа с библиографией</title>
+      <link>https://yana-nka.github.io/my-academic-site/ru/post/bibliography/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0300</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/ru/post/bibliography/</guid>
+      <description>&lt;p&gt;Неотъемлемая часть исследования.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Регистрация на научных платформах</title>
+      <link>https://yana-nka.github.io/my-academic-site/ru/post/platforms/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0300</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/ru/post/platforms/</guid>
+      <description>&lt;p&gt;Важный шаг для исследователя.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Четвертая неделя</title>
+      <link>https://yana-nka.github.io/my-academic-site/ru/post/week4/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0300</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/ru/post/week4/</guid>
+      <description>&lt;p&gt;Расширение сайта.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Шахматы как хобби</title>
+      <link>https://yana-nka.github.io/my-academic-site/ru/post/chess/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0300</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/ru/post/chess/</guid>
+      <description>&lt;p&gt;Шахматы развивают логику.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Языки научного программирования</title>
+      <link>https://yana-nka.github.io/my-academic-site/ru/post/scientific-programming/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0300</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/ru/post/scientific-programming/</guid>
+      <description>&lt;p&gt;Python — самый популярный.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yana-nka.github.io/my-academic-site/en/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/en/home/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yana-nka.github.io/my-academic-site/ru/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/ru/home/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yana-nka.github.io/my-academic-site/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
