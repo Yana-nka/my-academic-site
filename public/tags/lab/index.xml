@@ -24,53 +24,7 @@
 &lt;li>Платформах для разработчиков (GitHub, GitLab)&lt;/li>
 &lt;/ul>
 &lt;h2 id="заключение">Заключение&lt;/h2>
-&lt;p>Markdown — простой и удобный язык разметки, который стал стандартом для документации в IT.&lt;/p></description></item><item><title>Легковесные языки разметки. Markdown</title><link>https://yana-nka.github.io/my-academic-site/ru/post/markdown-lightweight/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/post/markdown-lightweight/</guid><description>&lt;h2 id="что-такое-markdown">Что такое Markdown?&lt;/h2>
-&lt;p>Markdown — это легковесный язык разметки, созданный Джоном Грубером в 2004 году. Он позволяет форматировать текст с помощью простого синтаксиса и конвертировать его в HTML.&lt;/p>
-&lt;h2 id="основные-элементы-синтаксиса">Основные элементы синтаксиса&lt;/h2>
-&lt;h3 id="заголовки">Заголовки&lt;/h3>
-&lt;pre tabindex="0">&lt;code># Заголовок 1
-## Заголовок 2
-### Заголовок 3
-&lt;/code>&lt;/pre>&lt;h3 id="списки">Списки&lt;/h3>
-&lt;pre tabindex="0">&lt;code>- Элемент 1
-- Элемент 2
-- Подэлемент
-1. Первый
-2. Второй
-&lt;/code>&lt;/pre>&lt;h3 id="ссылки-и-изображения">Ссылки и изображения&lt;/h3>
-&lt;pre tabindex="0">&lt;code>[Текст ссылки](https://example.com)
-![Альтернативный текст](image.png)
-&lt;/code>&lt;/pre>&lt;h2 id="применение">Применение&lt;/h2>
-&lt;p>Markdown широко используется в:&lt;/p>
-&lt;ul>
-&lt;li>Документации проектов (README.md)&lt;/li>
-&lt;li>Блогах и статических сайтах (Hugo, Jekyll)&lt;/li>
-&lt;li>Системах управления знаниями (Obsidian, Notion)&lt;/li>
-&lt;li>Мессенджерах (Telegram, Discord)&lt;/li>
-&lt;li>Платформах для разработчиков (GitHub, GitLab)&lt;/li>
-&lt;/ul>
-&lt;h2 id="заключение">Заключение&lt;/h2>
 &lt;p>Markdown — простой и удобный язык разметки, который стал стандартом для документации в IT.&lt;/p></description></item><item><title>Непрерывная интеграция и непрерывное развертывание (CI/CD)</title><link>https://yana-nka.github.io/my-academic-site/en/post/cicd/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/en/post/cicd/</guid><description>&lt;h2 id="что-такое-cicd">Что такое CI/CD?&lt;/h2>
-&lt;p>CI/CD (Continuous Integration / Continuous Deployment) — это практика автоматизации сборки, тестирования и развертывания программного обеспечения.&lt;/p>
-&lt;h2 id="continuous-integration-ci">Continuous Integration (CI)&lt;/h2>
-&lt;p>CI — это практика, при которой разработчики часто (несколько раз в день) объединяют свои изменения в общий репозиторий. Каждое объединение автоматически собирается и тестируется.&lt;/p>
-&lt;p>&lt;strong>Преимущества CI:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Раннее обнаружение ошибок&lt;/li>
-&lt;li>Быстрая обратная связь&lt;/li>
-&lt;li>Снижение рисков при интеграции&lt;/li>
-&lt;/ul>
-&lt;h2 id="continuous-deployment-cd">Continuous Deployment (CD)&lt;/h2>
-&lt;p>CD — это практика автоматического развертывания каждого прошедшего тесты изменения в production-среду.&lt;/p>
-&lt;h2 id="инструменты-cicd">Инструменты CI/CD&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>GitHub Actions&lt;/strong> — встроенный в GitHub CI/CD&lt;/li>
-&lt;li>&lt;strong>GitLab CI/CD&lt;/strong> — в GitLab&lt;/li>
-&lt;li>&lt;strong>Jenkins&lt;/strong> — популярный open-source инструмент&lt;/li>
-&lt;li>&lt;strong>Travis CI&lt;/strong> — облачный CI-сервис&lt;/li>
-&lt;/ul>
-&lt;h2 id="заключение">Заключение&lt;/h2>
-&lt;p>CI/CD помогает командам быстрее и надёжнее доставлять программное обеспечение пользователям.&lt;/p></description></item><item><title>Непрерывная интеграция и непрерывное развертывание (CI/CD)</title><link>https://yana-nka.github.io/my-academic-site/ru/post/cicd/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/post/cicd/</guid><description>&lt;h2 id="что-такое-cicd">Что такое CI/CD?&lt;/h2>
 &lt;p>CI/CD (Continuous Integration / Continuous Deployment) — это практика автоматизации сборки, тестирования и развертывания программного обеспечения.&lt;/p>
 &lt;h2 id="continuous-integration-ci">Continuous Integration (CI)&lt;/h2>
 &lt;p>CI — это практика, при которой разработчики часто (несколько раз в день) объединяют свои изменения в общий репозиторий. Каждое объединение автоматически собирается и тестируется.&lt;/p>
@@ -110,57 +64,7 @@
 &lt;li>Формулы нумеруются в круглых скобках&lt;/li>
 &lt;/ul>
 &lt;h2 id="заключение">Заключение&lt;/h2>
-&lt;p>Правильное оформление отчёта — важная часть учебного процесса. Оно приучает к аккуратности и дисциплине.&lt;/p></description></item><item><title>Оформление отчёта</title><link>https://yana-nka.github.io/my-academic-site/ru/post/report-formatting/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/post/report-formatting/</guid><description>&lt;h2 id="структура-отчёта">Структура отчёта&lt;/h2>
-&lt;p>Любой научный или технический отчёт должен содержать следующие разделы:&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>Титульный лист&lt;/strong> — название работы, автор, дата&lt;/li>
-&lt;li>&lt;strong>Введение&lt;/strong> — цель работы, актуальность&lt;/li>
-&lt;li>&lt;strong>Основная часть&lt;/strong> — описание выполнения работы&lt;/li>
-&lt;li>&lt;strong>Результаты&lt;/strong> — полученные данные и их анализ&lt;/li>
-&lt;li>&lt;strong>Заключение&lt;/strong> — выводы по работе&lt;/li>
-&lt;li>&lt;strong>Список литературы&lt;/strong> — использованные источники&lt;/li>
-&lt;/ol>
-&lt;h2 id="требования-к-оформлению">Требования к оформлению&lt;/h2>
-&lt;ul>
-&lt;li>Шрифт: Times New Roman, 14pt&lt;/li>
-&lt;li>Межстрочный интервал: 1.5&lt;/li>
-&lt;li>Поля: левое 30мм, правое 10мм, верхнее/нижнее 20мм&lt;/li>
-&lt;li>Нумерация страниц: снизу по центру&lt;/li>
-&lt;li>Рисунки и таблицы должны иметь подписи&lt;/li>
-&lt;li>Формулы нумеруются в круглых скобках&lt;/li>
-&lt;/ul>
-&lt;h2 id="заключение">Заключение&lt;/h2>
 &lt;p>Правильное оформление отчёта — важная часть учебного процесса. Оно приучает к аккуратности и дисциплине.&lt;/p></description></item><item><title>Создание презентаций</title><link>https://yana-nka.github.io/my-academic-site/en/post/creating-presentations/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/en/post/creating-presentations/</guid><description>&lt;h2 id="инструменты-для-создания-презентаций">Инструменты для создания презентаций&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>PowerPoint / LibreOffice Impress&lt;/strong> — классические редакторы&lt;/li>
-&lt;li>&lt;strong>Reveal.js&lt;/strong> — HTML-презентации, встроенные в Hugo&lt;/li>
-&lt;li>&lt;strong>LaTeX Beamer&lt;/strong> — профессиональные академические презентации&lt;/li>
-&lt;li>&lt;strong>Canva&lt;/strong> — онлайн-сервис с шаблонами&lt;/li>
-&lt;li>&lt;strong>Google Slides&lt;/strong> — облачный инструмент&lt;/li>
-&lt;/ul>
-&lt;h2 id="правила-хорошей-презентации">Правила хорошей презентации&lt;/h2>
-&lt;h3 id="текст">Текст&lt;/h3>
-&lt;ul>
-&lt;li>Не более 10 строк на слайде&lt;/li>
-&lt;li>Крупный шрифт (не менее 24pt)&lt;/li>
-&lt;li>Краткие тезисы, не предложениями&lt;/li>
-&lt;/ul>
-&lt;h3 id="визуальное-оформление">Визуальное оформление&lt;/h3>
-&lt;ul>
-&lt;li>Единый стиль для всех слайдов&lt;/li>
-&lt;li>Контрастные цвета фона и текста&lt;/li>
-&lt;li>Использовать изображения и диаграммы&lt;/li>
-&lt;li>Не злоупотреблять анимацией&lt;/li>
-&lt;/ul>
-&lt;h3 id="структура">Структура&lt;/h3>
-&lt;ul>
-&lt;li>Титульный слайд (тема, автор, дата)&lt;/li>
-&lt;li>Слайд с содержанием&lt;/li>
-&lt;li>Основные слайды (5-7)&lt;/li>
-&lt;li>Заключительный слайд&lt;/li>
-&lt;/ul>
-&lt;h2 id="заключение">Заключение&lt;/h2>
-&lt;p>Хорошая презентация — это когда слушатели следят за вашим рассказом, а не читают слайды.&lt;/p></description></item><item><title>Создание презентаций</title><link>https://yana-nka.github.io/my-academic-site/ru/post/creating-presentations/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/post/creating-presentations/</guid><description>&lt;h2 id="инструменты-для-создания-презентаций">Инструменты для создания презентаций&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>PowerPoint / LibreOffice Impress&lt;/strong> — классические редакторы&lt;/li>
 &lt;li>&lt;strong>Reveal.js&lt;/strong> — HTML-презентации, встроенные в Hugo&lt;/li>
@@ -244,88 +148,7 @@
 &lt;/tbody>
 &lt;/table>
 &lt;h2 id="заключение">Заключение&lt;/h2>
-&lt;p>Git — незаменимый инструмент для любого разработчика. Он упрощает совместную работу и помогает не потерять изменения.&lt;/p></description></item><item><title>Управление версиями. Git</title><link>https://yana-nka.github.io/my-academic-site/ru/post/version-control-git/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/post/version-control-git/</guid><description>&lt;h2 id="что-такое-git">Что такое Git?&lt;/h2>
-&lt;p>Git — это распределённая система контроля версий, которая позволяет отслеживать изменения в файлах и координировать работу над проектами нескольких человек.&lt;/p>
-&lt;h2 id="основные-понятия">Основные понятия&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>Репозиторий&lt;/strong> — хранилище файлов и истории их изменений&lt;/li>
-&lt;li>&lt;strong>Коммит&lt;/strong> — сохранение изменений с описанием&lt;/li>
-&lt;li>&lt;strong>Ветка (branch)&lt;/strong> — отдельная линия разработки&lt;/li>
-&lt;li>&lt;strong>Слияние (merge)&lt;/strong> — объединение изменений из разных веток&lt;/li>
-&lt;li>&lt;strong>Конфликт&lt;/strong> — ситуация, когда изменения в одной и той же части файла противоречат друг другу&lt;/li>
-&lt;/ul>
-&lt;h2 id="основные-команды">Основные команды&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Команда&lt;/th>
-&lt;th>Описание&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;code>git init&lt;/code>&lt;/td>
-&lt;td>Создать новый репозиторий&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;code>git clone&lt;/code>&lt;/td>
-&lt;td>Скопировать удалённый репозиторий&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;code>git add&lt;/code>&lt;/td>
-&lt;td>Добавить файлы в индекс&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;code>git commit&lt;/code>&lt;/td>
-&lt;td>Создать коммит&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;code>git push&lt;/code>&lt;/td>
-&lt;td>Отправить изменения на сервер&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;code>git pull&lt;/code>&lt;/td>
-&lt;td>Получить изменения с сервера&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;code>git branch&lt;/code>&lt;/td>
-&lt;td>Управление ветками&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;code>git merge&lt;/code>&lt;/td>
-&lt;td>Слияние веток&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="заключение">Заключение&lt;/h2>
 &lt;p>Git — незаменимый инструмент для любого разработчика. Он упрощает совместную работу и помогает не потерять изменения.&lt;/p></description></item><item><title>Языки разметки. LaTeX</title><link>https://yana-nka.github.io/my-academic-site/en/post/latex-markup/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/en/post/latex-markup/</guid><description>&lt;h2 id="что-такое-latex">Что такое LaTeX?&lt;/h2>
-&lt;p>LaTeX — это система вёрстки документов, основанная на языке TeX. Она широко используется в академической среде для подготовки научных публикаций, диссертаций и отчётов.&lt;/p>
-&lt;h2 id="преимущества-latex">Преимущества LaTeX&lt;/h2>
-&lt;ul>
-&lt;li>Профессиональное качество вёрстки&lt;/li>
-&lt;li>Автоматическая нумерация формул, таблиц и рисунков&lt;/li>
-&lt;li>Удобная работа с библиографией (BibTeX)&lt;/li>
-&lt;li>Поддержка сложных математических формул&lt;/li>
-&lt;li>Версионирование через Git (текстовый формат)&lt;/li>
-&lt;li>Бесплатное и кроссплатформенное ПО&lt;/li>
-&lt;/ul>
-&lt;h2 id="пример-документа">Пример документа&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-latex" data-lang="latex">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\documentclass&lt;/span>{article}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\title&lt;/span>{Моя первая статья}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\author&lt;/span>{Яна Кулаженкова}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\begin&lt;/span>{document}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\maketitle&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\section&lt;/span>{Введение}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Текст введения...
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">\end&lt;/span>{document}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="формулы-в-latex">Формулы в LaTeX&lt;/h2>
-&lt;p>LaTeX позволяет красиво оформлять математические формулы:&lt;/p>
-&lt;ul>
-&lt;li>$E = mc^2$ — встроенная формула&lt;/li>
-&lt;li>$$\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$ — выключенная формула&lt;/li>
-&lt;/ul>
-&lt;h2 id="заключение">Заключение&lt;/h2>
-&lt;p>LaTeX — стандарт для научных публикаций. Освоив его, вы сможете профессионально оформлять любые документы.&lt;/p></description></item><item><title>Языки разметки. LaTeX</title><link>https://yana-nka.github.io/my-academic-site/ru/post/latex-markup/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/post/latex-markup/</guid><description>&lt;h2 id="что-такое-latex">Что такое LaTeX?&lt;/h2>
 &lt;p>LaTeX — это система вёрстки документов, основанная на языке TeX. Она широко используется в академической среде для подготовки научных публикаций, диссертаций и отчётов.&lt;/p>
 &lt;h2 id="преимущества-latex">Преимущества LaTeX&lt;/h2>
 &lt;ul>

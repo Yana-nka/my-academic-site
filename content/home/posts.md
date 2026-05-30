@@ -1,6 +1,6 @@
 ---
 widget: pages
-#headless: true
+headless: false
 weight: 60
-title: "Посты"
+title: Посты
 ---

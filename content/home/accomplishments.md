@@ -1,6 +1,6 @@
 ---
 widget: accomplishments
-headless: true
+headless: false
 weight: 50
 title: "Достижения"
 subtitle: ""
