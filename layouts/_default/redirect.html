@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0;url={{ .Params.redirect_url }}">
+<title>Redirecting...</title>
+</head>
+<body>
+<script>window.location.href = "{{ .Params.redirect_url }}";</script>
+<a href="{{ .Params.redirect_url }}">Click here if not redirected</a>
+</body>
+</html>
