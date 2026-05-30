@@ -1,1 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://yana-nka.github.io/my-academic-site/en/categories/</loc><xhtml:link rel="alternate" hreflang="ru-RU" href="https://yana-nka.github.io/my-academic-site/categories/"/><xhtml:link rel="alternate" hreflang="en-US" href="https://yana-nka.github.io/my-academic-site/en/categories/"/></url><url><loc>https://yana-nka.github.io/my-academic-site/en/</loc><xhtml:link rel="alternate" hreflang="ru-RU" href="https://yana-nka.github.io/my-academic-site/"/><xhtml:link rel="alternate" hreflang="en-US" href="https://yana-nka.github.io/my-academic-site/en/"/></url><url><loc>https://yana-nka.github.io/my-academic-site/en/tags/</loc><xhtml:link rel="alternate" hreflang="ru-RU" href="https://yana-nka.github.io/my-academic-site/tags/"/><xhtml:link rel="alternate" hreflang="en-US" href="https://yana-nka.github.io/my-academic-site/en/tags/"/></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://yana-nka.github.io/my-academic-site/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://yana-nka.github.io/my-academic-site/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://yana-nka.github.io/my-academic-site/en/categories/"
+                />
+  </url><url>
+    <loc>https://yana-nka.github.io/my-academic-site/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://yana-nka.github.io/my-academic-site/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://yana-nka.github.io/my-academic-site/en/"
+                />
+  </url><url>
+    <loc>https://yana-nka.github.io/my-academic-site/en/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-RU"
+                href="https://yana-nka.github.io/my-academic-site/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://yana-nka.github.io/my-academic-site/en/tags/"
+                />
+  </url>
+</urlset>
