@@ -1,6 +1,6 @@
 ---
 widget: experience
-headless: true
+headless: false
 weight: 40
 title: "Experience"
 date_start: 2025-09-01
