@@ -2,8 +2,7 @@
 widget: featurette
 headless: true
 weight: 30
-title: "Skills"
-subtitle: ""
+title: Skills
 feature:
   - name: Linux
     icon: linux

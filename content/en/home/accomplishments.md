@@ -2,22 +2,17 @@
 widget: accomplishments
 headless: true
 weight: 50
-title: "Accomplishments"
-subtitle: ""
+title: Accomplishments
 accomplishments:
-  - title: "Introduction to Linux"
-    organization: "Stepik"
-    url: "https://stepik.org/cert/3244634"
+  - title: Introduction to Linux
+    organization: Stepik
+    url: https://stepik.org/cert/3244634
     date_start: 2026-05-01
-    date_end: ""
-    description: "Certificate for Introduction to Linux course"
-  - title: "Personal Academic Website"
+    description: Linux certificate
+  - title: Personal Academic Website
     date_start: 2026-05-15
-    date_end: ""
-    description: "Built a personal website using Hugo Academic"
-  - title: "Registration on Scientific Platforms"
+    description: Built with Hugo Academic
+  - title: Scientific Platforms Registration
     date_start: 2026-05-30
-    date_end: ""
-    description: "ORCID, Google Scholar, eLibrary, Mendeley, ResearchGate"
-
+    description: ORCID, Google Scholar, eLibrary, Mendeley, ResearchGate
 ---
