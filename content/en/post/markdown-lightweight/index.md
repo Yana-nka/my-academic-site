@@ -1,52 +1,52 @@
 ---
-title: "Lightweight Markup Languages. Markdown"
-subtitle: "A simple language for text formatting"
+title: "Легковесные языки разметки. Markdown"
+subtitle: "Простой язык для форматирования текста"
 date: 2026-05-30
-summary: "Markdown basics: syntax and applications"
+summary: "Основы Markdown: синтаксис и применение"
 tags: ["lab", "markdown-lightweight"]
 ---
 
-## What is Markdown?
+## Что такое Markdown?
 
-Markdown is a lightweight markup language created by John Gruber in 2004. It allows formatting text using simple syntax and converting it to HTML.
+Markdown — это легковесный язык разметки, созданный Джоном Грубером в 2004 году. Он позволяет форматировать текст с помощью простого синтаксиса и конвертировать его в HTML.
 
-## Basic Syntax
+## Основные элементы синтаксиса
 
-### Headings
-
-```
-# Heading 1
-## Heading 2
-### Heading 3
-```
-
-### Lists
+### Заголовки
 
 ```
-- Item 1
-- Item 2
-  - Subitem
-
-1. First
-2. Second
+# Заголовок 1
+## Заголовок 2
+### Заголовок 3
 ```
 
-### Links and Images
+### Списки
 
 ```
-[Link text](https://example.com)
-![Alt text](image.png)
+- Элемент 1
+- Элемент 2
+  - Подэлемент
+
+1. Первый
+2. Второй
 ```
 
-## Applications
+### Ссылки и изображения
 
-Markdown is widely used in:
-- Project documentation (README.md)
-- Blogs and static sites (Hugo, Jekyll)
-- Knowledge management systems (Obsidian, Notion)
-- Messengers (Telegram, Discord)
-- Developer platforms (GitHub, GitLab)
+```
+[Текст ссылки](https://example.com)
+![Альтернативный текст](image.png)
+```
 
-## Conclusion
+## Применение
 
-Markdown is a simple and convenient markup language that has become the standard for IT documentation.
+Markdown широко используется в:
+- Документации проектов (README.md)
+- Блогах и статических сайтах (Hugo, Jekyll)
+- Системах управления знаниями (Obsidian, Notion)
+- Мессенджерах (Telegram, Discord)
+- Платформах для разработчиков (GitHub, GitLab)
+
+## Заключение
+
+Markdown — простой и удобный язык разметки, который стал стандартом для документации в IT.

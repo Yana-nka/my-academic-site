@@ -1,31 +1,31 @@
 ---
-title: "Report Formatting"
-subtitle: "Structure and rules for report preparation"
+title: "Оформление отчёта"
+subtitle: "Структура и правила оформления отчётов"
 date: 2026-05-30
-summary: "How to properly format a lab report"
+summary: "Как правильно оформить отчёт по лабораторной работе"
 tags: ["lab", "report-formatting"]
 ---
 
-## Report Structure
+## Структура отчёта
 
-Any scientific or technical report should contain the following sections:
+Любой научный или технический отчёт должен содержать следующие разделы:
 
-1. **Title page** — work title, author, date
-2. **Introduction** — objective, relevance
-3. **Main part** — execution description
-4. **Results** — obtained data and analysis
-5. **Conclusion** — findings
-6. **References** — sources used
+1. **Титульный лист** — название работы, автор, дата
+2. **Введение** — цель работы, актуальность
+3. **Основная часть** — описание выполнения работы
+4. **Результаты** — полученные данные и их анализ
+5. **Заключение** — выводы по работе
+6. **Список литературы** — использованные источники
 
-## Formatting Requirements
+## Требования к оформлению
 
-- Font: Times New Roman, 14pt
-- Line spacing: 1.5
-- Margins: left 30mm, right 10mm, top/bottom 20mm
-- Page numbering: bottom center
-- Figures and tables must have captions
-- Formulas are numbered in parentheses
+- Шрифт: Times New Roman, 14pt
+- Межстрочный интервал: 1.5
+- Поля: левое 30мм, правое 10мм, верхнее/нижнее 20мм
+- Нумерация страниц: снизу по центру
+- Рисунки и таблицы должны иметь подписи
+- Формулы нумеруются в круглых скобках
 
-## Conclusion
+## Заключение
 
-Proper report formatting is an important part of the learning process. It teaches accuracy and discipline.
+Правильное оформление отчёта — важная часть учебного процесса. Оно приучает к аккуратности и дисциплине.

@@ -1,51 +1,51 @@
 ---
-title: "Deploying a Bilingual Site on GitHub"
-subtitle: "How to Host Your Hugo Site on GitHub Pages for Free"
+title: "Размещение двуязычного сайта на GitHub"
+subtitle: "Как бесплатно разместить Hugo-сайт на GitHub Pages"
 date: 2026-05-30
-summary: "Step-by-step guide for deploying a bilingual Hugo site on GitHub Pages"
+summary: "Пошаговое руководство по деплою двуязычного Hugo-сайта на GitHub Pages"
 tags: ["hugo", "github-pages", "deploy"]
 ---
 
-## Prerequisites
+## Подготовка
 
-To host your site on GitHub Pages, you will need:
+Для размещения сайта на GitHub Pages понадобится:
 
-- A GitHub repository
-- A Hugo site ready for building
-- Basic Git skills
+- Репозиторий на GitHub
+- Hugo-сайт, готовый к сборке
+- Базовые навыки работы с Git
 
-## Build and Deploy
+## Сборка и деплой
 
-The deployment process consists of several steps:
+Процесс деплоя состоит из нескольких шагов:
 
-1. Install Hugo and create your site
-2. Configure bilingual support
-3. Build the site: `hugo --gc --minify`
-4. Copy to docs/: `cp -r public docs`
-5. Add `.nojekyll`: `touch docs/.nojekyll`
-6. Commit and push: `git push origin main`
+1. Установить Hugo и создать сайт
+2. Настроить конфигурацию и двуязычность
+3. Собрать сайт: `hugo --gc --minify`
+4. Скопировать в docs/: `cp -r public docs`
+5. Добавить `.nojekyll`: `touch docs/.nojekyll`
+6. Закоммитить и запушить: `git push origin main`
 
-## GitHub Pages Settings
+## Настройка GitHub Pages
 
-In your repository settings (Settings → Pages):
+В настройках репозитория (Settings → Pages):
 
 - Source: **Deploy from a branch**
 - Branch: **main**, folder: **/docs**
 
-Your site will be available at: `https://username.github.io/my-academic-site/`
+После этого сайт будет доступен по адресу: `https://username.github.io/my-academic-site/`
 
-## Bilingual Site Features
+## Особенности двуязычного сайта
 
-When using two languages:
+При использовании двух языков:
 
-- Primary language (RU) is served at the root `/`
-- Secondary language (EN) is at `/en/`
-- A redirect from `/en/` to `/en/home/` may be needed
-- A language switcher is placed in the header
+- Основной язык (RU) размещается на корне `/`
+- Дополнительный язык (EN) на `/en/`
+- Для корректной работы нужен редирект с `/en/` на `/en/home/`
+- В хедере размещается переключатель языка
 
-## GitHub Pages Benefits
+## Преимущества GitHub Pages
 
-- Free hosting
-- Automatic HTTPS
-- Simple git push deployment
-- Full version control
+- Бесплатный хостинг
+- Автоматический HTTPS
+- Простота деплоя через git push
+- Версионирование всех изменений

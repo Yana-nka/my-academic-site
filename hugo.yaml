@@ -38,6 +38,3 @@ markup:
 
 enableEmoji: true
 enableGitInfo: true
-
-defaultContentLanguageInSubdir: true
-defaultContentLanguage: ru

@@ -1,36 +1,36 @@
 ---
-title: "Version Control. Git"
-subtitle: "Basics of version control systems"
+title: "Управление версиями. Git"
+subtitle: "Основы работы с системой контроля версий"
 date: 2026-05-30
-summary: "Introduction to Git: basic commands and principles"
+summary: "Введение в Git: основные команды и принципы работы"
 tags: ["lab", "version-control-git"]
 ---
 
-## What is Git?
+## Что такое Git?
 
-Git is a distributed version control system that tracks changes in files and coordinates work among multiple people.
+Git — это распределённая система контроля версий, которая позволяет отслеживать изменения в файлах и координировать работу над проектами нескольких человек.
 
-## Key Concepts
+## Основные понятия
 
-- **Repository** — storage for files and their change history
-- **Commit** — saving changes with a description
-- **Branch** — a separate line of development
-- **Merge** — combining changes from different branches
-- **Conflict** — when changes in the same file part contradict each other
+- **Репозиторий** — хранилище файлов и истории их изменений
+- **Коммит** — сохранение изменений с описанием
+- **Ветка (branch)** — отдельная линия разработки
+- **Слияние (merge)** — объединение изменений из разных веток
+- **Конфликт** — ситуация, когда изменения в одной и той же части файла противоречат друг другу
 
-## Basic Commands
+## Основные команды
 
-| Command | Description |
+| Команда | Описание |
 |---|---|
-| `git init` | Create a new repository |
-| `git clone` | Copy a remote repository |
-| `git add` | Add files to the index |
-| `git commit` | Create a commit |
-| `git push` | Send changes to server |
-| `git pull` | Fetch changes from server |
-| `git branch` | Manage branches |
-| `git merge` | Merge branches |
+| `git init` | Создать новый репозиторий |
+| `git clone` | Скопировать удалённый репозиторий |
+| `git add` | Добавить файлы в индекс |
+| `git commit` | Создать коммит |
+| `git push` | Отправить изменения на сервер |
+| `git pull` | Получить изменения с сервера |
+| `git branch` | Управление ветками |
+| `git merge` | Слияние веток |
 
-## Conclusion
+## Заключение
 
-Git is an essential tool for any developer. It simplifies collaboration and helps prevent data loss.
+Git — незаменимый инструмент для любого разработчика. Он упрощает совместную работу и помогает не потерять изменения.

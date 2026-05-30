@@ -1,44 +1,44 @@
 ---
-title: "Markup Languages. LaTeX"
-subtitle: "Professional document typesetting system"
+title: "Языки разметки. LaTeX"
+subtitle: "Профессиональная система вёрстки документов"
 date: 2026-05-30
-summary: "Introduction to LaTeX for academic writing"
+summary: "Введение в LaTeX для научных работ"
 tags: ["lab", "latex-markup"]
 ---
 
-## What is LaTeX?
+## Что такое LaTeX?
 
-LaTeX is a document preparation system based on the TeX language. It is widely used in academia for preparing scientific publications, theses, and reports.
+LaTeX — это система вёрстки документов, основанная на языке TeX. Она широко используется в академической среде для подготовки научных публикаций, диссертаций и отчётов.
 
-## Benefits of LaTeX
+## Преимущества LaTeX
 
-- Professional typesetting quality
-- Automatic numbering of equations, tables, and figures
-- Convenient bibliography management (BibTeX)
-- Complex mathematical formula support
-- Git-friendly (plain text format)
-- Free and cross-platform
+- Профессиональное качество вёрстки
+- Автоматическая нумерация формул, таблиц и рисунков
+- Удобная работа с библиографией (BibTeX)
+- Поддержка сложных математических формул
+- Версионирование через Git (текстовый формат)
+- Бесплатное и кроссплатформенное ПО
 
-## Document Example
+## Пример документа
 
 ```latex
 \documentclass{article}
-\title{My First Paper}
-\author{Yana Kulazhenkova}
+\title{Моя первая статья}
+\author{Яна Кулаженкова}
 \begin{document}
 \maketitle
-\section{Introduction}
-Introduction text...
+\section{Введение}
+Текст введения...
 \end{document}
 ```
 
-## Formulas in LaTeX
+## Формулы в LaTeX
 
-LaTeX allows creating beautiful mathematical formulas:
+LaTeX позволяет красиво оформлять математические формулы:
 
-- $E = mc^2$ — inline formula
-- $$\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$ — displayed formula
+- $E = mc^2$ — встроенная формула
+- $$\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$ — выключенная формула
 
-## Conclusion
+## Заключение
 
-LaTeX is the standard for scientific publications. Mastering it allows you to format any document professionally.
+LaTeX — стандарт для научных публикаций. Освоив его, вы сможете профессионально оформлять любые документы.

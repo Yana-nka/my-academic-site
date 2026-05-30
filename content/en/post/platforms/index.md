@@ -1,9 +1,9 @@
 ---
-title: "Registration on Scientific Platforms"
+title: "\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u043d\u0430 \u043d\u0430\u0443\u0447\u043d\u044b\u0445 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430\u0445"
 subtitle: "eLibrary, Google Scholar, ORCID"
-summary: "Overview of platforms"
+summary: "\u041e\u0431\u0437\u043e\u0440 \u043d\u0430\u0443\u0447\u043d\u044b\u0445 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c"
 date: 2026-05-30T00:00:00+03:00
 draft: false
 ---
 
-Important step for researchers.
+Важный шаг для исследователя.
