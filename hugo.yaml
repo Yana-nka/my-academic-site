@@ -1,17 +1,19 @@
 baseURL: 'https://yana-nka.github.io/my-academic-site/'
-defaultContentLanguage: en
+languageCode: ru-RU
+defaultContentLanguage: ru
 defaultContentLanguageInSubdir: false
+title: Мой академический сайт
 
 languages:
-  en:
-    languageCode: en-US
-    languageName: English
-    title: My Academic Site
-    weight: 1
   ru:
     languageCode: ru-RU
     languageName: Русский
     title: Мой академический сайт
+    weight: 1
+  en:
+    languageCode: en-US
+    languageName: English
+    title: My Academic Site
     weight: 2
 
 module:
