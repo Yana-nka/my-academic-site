@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown-lightweight | Мой академический сайт</title>
+    <link>https://yana-nka.github.io/my-academic-site/tags/markdown-lightweight/</link>
+      <atom:link href="https://yana-nka.github.io/my-academic-site/tags/markdown-lightweight/index.xml" rel="self" type="application/rss+xml" />
+    <description>markdown-lightweight</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url>
+      <title>markdown-lightweight</title>
+      <link>https://yana-nka.github.io/my-academic-site/tags/markdown-lightweight/</link>
+    </image>
+    
+    <item>
+      <title>Lightweight Markup Languages. Markdown</title>
+      <link>https://yana-nka.github.io/my-academic-site/en/post/markdown-lightweight/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/en/post/markdown-lightweight/</guid>
+      <description>&lt;h2 id=&#34;что-такое-markdown&#34;&gt;Что такое Markdown?&lt;/h2&gt;
+&lt;p&gt;Markdown — это легковесный язык разметки, созданный Джоном Грубером в 2004 году. Он позволяет форматировать текст с помощью простого синтаксиса и конвертировать его в HTML.&lt;/p&gt;
+&lt;h2 id=&#34;основные-элементы-синтаксиса&#34;&gt;Основные элементы синтаксиса&lt;/h2&gt;
+&lt;h3 id=&#34;заголовки&#34;&gt;Заголовки&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Заголовок 1
+## Заголовок 2
+### Заголовок 3
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;списки&#34;&gt;Списки&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;- Элемент 1
+- Элемент 2
+  - Подэлемент
+
+1. Первый
+2. Второй
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;ссылки-и-изображения&#34;&gt;Ссылки и изображения&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[Текст ссылки](https://example.com)
+![Альтернативный текст](image.png)
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;применение&#34;&gt;Применение&lt;/h2&gt;
+&lt;p&gt;Markdown широко используется в:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Документации проектов (README.md)&lt;/li&gt;
+&lt;li&gt;Блогах и статических сайтах (Hugo, Jekyll)&lt;/li&gt;
+&lt;li&gt;Системах управления знаниями (Obsidian, Notion)&lt;/li&gt;
+&lt;li&gt;Мессенджерах (Telegram, Discord)&lt;/li&gt;
+&lt;li&gt;Платформах для разработчиков (GitHub, GitLab)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
+&lt;p&gt;Markdown — простой и удобный язык разметки, который стал стандартом для документации в IT.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

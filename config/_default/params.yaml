@@ -1,15 +1,11 @@
-# Theme
 color: blue
 day_night: true
-
-# Pages widget — default count
 pages:
   count: 12
-
-# Header
 header:
   navbar:
+    show_language_switcher: true
+    show_translations: true
+    show_current_language: true
     show_day_night: true
     show_search: true
-    show_logo: true
-    highlight_active_link: true
