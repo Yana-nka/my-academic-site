@@ -1,0 +1,10 @@
+- id: about
+  translation: Biography
+- id: skills
+  translation: Skills
+- id: experience
+  translation: Experience
+- id: accomplishments
+  translation: Accomplishments
+- id: posts
+  translation: Posts
