@@ -5,5 +5,6 @@ widgets:
   - about
   - skills
   - experience
+  - accomplishments
   - posts
 ---

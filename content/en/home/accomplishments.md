@@ -1,0 +1,34 @@
+---
+widget: accomplishments
+headless: true
+weight: 40
+active: true
+title: "Accomplishments"
+subtitle: ""
+date_format: "2006-01"
+item:
+  - title: "Continuous Integration and Continuous Deployment (CI/CD)"
+    url: "https://yana-nka.github.io/my-academic-site/en/post/cicd/"
+    summary: "Studied the fundamentals of build, test, and deployment automation"
+    date_start: "2026-05-30"
+    date_end: ""
+    organization: "RUDN University"
+    organization_url: ""
+    certificate_url: ""
+  - title: "Scientific Programming"
+    url: "https://yana-nka.github.io/my-academic-site/en/post/scientific-programming/"
+    summary: "Studied scientific programming methods"
+    date_start: "2026-05-30"
+    date_end: ""
+    organization: "RUDN University"
+    organization_url: ""
+    certificate_url: ""
+  - title: "Version Control Systems (Git)"
+    url: "https://yana-nka.github.io/my-academic-site/en/post/version-control-git/"
+    summary: "Learned Git and collaborative development practices"
+    date_start: "2026-05-30"
+    date_end: ""
+    organization: "RUDN University"
+    organization_url: ""
+    certificate_url: ""
+---
