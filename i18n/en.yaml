@@ -8,3 +8,7 @@
   translation: Accomplishments
 - id: posts
   translation: Posts
+- id: home
+  translation: Home
+- id: tags
+  translation: Tags

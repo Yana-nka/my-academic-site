@@ -8,3 +8,7 @@
   translation: Достижения
 - id: posts
   translation: Посты
+- id: home
+  translation: Главная
+- id: tags
+  translation: Теги
