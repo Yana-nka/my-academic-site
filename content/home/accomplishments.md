@@ -1,23 +1,40 @@
 ---
+# Виджет "Достижения"
 widget: accomplishments
-headless: false
-weight: 50
+headless: true
+weight: 40
+active: true
 title: "Достижения"
 subtitle: ""
-accomplishments:
-  - title: "Введение в Linux"
-    organization: "Stepik"
-    url: "https://stepik.org/cert/3244634"
-    date_start: 2026-05-01
-    date_end: ""
-    description: "Сертификат о прохождении курса"
-  - title: "Персональный академический сайт"
-    date_start: 2026-05-15
-    date_end: ""
-    description: "Разработка сайта на Hugo Academic"
-  - title: "Регистрация на научных платформах"
-    date_start: 2026-05-30
-    date_end: ""
-    description: "ORCID, Google Scholar, eLibrary, Mendeley, ResearchGate"
 
----
+# Date format
+date_format: "2006-01"
+
+# Accomplishments
+item:
+  - title: "Непрерывная интеграция и непрерывное развертывание (CI/CD)"
+    url: "https://yana-nka.github.io/my-academic-site/post/cicd/"
+    summary: "Изучение основ автоматизации сборки, тестирования и деплоя"
+    date_start: "2026-05-30"
+    date_end: ""
+    organization: "РУДН"
+    organization_url: ""
+    certificate_url: ""
+    
+  - title: "Научное программирование"
+    url: "https://yana-nka.github.io/my-academic-site/post/scientific-programming/"
+    summary: "Изучение методов научного программирования"
+    date_start: "2026-05-30"
+    date_end: ""
+    organization: "РУДН"
+    organization_url: ""
+    certificate_url: ""
+    
+  - title: "Системы контроля версий (Git)"
+    url: "https://yana-nka.github.io/my-academic-site/post/version-control-git/"
+    summary: "Освоение Git и практик совместной разработки"
+    date_start: "2026-05-30"
+    date_end: ""
+    organization: "РУДН"
+    organization_url: ""
+    certificate_url: ""

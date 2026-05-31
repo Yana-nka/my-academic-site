@@ -1,23 +1,40 @@
 ---
+# Accomplishments widget
 widget: accomplishments
-headless: false
-weight: 50
+headless: true
+weight: 40
+active: true
 title: "Accomplishments"
 subtitle: ""
-accomplishments:
-  - title: "Introduction to Linux"
-    organization: "Stepik"
-    url: "https://stepik.org/cert/3244634"
-    date_start: 2026-05-01
-    date_end: ""
-    description: "Certificate of course completion"
-  - title: "Personal Academic Website"
-    date_start: 2026-05-15
-    date_end: ""
-    description: "Developed a site with Hugo Academic"
-  - title: "Registration on Scientific Platforms"
-    date_start: 2026-05-30
-    date_end: ""
-    description: "ORCID, Google Scholar, eLibrary, Mendeley, ResearchGate"
 
----
+# Date format
+date_format: "2006-01"
+
+# Accomplishments
+item:
+  - title: "Continuous Integration and Continuous Deployment (CI/CD)"
+    url: "https://yana-nka.github.io/my-academic-site/en/post/cicd/"
+    summary: "Studied the fundamentals of build, test, and deployment automation"
+    date_start: "2026-05-30"
+    date_end: ""
+    organization: "RUDN University"
+    organization_url: ""
+    certificate_url: ""
+    
+  - title: "Scientific Programming"
+    url: "https://yana-nka.github.io/my-academic-site/en/post/scientific-programming/"
+    summary: "Studied scientific programming methods"
+    date_start: "2026-05-30"
+    date_end: ""
+    organization: "RUDN University"
+    organization_url: ""
+    certificate_url: ""
+    
+  - title: "Version Control Systems (Git)"
+    url: "https://yana-nka.github.io/my-academic-site/en/post/version-control-git/"
+    summary: "Learned Git and collaborative development practices"
+    date_start: "2026-05-30"
+    date_end: ""
+    organization: "RUDN University"
+    organization_url: ""
+    certificate_url: ""
