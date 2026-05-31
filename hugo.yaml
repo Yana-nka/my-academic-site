@@ -1,24 +1,26 @@
-baseURL: 'https://yana-nka.github.io/my-academic-site/'
-languageCode: ru-RU
+baseURL: "https://yana-nka.github.io/my-academic-site/"
+languageCode: "en-us"
 defaultContentLanguage: ru
 defaultContentLanguageInSubdir: false
-title: Мой академический сайт
+title: "Мой академический сайт"
 
 languages:
   ru:
-    languageCode: ru-RU
-    languageName: Русский
-    title: Мой академический сайт
+    languageCode: "ru-RU"
+    languageName: "Русский"
+    title: "Мой академический сайт"
     weight: 1
   en:
-    languageCode: en-US
-    languageName: English
-    title: My Academic Site
+    languageCode: "en-US"
+    languageName: "English"
+    title: "My Academic Site"
     weight: 2
 
 module:
   imports:
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
+
+googleAnalytics: ""
 
 security:
   enableInlineShortcodes: true

@@ -13,6 +13,8 @@ header:
     show_search: true
     show_logo: true
     highlight_active_link: true
+    show_translations: true
+    show_language: true
 
 # Sections to show
 sections:

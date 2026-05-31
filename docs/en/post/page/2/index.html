@@ -322,8 +322,6 @@
 <meta property="og:description" content="Студентка группы НКАбд-03-25" /><meta property="og:image" content="https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png" /><meta property="og:locale" content="ru-RU" />
 
   
-    <meta property="og:updated_time" content="2026-05-30T00:00:00&#43;00:00" />
-  
 
 
 
@@ -351,6 +349,29 @@
 
   
   
+  
+    <script>
+(function(){
+  function t(){
+    var e = document.body;
+    e.classList.toggle("dark");
+    localStorage.setItem("wcTheme", e.classList.contains("dark") ? "dark" : "light");
+  }
+  function e(){
+    var t, s, n = document.querySelector(".nav-icons");
+    if (!n) { setTimeout(e, 100); return; }
+    t = document.createElement("li");
+    t.className = "nav-item";
+    t.innerHTML = '<a class="nav-link js-dark-toggle" href="#" onclick="event.preventDefault(); themeToggle(); return false;"><i class="fas fa-moon"></i></a>';
+    n.appendChild(t);
+    s = localStorage.getItem("wcTheme");
+    s === "light" && document.body.classList.remove("dark");
+  }
+  document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", e) : e();
+  window.themeToggle = t;
+})()
+</script>
+
   
   
 
@@ -414,6 +435,11 @@
       
 
       
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Переключить навигацию">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
 
       
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
@@ -427,6 +453,96 @@
 
         
         <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link  active" href="https://yana-nka.github.io/my-academic-site/"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="https://yana-nka.github.io/my-academic-site/post/"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="https://yana-nka.github.io/my-academic-site/tags/"><span>Tags</span></a>
+          </li>
+
+          
           
 
         
@@ -467,8 +583,20 @@
         </li>
         
 
-        
-        
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown"
+             aria-haspopup="true" aria-label="Languages">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="/en/">
+              <span>English</span>
+            </a>
+            <a class="dropdown-item" href="/">
+              <span>Русский</span>
+            </a>
+          </div>
+        </li>
 
       </ul>
 
@@ -576,7 +704,7 @@
           Обновлено
       
     
-    мая 30, 2026
+    мая 31, 2026
   </span>
   
 
@@ -660,7 +788,7 @@
           Обновлено
       
     
-    мая 30, 2026
+    мая 31, 2026
   </span>
   
 
