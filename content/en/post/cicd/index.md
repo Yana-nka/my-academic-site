@@ -1,35 +1,35 @@
 ---
 title: "Continuous Integration and Continuous Deployment (CI/CD)"
-subtitle: "Automation of build, test, and deployment"
+subtitle: "Автоматизация сборки, тестирования и деплоя"
 date: 2026-05-30
 summary: "What CI/CD is and how it works"
 tags: ["lab", "cicd"]
 ---
 
-## What is CI/CD?
+## Что такое CI/CD?
 
-CI/CD (Continuous Integration / Continuous Deployment) is a practice of automating software building, testing, and deployment.
+CI/CD (Continuous Integration / Continuous Deployment) — это практика автоматизации сборки, тестирования и развертывания программного обеспечения.
 
 ## Continuous Integration (CI)
 
-CI is a practice where developers frequently (several times a day) merge their changes into a shared repository. Each merge is automatically built and tested.
+CI — это практика, при которой разработчики часто (несколько раз в день) объединяют свои изменения в общий репозиторий. Каждое объединение автоматически собирается и тестируется.
 
-**Benefits of CI:**
-- Early bug detection
-- Fast feedback
-- Reduced integration risks
+**Преимущества CI:**
+- Раннее обнаружение ошибок
+- Быстрая обратная связь
+- Снижение рисков при интеграции
 
 ## Continuous Deployment (CD)
 
-CD is a practice of automatically deploying every change that passes tests to the production environment.
+CD — это практика автоматического развертывания каждого прошедшего тесты изменения в production-среду.
 
-## CI/CD Tools
+## Инструменты CI/CD
 
-- **GitHub Actions** — built-in in GitHub
-- **GitLab CI/CD** — in GitLab
-- **Jenkins** — popular open-source tool
-- **Travis CI** — cloud CI service
+- **GitHub Actions** — встроенный в GitHub CI/CD
+- **GitLab CI/CD** — в GitLab
+- **Jenkins** — популярный open-source инструмент
+- **Travis CI** — облачный CI-сервис
 
-## Conclusion
+## Заключение
 
-CI/CD helps teams deliver software to users faster and more reliably.
+CI/CD помогает командам быстрее и надёжнее доставлять программное обеспечение пользователям.

@@ -1,77 +1,157 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>github-pages | Мой академический сайт</title><link>https://yana-nka.github.io/my-academic-site/tags/github-pages/</link><atom:link href="https://yana-nka.github.io/my-academic-site/tags/github-pages/index.xml" rel="self" type="application/rss+xml"/><description>github-pages</description><generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>github-pages</title><link>https://yana-nka.github.io/my-academic-site/tags/github-pages/</link></image><item><title>Deploying a Bilingual Site on GitHub</title><link>https://yana-nka.github.io/my-academic-site/en/post/github-deploy/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/en/post/github-deploy/</guid><description>&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
-&lt;p>To host your site on GitHub Pages, you will need:&lt;/p>
-&lt;ul>
-&lt;li>A GitHub repository&lt;/li>
-&lt;li>A Hugo site ready for building&lt;/li>
-&lt;li>Basic Git skills&lt;/li>
-&lt;/ul>
-&lt;h2 id="build-and-deploy">Build and Deploy&lt;/h2>
-&lt;p>The deployment process consists of several steps:&lt;/p>
-&lt;ol>
-&lt;li>Install Hugo and create your site&lt;/li>
-&lt;li>Configure bilingual support&lt;/li>
-&lt;li>Build the site: &lt;code>hugo --gc --minify&lt;/code>&lt;/li>
-&lt;li>Copy to docs/: &lt;code>cp -r public docs&lt;/code>&lt;/li>
-&lt;li>Add &lt;code>.nojekyll&lt;/code>: &lt;code>touch docs/.nojekyll&lt;/code>&lt;/li>
-&lt;li>Commit and push: &lt;code>git push origin main&lt;/code>&lt;/li>
-&lt;/ol>
-&lt;h2 id="github-pages-settings">GitHub Pages Settings&lt;/h2>
-&lt;p>In your repository settings (Settings → Pages):&lt;/p>
-&lt;ul>
-&lt;li>Source: &lt;strong>Deploy from a branch&lt;/strong>&lt;/li>
-&lt;li>Branch: &lt;strong>main&lt;/strong>, folder: &lt;strong>/docs&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>Your site will be available at: &lt;code>https://username.github.io/my-academic-site/&lt;/code>&lt;/p>
-&lt;h2 id="bilingual-site-features">Bilingual Site Features&lt;/h2>
-&lt;p>When using two languages:&lt;/p>
-&lt;ul>
-&lt;li>Primary language (RU) is served at the root &lt;code>/&lt;/code>&lt;/li>
-&lt;li>Secondary language (EN) is at &lt;code>/en/&lt;/code>&lt;/li>
-&lt;li>A redirect from &lt;code>/en/&lt;/code> to &lt;code>/en/home/&lt;/code> may be needed&lt;/li>
-&lt;li>A language switcher is placed in the header&lt;/li>
-&lt;/ul>
-&lt;h2 id="github-pages-benefits">GitHub Pages Benefits&lt;/h2>
-&lt;ul>
-&lt;li>Free hosting&lt;/li>
-&lt;li>Automatic HTTPS&lt;/li>
-&lt;li>Simple git push deployment&lt;/li>
-&lt;li>Full version control&lt;/li>
-&lt;/ul></description></item><item><title>Размещение двуязычного сайта на GitHub</title><link>https://yana-nka.github.io/my-academic-site/ru/post/github-deploy/</link><pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><guid>https://yana-nka.github.io/my-academic-site/ru/post/github-deploy/</guid><description>&lt;h2 id="подготовка">Подготовка&lt;/h2>
-&lt;p>Для размещения сайта на GitHub Pages понадобится:&lt;/p>
-&lt;ul>
-&lt;li>Репозиторий на GitHub&lt;/li>
-&lt;li>Hugo-сайт, готовый к сборке&lt;/li>
-&lt;li>Базовые навыки работы с Git&lt;/li>
-&lt;/ul>
-&lt;h2 id="сборка-и-деплой">Сборка и деплой&lt;/h2>
-&lt;p>Процесс деплоя состоит из нескольких шагов:&lt;/p>
-&lt;ol>
-&lt;li>Установить Hugo и создать сайт&lt;/li>
-&lt;li>Настроить конфигурацию и двуязычность&lt;/li>
-&lt;li>Собрать сайт: &lt;code>hugo --gc --minify&lt;/code>&lt;/li>
-&lt;li>Скопировать в docs/: &lt;code>cp -r public docs&lt;/code>&lt;/li>
-&lt;li>Добавить &lt;code>.nojekyll&lt;/code>: &lt;code>touch docs/.nojekyll&lt;/code>&lt;/li>
-&lt;li>Закоммитить и запушить: &lt;code>git push origin main&lt;/code>&lt;/li>
-&lt;/ol>
-&lt;h2 id="настройка-github-pages">Настройка GitHub Pages&lt;/h2>
-&lt;p>В настройках репозитория (Settings → Pages):&lt;/p>
-&lt;ul>
-&lt;li>Source: &lt;strong>Deploy from a branch&lt;/strong>&lt;/li>
-&lt;li>Branch: &lt;strong>main&lt;/strong>, folder: &lt;strong>/docs&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;p>После этого сайт будет доступен по адресу: &lt;code>https://username.github.io/my-academic-site/&lt;/code>&lt;/p>
-&lt;h2 id="особенности-двуязычного-сайта">Особенности двуязычного сайта&lt;/h2>
-&lt;p>При использовании двух языков:&lt;/p>
-&lt;ul>
-&lt;li>Основной язык (RU) размещается на корне &lt;code>/&lt;/code>&lt;/li>
-&lt;li>Дополнительный язык (EN) на &lt;code>/en/&lt;/code>&lt;/li>
-&lt;li>Для корректной работы нужен редирект с &lt;code>/en/&lt;/code> на &lt;code>/en/home/&lt;/code>&lt;/li>
-&lt;li>В хедере размещается переключатель языка&lt;/li>
-&lt;/ul>
-&lt;h2 id="преимущества-github-pages">Преимущества GitHub Pages&lt;/h2>
-&lt;ul>
-&lt;li>Бесплатный хостинг&lt;/li>
-&lt;li>Автоматический HTTPS&lt;/li>
-&lt;li>Простота деплоя через git push&lt;/li>
-&lt;li>Версионирование всех изменений&lt;/li>
-&lt;/ul></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github-pages | Мой академический сайт</title>
+    <link>https://yana-nka.github.io/my-academic-site/tags/github-pages/</link>
+      <atom:link href="https://yana-nka.github.io/my-academic-site/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
+    <description>github-pages</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url>
+      <title>github-pages</title>
+      <link>https://yana-nka.github.io/my-academic-site/tags/github-pages/</link>
+    </image>
+    
+    <item>
+      <title>Deploying a Bilingual Website on GitHub</title>
+      <link>https://yana-nka.github.io/my-academic-site/en/post/github-deploy/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/en/post/github-deploy/</guid>
+      <description>&lt;h2 id=&#34;подготовка&#34;&gt;Подготовка&lt;/h2&gt;
+&lt;p&gt;Для размещения сайта на GitHub Pages понадобится:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Репозиторий на GitHub&lt;/li&gt;
+&lt;li&gt;Hugo-сайт, готовый к сборке&lt;/li&gt;
+&lt;li&gt;Базовые навыки работы с Git&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;сборка-и-деплой&#34;&gt;Сборка и деплой&lt;/h2&gt;
+&lt;p&gt;Процесс деплоя состоит из нескольких шагов:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Установить Hugo и создать сайт&lt;/li&gt;
+&lt;li&gt;Настроить конфигурацию и двуязычность&lt;/li&gt;
+&lt;li&gt;Собрать сайт: &lt;code&gt;hugo --gc --minify&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Скопировать в docs/: &lt;code&gt;cp -r public docs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Добавить &lt;code&gt;.nojekyll&lt;/code&gt;: &lt;code&gt;touch docs/.nojekyll&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Закоммитить и запушить: &lt;code&gt;git push origin main&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;настройка-github-pages&#34;&gt;Настройка GitHub Pages&lt;/h2&gt;
+&lt;p&gt;В настройках репозитория (Settings → Pages):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Source: &lt;strong&gt;Deploy from a branch&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Branch: &lt;strong&gt;main&lt;/strong&gt;, folder: &lt;strong&gt;/docs&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;После этого сайт будет доступен по адресу: &lt;code&gt;https://username.github.io/my-academic-site/&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;особенности-bilingual-сайта&#34;&gt;Особенности bilingual сайта&lt;/h2&gt;
+&lt;p&gt;При использовании двух языков:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Основной язык (RU) размещается на корне &lt;code&gt;/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Дополнительный язык (EN) на &lt;code&gt;/en/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Для корректной работы нужен редирект с &lt;code&gt;/en/&lt;/code&gt; на &lt;code&gt;/en/home/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;В хедере размещается переключатель языка&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;преимущества-github-pages&#34;&gt;Преимущества GitHub Pages&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Бесплатный хостинг&lt;/li&gt;
+&lt;li&gt;Автоматический HTTPS&lt;/li&gt;
+&lt;li&gt;Простота деплоя через git push&lt;/li&gt;
+&lt;li&gt;Версионирование всех изменений&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Размещение двуязычного сайта на GitHub</title>
+      <link>https://yana-nka.github.io/my-academic-site/post/github-deploy/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/post/github-deploy/</guid>
+      <description>&lt;h2 id=&#34;подготовка&#34;&gt;Подготовка&lt;/h2&gt;
+&lt;p&gt;Для размещения сайта на GitHub Pages понадобится:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Репозиторий на GitHub&lt;/li&gt;
+&lt;li&gt;Hugo-сайт, готовый к сборке&lt;/li&gt;
+&lt;li&gt;Базовые навыки работы с Git&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;сборка-и-деплой&#34;&gt;Сборка и деплой&lt;/h2&gt;
+&lt;p&gt;Процесс деплоя состоит из нескольких шагов:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Установить Hugo и создать сайт&lt;/li&gt;
+&lt;li&gt;Настроить конфигурацию и двуязычность&lt;/li&gt;
+&lt;li&gt;Собрать сайт: &lt;code&gt;hugo --gc --minify&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Скопировать в docs/: &lt;code&gt;cp -r public docs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Добавить &lt;code&gt;.nojekyll&lt;/code&gt;: &lt;code&gt;touch docs/.nojekyll&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Закоммитить и запушить: &lt;code&gt;git push origin main&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;настройка-github-pages&#34;&gt;Настройка GitHub Pages&lt;/h2&gt;
+&lt;p&gt;В настройках репозитория (Settings → Pages):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Source: &lt;strong&gt;Deploy from a branch&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Branch: &lt;strong&gt;main&lt;/strong&gt;, folder: &lt;strong&gt;/docs&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;После этого сайт будет доступен по адресу: &lt;code&gt;https://username.github.io/my-academic-site/&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;особенности-двуязычного-сайта&#34;&gt;Особенности двуязычного сайта&lt;/h2&gt;
+&lt;p&gt;При использовании двух языков:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Основной язык (RU) размещается на корне &lt;code&gt;/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Дополнительный язык (EN) на &lt;code&gt;/en/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Для корректной работы нужен редирект с &lt;code&gt;/en/&lt;/code&gt; на &lt;code&gt;/en/home/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;В хедере размещается переключатель языка&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;преимущества-github-pages&#34;&gt;Преимущества GitHub Pages&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Бесплатный хостинг&lt;/li&gt;
+&lt;li&gt;Автоматический HTTPS&lt;/li&gt;
+&lt;li&gt;Простота деплоя через git push&lt;/li&gt;
+&lt;li&gt;Версионирование всех изменений&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Размещение двуязычного сайта на GitHub</title>
+      <link>https://yana-nka.github.io/my-academic-site/ru/post/github-deploy/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/ru/post/github-deploy/</guid>
+      <description>&lt;h2 id=&#34;подготовка&#34;&gt;Подготовка&lt;/h2&gt;
+&lt;p&gt;Для размещения сайта на GitHub Pages понадобится:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Репозиторий на GitHub&lt;/li&gt;
+&lt;li&gt;Hugo-сайт, готовый к сборке&lt;/li&gt;
+&lt;li&gt;Базовые навыки работы с Git&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;сборка-и-деплой&#34;&gt;Сборка и деплой&lt;/h2&gt;
+&lt;p&gt;Процесс деплоя состоит из нескольких шагов:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Установить Hugo и создать сайт&lt;/li&gt;
+&lt;li&gt;Настроить конфигурацию и двуязычность&lt;/li&gt;
+&lt;li&gt;Собрать сайт: &lt;code&gt;hugo --gc --minify&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Скопировать в docs/: &lt;code&gt;cp -r public docs&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Добавить &lt;code&gt;.nojekyll&lt;/code&gt;: &lt;code&gt;touch docs/.nojekyll&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Закоммитить и запушить: &lt;code&gt;git push origin main&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;настройка-github-pages&#34;&gt;Настройка GitHub Pages&lt;/h2&gt;
+&lt;p&gt;В настройках репозитория (Settings → Pages):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Source: &lt;strong&gt;Deploy from a branch&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Branch: &lt;strong&gt;main&lt;/strong&gt;, folder: &lt;strong&gt;/docs&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;После этого сайт будет доступен по адресу: &lt;code&gt;https://username.github.io/my-academic-site/&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;особенности-двуязычного-сайта&#34;&gt;Особенности двуязычного сайта&lt;/h2&gt;
+&lt;p&gt;При использовании двух языков:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Основной язык (RU) размещается на корне &lt;code&gt;/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Дополнительный язык (EN) на &lt;code&gt;/en/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Для корректной работы нужен редирект с &lt;code&gt;/en/&lt;/code&gt; на &lt;code&gt;/en/home/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;В хедере размещается переключатель языка&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;преимущества-github-pages&#34;&gt;Преимущества GitHub Pages&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Бесплатный хостинг&lt;/li&gt;
+&lt;li&gt;Автоматический HTTPS&lt;/li&gt;
+&lt;li&gt;Простота деплоя через git push&lt;/li&gt;
+&lt;li&gt;Версионирование всех изменений&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

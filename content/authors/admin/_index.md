@@ -1,40 +1,32 @@
 ---
-title: "\u042f\u043d\u0430 \u041a\u0443\u043b\u0430\u0436\u0435\u043d\u043a\u043e\u0432\u0430"
-authors: ["admin"]
-superuser: true
-role: "\u0421\u0442\u0443\u0434\u0435\u043d\u0442\u043a\u0430 \u0433\u0440\u0443\u043f\u043f\u044b \u041d\u041a\u0410\u0431\u0434-03-25"
-organizations:
-  - name: "\u0420\u0423\u0414\u041d"
-    url: ""
-bio: "\u0421\u0442\u0443\u0434\u0435\u043d\u0442\u043a\u0430 \u0420\u0423\u0414\u041d, \u0438\u0437\u0443\u0447\u0430\u044e \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u044b\u0435 \u0438 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u043d\u0430\u0443\u043a\u0438"
+title: "Яна Кулаженкова"
+role: "Студентка группы НКАбд-03-25"
+avatar:
+  filename: avatar.jpg
+bio: "Студентка РУДН"
 interests:
-  - "\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u044b\u0435 \u0438 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u043d\u0430\u0443\u043a\u0438"
-  - "\u0417\u0430\u0440\u0443\u0431\u0435\u0436\u043d\u0430\u044f \u043b\u0438\u0442\u0435\u0440\u0430\u0442\u0443\u0440\u0430"
-  - "\u0428\u0430\u0445\u043c\u0430\u0442\u044b"
+  - "Компьютерные и информационные науки"
+  - "Зарубежная литература"
+  - "Шахматы"
 education:
   courses:
-    - course: "\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u044b\u0435 \u0438 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u043d\u0430\u0443\u043a\u0438"
-      institution: "\u0420\u0423\u0414\u041d"
+    - course: "Компьютерные и информационные науки"
+      institution: "РУДН"
       year: 2026
 social:
   - icon: orcid
-    icon_pack: ai
+    icon_pack: fab
     link: https://orcid.org/0009-0001-7261-1009
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/
-  - icon: researchgate
-    icon_pack: ai
-    link: https://www.researchgate.net/
-  - icon: envelope
-    icon_pack: fas
-    link: "mailto:kulazhenkow@gmail.com"
   - icon: github
     icon_pack: fab
     link: https://github.com/Yana-nka
-email: ""
-highlight_name: false
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:1032253497@rudn.ru
+superuser: true
 user_groups:
-  - Researchers
-  - Visitors
+  - Студенты
 ---

@@ -1,1 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My Academic Site</title><link>https://yana-nka.github.io/my-academic-site/en/</link><atom:link href="https://yana-nka.github.io/my-academic-site/en/index.xml" rel="self" type="application/rss+xml"/><description>My Academic Site</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-US</language><image><url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url><title>My Academic Site</title><link>https://yana-nka.github.io/my-academic-site/en/</link></image></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Academic Site</title>
+    <link>https://yana-nka.github.io/my-academic-site/en/</link>
+      <atom:link href="https://yana-nka.github.io/my-academic-site/en/index.xml" rel="self" type="application/rss+xml" />
+    <description>My Academic Site</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-US</language>
+    <image>
+      <url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url>
+      <title>My Academic Site</title>
+      <link>https://yana-nka.github.io/my-academic-site/en/</link>
+    </image>
+    
+  </channel>
+</rss>

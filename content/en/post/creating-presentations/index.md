@@ -1,38 +1,38 @@
 ---
 title: "Creating Presentations"
-subtitle: "Tools and rules for creating presentations"
+subtitle: "Инструменты и правила для создания презентаций"
 date: 2026-05-30
-summary: "How to create effective presentations"
+summary: "Как create effective presentations"
 tags: ["lab", "creating-presentations"]
 ---
 
-## Presentation Tools
+## Инструменты для создания презентаций
 
-- **PowerPoint / LibreOffice Impress** — classic editors
-- **Reveal.js** — HTML presentations built into Hugo
-- **LaTeX Beamer** — professional academic presentations
-- **Canva** — online service with templates
-- **Google Slides** — cloud tool
+- **PowerPoint / LibreOffice Impress** — классические редакторы
+- **Reveal.js** — HTML-presentations, встроенные в Hugo
+- **LaTeX Beamer** — профессиональные академические presentations
+- **Canva** — онлайн-сервис с шаблонами
+- **Google Slides** — облачный инструмент
 
-## Good Presentation Rules
+## Правила хорошей presentations
 
-### Text
-- No more than 10 lines per slide
-- Large font (at least 24pt)
-- Bullet points, not full sentences
+### Текст
+- Не более 10 строк на слайде
+- Крупный шрифт (не менее 24pt)
+- Краткие тезисы, не предложениями
 
-### Visual Design
-- Consistent style across all slides
-- Contrasting background and text colors
-- Use images and diagrams
-- Don't overuse animation
+### Визуальное оформление
+- Единый стиль для всех слайдов
+- Контрастные цвета фона и текста
+- Использовать изображения и диаграммы
+- Не злоупотреблять анимацией
 
-### Structure
-- Title slide (topic, author, date)
-- Table of contents slide
-- Main slides (5-7)
-- Conclusion slide
+### Структура
+- Титульный слайд (тема, автор, дата)
+- Слайд с содержанием
+- Основные слайды (5-7)
+- Заключительный слайд
 
-## Conclusion
+## Заключение
 
-A good presentation is when the audience follows your story, not reads your slides.
+Хорошая презентация — это когда слушатели следят за вашим рассказом, а не читают слайды.
