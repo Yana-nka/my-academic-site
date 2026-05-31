@@ -3,7 +3,7 @@ title: "Легковесные языки разметки. Markdown"
 subtitle: "Простой язык для форматирования текста"
 date: 2026-05-30
 summary: "Основы Markdown: синтаксис и применение"
-tags: ["lab", "markdown-lightweight"]
+tags: ["лабораторная", "markdown-разметка"]
 ---
 
 ## Что такое Markdown?

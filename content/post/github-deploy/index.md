@@ -3,7 +3,7 @@ title: "Размещение двуязычного сайта на GitHub"
 subtitle: "Как бесплатно разместить Hugo-сайт на GitHub Pages"
 date: 2026-05-30
 summary: "Пошаговое руководство по размещению двуязычного Hugo-сайта на GitHub Pages"
-tags: ["hugo", "github-pages", "deploy"]
+tags: ["hugo", "github-pages", "развертывание"]
 ---
 
 ## Подготовка

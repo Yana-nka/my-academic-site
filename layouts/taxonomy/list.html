@@ -1,0 +1,26 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+  {{ with .Content }}
+    <div class="article-style">{{ . }}</div>
+  {{ end }}
+
+  {{/* Filter pages by current language */}}
+  {{ $langPages := slice }}
+  {{ range .Pages }}
+    {{ if eq .Lang $.Lang }}
+      {{ $langPages = $langPages | append . }}
+    {{ end }}
+  {{ end }}
+
+  {{ $paginator := .Paginate $langPages }}
+  {{ range $index, $post := $paginator.Pages }}
+    {{ partial "functions/render_view" (dict "page" $ "item" . "view" ($.Params.view | default "compact") "index" $index) }}
+  {{end}}
+
+  {{ partial "pagination" . }}
+</div>
+
+{{- end -}}

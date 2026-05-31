@@ -48,41 +48,5 @@
 </description>
     </item>
     
-    <item>
-      <title>Языки разметки. LaTeX</title>
-      <link>https://yana-nka.github.io/my-academic-site/post/latex-markup/</link>
-      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://yana-nka.github.io/my-academic-site/post/latex-markup/</guid>
-      <description>&lt;h2 id=&#34;что-такое-latex&#34;&gt;Что такое LaTeX?&lt;/h2&gt;
-&lt;p&gt;LaTeX — это система вёрстки документов, основанная на языке TeX. Она широко используется в академической среде для подготовки научных публикаций, диссертаций и отчётов.&lt;/p&gt;
-&lt;h2 id=&#34;преимущества-latex&#34;&gt;Преимущества LaTeX&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Профессиональное качество вёрстки&lt;/li&gt;
-&lt;li&gt;Автоматическая нумерация формул, таблиц и рисунков&lt;/li&gt;
-&lt;li&gt;Удобная работа с библиографией (BibTeX)&lt;/li&gt;
-&lt;li&gt;Поддержка сложных математических формул&lt;/li&gt;
-&lt;li&gt;Версионирование через Git (текстовый формат)&lt;/li&gt;
-&lt;li&gt;Бесплатное и кроссплатформенное ПО&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;пример-документа&#34;&gt;Пример документа&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\documentclass&lt;/span&gt;{article}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\title&lt;/span&gt;{Моя первая статья}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\author&lt;/span&gt;{Яна Кулаженкова}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\begin&lt;/span&gt;{document}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\maketitle&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\section&lt;/span&gt;{Введение}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Текст введения...
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\end&lt;/span&gt;{document}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;формулы-в-latex&#34;&gt;Формулы в LaTeX&lt;/h2&gt;
-&lt;p&gt;LaTeX позволяет красиво оформлять математические формулы:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;$E = mc^2$ — встроенная формула&lt;/li&gt;
-&lt;li&gt;$$\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$ — выключенная формула&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
-&lt;p&gt;LaTeX — стандарт для научных публикаций. Освоив его, вы сможете профессионально оформлять любые документы.&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

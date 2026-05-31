@@ -1,0 +1,53 @@
+{{/* Overridden: Tag Cloud with language filtering */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $taxonomy := $block.Params.content.taxonomy | default "tags" }}
+{{ $fontSmall := $block.Params.design.font_size_min | default 0.8 }}
+{{ $fontBig := $block.Params.design.font_size_max | default 2.5 }}
+
+{{ $items_count := $block.Params.content.count }}
+{{ if eq $items_count 0 }}
+  {{ $items_count = 65535 }}
+{{ else }}
+  {{ $items_count = $items_count | default 20 }}
+{{ end }}
+
+{{/* Filter taxonomy terms by current language */}}
+{{ $all_tags := first $items_count (index site.Taxonomies $taxonomy).ByCount }}
+{{ $lang_tags := slice }}
+{{ range $all_tags }}
+  {{ $lang_pages := where .Pages "Lang" $.wcPage.Lang }}
+  {{ if gt (len $lang_pages) 0 }}
+    {{ $lang_tags = $lang_tags | append (dict "term" . "pages" $lang_pages) }}
+  {{ end }}
+{{ end }}
+
+{{ $columns := $block.Params.design.columns | default "2" }}
+
+<div class="col-12 {{if eq $columns "2"}}col-lg-8{{else}}text-center{{end}}">
+  {{ with $block.Content }}{{ . }}{{ end }}
+
+  {{ if gt (len $lang_tags) 0 }}
+
+    {{ $fontDelta := sub $fontBig $fontSmall }}
+    {{ $max := add (len (index $lang_tags 0).pages) 1 }}
+    {{ $min := len (index $lang_tags (sub (len $lang_tags) 1)).pages }}
+    {{ $delta := sub $max $min }}
+
+    <div class="tag-cloud">
+      {{ range $lang_tags }}
+        {{ $tagCount := len .pages }}
+        {{ $term := .term }}
+        {{ $minLog := math.Log $min }}
+        {{ $maxLog := math.Log $max }}
+        {{ $weight := 0.5 }}
+        {{ if gt $max $min }}
+          {{ $weight = div (sub (math.Log $tagCount) $minLog) (sub $maxLog $minLog) }}
+        {{ end }}
+        {{ $fontSize := add $fontSmall (mul (sub $fontBig $fontSmall) $weight) }}
+        <a href="{{ $term.Page.RelPermalink }}" style="font-size:{{ $fontSize }}rem">{{ $term.Page.Title }}</a>
+      {{ end }}
+    </div>
+  {{ end }}
+
+</div>

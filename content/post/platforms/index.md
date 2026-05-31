@@ -4,6 +4,7 @@ subtitle: "eLibrary, Google Scholar, ORCID"
 summary: "\u041e\u0431\u0437\u043e\u0440 \u043d\u0430\u0443\u0447\u043d\u044b\u0445 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c"
 date: 2026-05-30T00:00:00+03:00
 draft: false
+tags: ["лабораторная", "научные-платформы"]
 ---
 
 Важный шаг для исследователя.
