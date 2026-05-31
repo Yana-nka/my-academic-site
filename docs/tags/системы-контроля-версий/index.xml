@@ -6,12 +6,6 @@
       <atom:link href="https://yana-nka.github.io/my-academic-site/tags/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8F-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B9/index.xml" rel="self" type="application/rss+xml" />
     <description>системы-контроля-версий</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url>
-      <title>системы-контроля-версий</title>
-      <link>https://yana-nka.github.io/my-academic-site/tags/%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8F-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B9/</link>
-    </image>
-    
     <item>
       <title>Управление версиями. Git</title>
       <link>https://yana-nka.github.io/my-academic-site/post/version-control-git/</link>

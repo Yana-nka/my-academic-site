@@ -7,17 +7,22 @@
     <div class="article-style">{{ . }}</div>
   {{ end }}
 
-  {{/* Filter pages by current language */}}
-  {{ $langPages := slice }}
+  {{/* Filter pages by current language using RelPermalink */}}
+  {{  := "/en/" }}
+  {{ if not (in .RelPermalink "/en/") }}
+    {{  = "/" }}
+  {{ end }}
+  
+  {{  := slice }}
   {{ range .Pages }}
-    {{ if eq .Lang $.Lang }}
-      {{ $langPages = $langPages | append . }}
+    {{ if or (and (eq  "/en/") (in .RelPermalink "/en/")) (and (ne  "/en/") (not (in .RelPermalink "/en/"))) }}
+      {{  =  | append . }}
     {{ end }}
   {{ end }}
 
-  {{ $paginator := .Paginate $langPages }}
-  {{ range $index, $post := $paginator.Pages }}
-    {{ partial "functions/render_view" (dict "page" $ "item" . "view" ($.Params.view | default "compact") "index" $index) }}
+  {{  := .Paginate  }}
+  {{ range ,  := .Pages }}
+    {{ partial "functions/render_view" (dict "page" $ "item" . "view" ($.Params.view | default "compact") "index" ) }}
   {{end}}
 
   {{ partial "pagination" . }}
