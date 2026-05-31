@@ -17,113 +17,65 @@
       <link>https://yana-nka.github.io/my-academic-site/en/post/cicd/</link>
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
       <guid>https://yana-nka.github.io/my-academic-site/en/post/cicd/</guid>
-      <description>&lt;h2 id=&#34;что-такое-cicd&#34;&gt;Что такое CI/CD?&lt;/h2&gt;
-&lt;p&gt;CI/CD (Continuous Integration / Continuous Deployment) — это практика автоматизации сборки, тестирования и развертывания программного обеспечения.&lt;/p&gt;
-&lt;h2 id=&#34;continuous-integration-ci&#34;&gt;Continuous Integration (CI)&lt;/h2&gt;
-&lt;p&gt;CI — это практика, при которой разработчики часто (несколько раз в день) объединяют свои изменения в общий репозиторий. Каждое объединение автоматически собирается и тестируется.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Преимущества CI:&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;what-is-cicd&#34;&gt;What is CI/CD?&lt;/h2&gt;
+&lt;p&gt;CI/CD (Continuous Integration / Continuous Deployment) is a software development methodology that automates the building, testing, and deployment of applications.&lt;/p&gt;
+&lt;p&gt;Developers frequently (sometimes several times a day) merge their changes into a common repository. Each change is automatically built and tested. This allows for early detection of errors.&lt;/p&gt;
+&lt;h2 id=&#34;key-benefits&#34;&gt;Key Benefits&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Раннее обнаружение ошибок&lt;/li&gt;
-&lt;li&gt;Быстрая обратная связь&lt;/li&gt;
-&lt;li&gt;Снижение рисков при интеграции&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Early error detection&lt;/strong&gt; — problems are identified immediately after changes are made&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fast feedback&lt;/strong&gt; — developers know immediately if their code works&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reduced integration risks&lt;/strong&gt; — regular merging prevents large, complex conflicts&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automated deployment&lt;/strong&gt; — each successful change can be automatically deployed to a staging or production environment&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;continuous-deployment-cd&#34;&gt;Continuous Deployment (CD)&lt;/h2&gt;
-&lt;p&gt;CD — это практика автоматического развертывания каждого прошедшего тесты изменения в production-среду.&lt;/p&gt;
-&lt;h2 id=&#34;инструменты-cicd&#34;&gt;Инструменты CI/CD&lt;/h2&gt;
+&lt;h2 id=&#34;popular-cicd-services&#34;&gt;Popular CI/CD Services&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub Actions&lt;/strong&gt; — встроенный в GitHub CI/CD&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GitLab CI/CD&lt;/strong&gt; — в GitLab&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Jenkins&lt;/strong&gt; — популярный open-source инструмент&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Travis CI&lt;/strong&gt; — облачный CI-сервис&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitLab CI/CD&lt;/strong&gt; — built-in solution for GitLab repositories&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Actions&lt;/strong&gt; — popular tool integrated with GitHub&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jenkins&lt;/strong&gt; — flexible and widely used automation server&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CircleCI, Travis CI&lt;/strong&gt; — cloud services for teams&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
-&lt;p&gt;CI/CD помогает командам быстрее и надёжнее доставлять программное обеспечение пользователям.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;CI/CD helps teams deliver software faster, more reliably, and with higher quality. It is an essential part of modern DevOps practices.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Creating Presentations</title>
+      <title>How to Create Effective Presentations</title>
       <link>https://yana-nka.github.io/my-academic-site/en/post/creating-presentations/</link>
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
       <guid>https://yana-nka.github.io/my-academic-site/en/post/creating-presentations/</guid>
-      <description>&lt;h2 id=&#34;инструменты-для-создания-презентаций&#34;&gt;Инструменты для создания презентаций&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;presentation-tools&#34;&gt;Presentation Tools&lt;/h2&gt;
+&lt;p&gt;There are various tools for creating presentations:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;PowerPoint / LibreOffice Impress&lt;/strong&gt; — классические редакторы&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Reveal.js&lt;/strong&gt; — HTML-presentations, встроенные в Hugo&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;LaTeX Beamer&lt;/strong&gt; — профессиональные академические presentations&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Canva&lt;/strong&gt; — онлайн-сервис с шаблонами&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Google Slides&lt;/strong&gt; — облачный инструмент&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Classic editors&lt;/strong&gt; — PowerPoint, LibreOffice Impress, Keynote&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Online services&lt;/strong&gt; — Google Slides, Canva, Prezi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Professional tools&lt;/strong&gt; — LaTeX Beamer, reveal.js&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Academic standards&lt;/strong&gt; — specific templates for conferences&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;правила-хорошей-presentations&#34;&gt;Правила хорошей presentations&lt;/h2&gt;
-&lt;h3 id=&#34;текст&#34;&gt;Текст&lt;/h3&gt;
+&lt;h2 id=&#34;rules-for-good-presentations&#34;&gt;Rules for Good Presentations&lt;/h2&gt;
+&lt;h3 id=&#34;1-text-on-slides&#34;&gt;1. Text on Slides&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Не более 10 строк на слайде&lt;/li&gt;
-&lt;li&gt;Крупный шрифт (не менее 24pt)&lt;/li&gt;
-&lt;li&gt;Краткие тезисы, не предложениями&lt;/li&gt;
+&lt;li&gt;Large font (at least 24pt)&lt;/li&gt;
+&lt;li&gt;Minimal text — short bullet points&lt;/li&gt;
+&lt;li&gt;No more than 10 lines per slide&lt;/li&gt;
+&lt;li&gt;Key messages only&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;визуальное-оформление&#34;&gt;Визуальное оформление&lt;/h3&gt;
+&lt;h3 id=&#34;2-visual-design&#34;&gt;2. Visual Design&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Единый стиль для всех слайдов&lt;/li&gt;
-&lt;li&gt;Контрастные цвета фона и текста&lt;/li&gt;
-&lt;li&gt;Использовать изображения и диаграммы&lt;/li&gt;
-&lt;li&gt;Не злоупотреблять анимацией&lt;/li&gt;
+&lt;li&gt;Consistent style across all slides&lt;/li&gt;
+&lt;li&gt;Contrasting colors for readability&lt;/li&gt;
+&lt;li&gt;Use diagrams, charts, and images&lt;/li&gt;
+&lt;li&gt;Avoid excessive animations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;структура&#34;&gt;Структура&lt;/h3&gt;
+&lt;h3 id=&#34;3-structure&#34;&gt;3. Structure&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Титульный слайд (тема, автор, дата)&lt;/li&gt;
-&lt;li&gt;Слайд с содержанием&lt;/li&gt;
-&lt;li&gt;Основные слайды (5-7)&lt;/li&gt;
-&lt;li&gt;Заключительный слайд&lt;/li&gt;
+&lt;li&gt;Title slide with the topic, author, and date&lt;/li&gt;
+&lt;li&gt;Overview — main points you will cover&lt;/li&gt;
+&lt;li&gt;Content slides with supporting material&lt;/li&gt;
+&lt;li&gt;Conclusion slide summarizing key takeaways&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
-&lt;p&gt;Хорошая презентация — это когда слушатели следят за вашим рассказом, а не читают слайды.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Deploying a Bilingual Website on GitHub</title>
-      <link>https://yana-nka.github.io/my-academic-site/en/post/github-deploy/</link>
-      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://yana-nka.github.io/my-academic-site/en/post/github-deploy/</guid>
-      <description>&lt;h2 id=&#34;подготовка&#34;&gt;Подготовка&lt;/h2&gt;
-&lt;p&gt;Для размещения сайта на GitHub Pages понадобится:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Репозиторий на GitHub&lt;/li&gt;
-&lt;li&gt;Hugo-сайт, готовый к сборке&lt;/li&gt;
-&lt;li&gt;Базовые навыки работы с Git&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;сборка-и-деплой&#34;&gt;Сборка и деплой&lt;/h2&gt;
-&lt;p&gt;Процесс деплоя состоит из нескольких шагов:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Установить Hugo и создать сайт&lt;/li&gt;
-&lt;li&gt;Настроить конфигурацию и двуязычность&lt;/li&gt;
-&lt;li&gt;Собрать сайт: &lt;code&gt;hugo --gc --minify&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Скопировать в docs/: &lt;code&gt;cp -r public docs&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Добавить &lt;code&gt;.nojekyll&lt;/code&gt;: &lt;code&gt;touch docs/.nojekyll&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Закоммитить и запушить: &lt;code&gt;git push origin main&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;настройка-github-pages&#34;&gt;Настройка GitHub Pages&lt;/h2&gt;
-&lt;p&gt;В настройках репозитория (Settings → Pages):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Source: &lt;strong&gt;Deploy from a branch&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Branch: &lt;strong&gt;main&lt;/strong&gt;, folder: &lt;strong&gt;/docs&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;После этого сайт будет доступен по адресу: &lt;code&gt;https://username.github.io/my-academic-site/&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;особенности-bilingual-сайта&#34;&gt;Особенности bilingual сайта&lt;/h2&gt;
-&lt;p&gt;При использовании двух языков:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Основной язык (RU) размещается на корне &lt;code&gt;/&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Дополнительный язык (EN) на &lt;code&gt;/en/&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Для корректной работы нужен редирект с &lt;code&gt;/en/&lt;/code&gt; на &lt;code&gt;/en/home/&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;В хедере размещается переключатель языка&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;преимущества-github-pages&#34;&gt;Преимущества GitHub Pages&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Бесплатный хостинг&lt;/li&gt;
-&lt;li&gt;Автоматический HTTPS&lt;/li&gt;
-&lt;li&gt;Простота деплоя через git push&lt;/li&gt;
-&lt;li&gt;Версионирование всех изменений&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
+&lt;p&gt;A good presentation guides the audience through your story. Slides should support your narrative, not replace it. Listeners should follow your spoken explanation, not read from the screen.&lt;/p&gt;
 </description>
     </item>
     
@@ -754,6 +706,14 @@
       <link>https://yana-nka.github.io/my-academic-site/en/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://yana-nka.github.io/my-academic-site/en/home/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yana-nka.github.io/my-academic-site/en/post/github-deploy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/en/post/github-deploy/</guid>
       <description></description>
     </item>
     

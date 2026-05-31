@@ -13,41 +13,42 @@
     </image>
     
     <item>
-      <title>Creating Presentations</title>
+      <title>How to Create Effective Presentations</title>
       <link>https://yana-nka.github.io/my-academic-site/en/post/creating-presentations/</link>
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
       <guid>https://yana-nka.github.io/my-academic-site/en/post/creating-presentations/</guid>
-      <description>&lt;h2 id=&#34;инструменты-для-создания-презентаций&#34;&gt;Инструменты для создания презентаций&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;presentation-tools&#34;&gt;Presentation Tools&lt;/h2&gt;
+&lt;p&gt;There are various tools for creating presentations:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;PowerPoint / LibreOffice Impress&lt;/strong&gt; — классические редакторы&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Reveal.js&lt;/strong&gt; — HTML-presentations, встроенные в Hugo&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;LaTeX Beamer&lt;/strong&gt; — профессиональные академические presentations&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Canva&lt;/strong&gt; — онлайн-сервис с шаблонами&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Google Slides&lt;/strong&gt; — облачный инструмент&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Classic editors&lt;/strong&gt; — PowerPoint, LibreOffice Impress, Keynote&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Online services&lt;/strong&gt; — Google Slides, Canva, Prezi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Professional tools&lt;/strong&gt; — LaTeX Beamer, reveal.js&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Academic standards&lt;/strong&gt; — specific templates for conferences&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;правила-хорошей-presentations&#34;&gt;Правила хорошей presentations&lt;/h2&gt;
-&lt;h3 id=&#34;текст&#34;&gt;Текст&lt;/h3&gt;
+&lt;h2 id=&#34;rules-for-good-presentations&#34;&gt;Rules for Good Presentations&lt;/h2&gt;
+&lt;h3 id=&#34;1-text-on-slides&#34;&gt;1. Text on Slides&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Не более 10 строк на слайде&lt;/li&gt;
-&lt;li&gt;Крупный шрифт (не менее 24pt)&lt;/li&gt;
-&lt;li&gt;Краткие тезисы, не предложениями&lt;/li&gt;
+&lt;li&gt;Large font (at least 24pt)&lt;/li&gt;
+&lt;li&gt;Minimal text — short bullet points&lt;/li&gt;
+&lt;li&gt;No more than 10 lines per slide&lt;/li&gt;
+&lt;li&gt;Key messages only&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;визуальное-оформление&#34;&gt;Визуальное оформление&lt;/h3&gt;
+&lt;h3 id=&#34;2-visual-design&#34;&gt;2. Visual Design&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Единый стиль для всех слайдов&lt;/li&gt;
-&lt;li&gt;Контрастные цвета фона и текста&lt;/li&gt;
-&lt;li&gt;Использовать изображения и диаграммы&lt;/li&gt;
-&lt;li&gt;Не злоупотреблять анимацией&lt;/li&gt;
+&lt;li&gt;Consistent style across all slides&lt;/li&gt;
+&lt;li&gt;Contrasting colors for readability&lt;/li&gt;
+&lt;li&gt;Use diagrams, charts, and images&lt;/li&gt;
+&lt;li&gt;Avoid excessive animations&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;структура&#34;&gt;Структура&lt;/h3&gt;
+&lt;h3 id=&#34;3-structure&#34;&gt;3. Structure&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Титульный слайд (тема, автор, дата)&lt;/li&gt;
-&lt;li&gt;Слайд с содержанием&lt;/li&gt;
-&lt;li&gt;Основные слайды (5-7)&lt;/li&gt;
-&lt;li&gt;Заключительный слайд&lt;/li&gt;
+&lt;li&gt;Title slide with the topic, author, and date&lt;/li&gt;
+&lt;li&gt;Overview — main points you will cover&lt;/li&gt;
+&lt;li&gt;Content slides with supporting material&lt;/li&gt;
+&lt;li&gt;Conclusion slide summarizing key takeaways&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
-&lt;p&gt;Хорошая презентация — это когда слушатели следят за вашим рассказом, а не читают слайды.&lt;/p&gt;
+&lt;h2 id=&#34;tips&#34;&gt;Tips&lt;/h2&gt;
+&lt;p&gt;A good presentation guides the audience through your story. Slides should support your narrative, not replace it. Listeners should follow your spoken explanation, not read from the screen.&lt;/p&gt;
 </description>
     </item>
     

@@ -1,38 +1,44 @@
 ---
-title: "Creating Presentations"
-subtitle: "Инструменты и правила для создания презентаций"
+title: "How to Create Effective Presentations"
+subtitle: "Rules, tools, and structure of a good presentation"
 date: 2026-05-30
-summary: "Как create effective presentations"
+summary: "Guidelines for creating effective academic presentations"
 tags: ["lab", "creating-presentations"]
 ---
 
-## Инструменты для создания презентаций
+## Presentation Tools
 
-- **PowerPoint / LibreOffice Impress** — классические редакторы
-- **Reveal.js** — HTML-presentations, встроенные в Hugo
-- **LaTeX Beamer** — профессиональные академические presentations
-- **Canva** — онлайн-сервис с шаблонами
-- **Google Slides** — облачный инструмент
+There are various tools for creating presentations:
 
-## Правила хорошей presentations
+- **Classic editors** — PowerPoint, LibreOffice Impress, Keynote
+- **Online services** — Google Slides, Canva, Prezi
+- **Professional tools** — LaTeX Beamer, reveal.js
+- **Academic standards** — specific templates for conferences
 
-### Текст
-- Не более 10 строк на слайде
-- Крупный шрифт (не менее 24pt)
-- Краткие тезисы, не предложениями
+## Rules for Good Presentations
 
-### Визуальное оформление
-- Единый стиль для всех слайдов
-- Контрастные цвета фона и текста
-- Использовать изображения и диаграммы
-- Не злоупотреблять анимацией
+### 1. Text on Slides
 
-### Структура
-- Титульный слайд (тема, автор, дата)
-- Слайд с содержанием
-- Основные слайды (5-7)
-- Заключительный слайд
+- Large font (at least 24pt)
+- Minimal text — short bullet points
+- No more than 10 lines per slide
+- Key messages only
 
-## Заключение
+### 2. Visual Design
 
-Хорошая презентация — это когда слушатели следят за вашим рассказом, а не читают слайды.
+- Consistent style across all slides
+- Contrasting colors for readability
+- Use diagrams, charts, and images
+- Avoid excessive animations
+
+### 3. Structure
+
+- Title slide with the topic, author, and date
+- Overview — main points you will cover
+- Content slides with supporting material
+- Conclusion slide summarizing key takeaways
+
+## Tips
+
+A good presentation guides the audience through your story. Slides should support your narrative, not replace it. Listeners should follow your spoken explanation, not read from the screen.
+
