@@ -1,0 +1,13 @@
+/* Custom styles */
+.home-section {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.home-section:not(:first-of-type) {
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+.dark .home-section:not(:first-of-type) {
+  border-top: 1px solid rgba(255,255,255,0.08);
+}

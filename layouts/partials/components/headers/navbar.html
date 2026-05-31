@@ -99,6 +99,9 @@
           {{ if eq .Identifier "posts" }}{{ $menuName = "Посты" }}{{ end }}
           {{ if eq .Identifier "tags" }}{{ $menuName = "Теги" }}{{ end }}
         {{ end }}
+
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
               {{- .Pre -}}<span>{{ $menuName | safeHTML }}</span>{{- .Post -}}
             </a>
           </li>

@@ -1,3 +1,25 @@
+<style>
+/* Section spacing */
+.home-section {
+  padding-top: 50px !important;
+  padding-bottom: 40px !important;
+}
+
+/* Subtle separators */
+.home-section + .home-section {
+  border-top: 1px solid rgba(0,0,0,0.06);
+}
+
+.dark .home-section + .home-section {
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+</style>
+
 <script>
 (function(){
   function t(){
