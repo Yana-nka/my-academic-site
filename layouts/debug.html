@@ -1,0 +1,9 @@
+{{ define "main" }}
+<p>GetPage "/en/home": {{ site.GetPage "/en/home" }}</p>
+<p>GetPage "/home": {{ site.GetPage "/home" }}</p>
+<p>GetPage "en": {{ site.GetPage "en" }}</p>
+<p>AllTranslations: {{ site.Home.AllTranslations }}</p>
+{{ range site.Home.AllTranslations }}
+  <li>{{ .RelPermalink }} - {{ .Lang }}</li>
+{{ end }}
+{{ end }}
