@@ -7,21 +7,21 @@
     <div class="article-style">{{ . }}</div>
   {{ end }}
 
-  {{-  := "/en/" -}}
+  {{- $langPath := "/en/" -}}
   {{- if not (in .RelPermalink "/en/") -}}
-    {{-  = "/" -}}
+    {{- $langPath = "/" -}}
   {{- end -}}
-  
-  {{-  := slice -}}
+
+  {{- $langPages := slice -}}
   {{- range .Pages -}}
-    {{- if or (and (eq  "/en/") (in .RelPermalink "/en/")) (and (ne  "/en/") (not (in .RelPermalink "/en/"))) -}}
-      {{-  =  | append . -}}
+    {{- if or (and (eq $langPath "/en/") (in .RelPermalink "/en/")) (and (ne $langPath "/en/") (not (in .RelPermalink "/en/"))) -}}
+      {{- $langPages = $langPages | append . -}}
     {{- end -}}
   {{- end -}}
 
-  {{  := .Paginate  }}
-  {{ range ,  := .Pages }}
-    {{ partial "functions/render_view" (dict "page" $ "item" . "view" ($.Params.view | default "compact") "index" ) }}
+  {{ $paginator := .Paginate $langPages }}
+  {{ range $index, $post := $paginator.Pages }}
+    {{ partial "functions/render_view" (dict "page" $ "item" . "view" ($.Params.view | default "compact") "index" $index) }}
   {{end}}
 
   {{ partial "pagination" . }}

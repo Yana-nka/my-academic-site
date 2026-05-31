@@ -7,27 +7,32 @@
     <div class="article-style">{{ . }}</div>
   {{ end }}
 
-  {{-  := "/en/" -}}
+  {{- $langPath := "/en/" -}}
   {{- if not (in .RelPermalink "/en/") -}}
-    {{-  = "/" -}}
+    {{- $langPath = "/" -}}
   {{- end -}}
 
-  {{-  := slice -}}
-  {{- range .Pages -}}
-    {{-  := slice -}}
-    {{- range .Pages -}}
-      {{- if or (and (eq  "/en/") (in .RelPermalink "/en/")) (and (ne  "/en/") (not (in .RelPermalink "/en/"))) -}}
-        {{-  =  | append . -}}
+  {{- $termPages := slice -}}
+  {{- range $name, $taxonomy := .Site.Taxonomies.tags -}}
+    {{- $hasLangPage := false -}}
+    {{- range $p := $taxonomy.Pages -}}
+      {{- if and (eq $langPath "/en/") (in $p.RelPermalink "/en/") -}}
+        {{- $hasLangPage = true -}}
+      {{- end -}}
+      {{- if and (ne $langPath "/en/") (not (in $p.RelPermalink "/en/")) -}}
+        {{- $hasLangPage = true -}}
       {{- end -}}
     {{- end -}}
-    {{- if gt (len ) 0 -}}
-      {{-  =  | append . -}}
+    {{- if $hasLangPage -}}
+      {{- with $name -}}
+        {{- $termPages = $termPages | append (index $.Site.Taxonomies.tags (string .)).Page -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 
-  {{ if gt (len ) 0 }}
+  {{ if gt (len $termPages) 0 }}
     <div class="tag-cloud">
-      {{ range  }}
+      {{ range $termPages }}
         <a href="{{ .RelPermalink }}" class="tag-cloud-link">{{ .Title }}</a>
       {{ end }}
     </div>

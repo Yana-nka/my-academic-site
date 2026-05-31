@@ -6,6 +6,12 @@
       <atom:link href="https://yana-nka.github.io/my-academic-site/tags/%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D0%BE%D0%B5-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/index.xml" rel="self" type="application/rss+xml" />
     <description>научное-программирование</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0300</lastBuildDate>
+    <image>
+      <url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url>
+      <title>научное-программирование</title>
+      <link>https://yana-nka.github.io/my-academic-site/tags/%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D0%BE%D0%B5-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</link>
+    </image>
+    
     <item>
       <title>Языки научного программирования</title>
       <link>https://yana-nka.github.io/my-academic-site/post/scientific-programming/</link>

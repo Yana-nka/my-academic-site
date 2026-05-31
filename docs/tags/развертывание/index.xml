@@ -6,6 +6,12 @@
       <atom:link href="https://yana-nka.github.io/my-academic-site/tags/%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/index.xml" rel="self" type="application/rss+xml" />
     <description>развертывание</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url>
+      <title>развертывание</title>
+      <link>https://yana-nka.github.io/my-academic-site/tags/%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</link>
+    </image>
+    
     <item>
       <title>Размещение двуязычного сайта на GitHub</title>
       <link>https://yana-nka.github.io/my-academic-site/post/github-deploy/</link>
