@@ -143,13 +143,15 @@
 
       {{ if and (site.IsMultiLingual) (site.Params.header.navbar.show_translations | default true) }}
       <li class="nav-item">
-        {{ $otherLink := site.GetPage "/" }}
         {{ $otherLabel := "EN" }}
+        {{ $otherHref := "/" | relLangURL }}
         {{ if in $.RelPermalink "/en/" }}
-          {{ $otherLink = site.GetPage "/" }}
           {{ $otherLabel = "RU" }}
+          {{ $otherHref = "/" | relLangURL }}
+        {{ else }}
+          {{ $otherHref = "/en/home/" | relLangURL }}
         {{ end }}
-        <a class="nav-link" href="{{ $otherLink.RelPermalink }}" aria-label="Language switch">
+        <a class="nav-link" href="{{ $otherHref }}" aria-label="Language switch">
           <i class="fas fa-globe" aria-hidden="true"></i>
           <span class="nav-link-language">{{ $otherLabel }}</span>
         </a>
