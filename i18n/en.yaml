@@ -12,3 +12,69 @@
   translation: Home
 - id: tags
   translation: Tags
+- id: interests
+  translation: Interests
+- id: education
+  translation: Education
+- id: more_posts
+  translation: See all articles
+- id: read_more
+  translation: Read more
+- id: updated
+  translation: Updated
+- id: posted
+  translation: Posted
+- id: minute_read
+  translation: min read
+- id: minutes_read
+  translation: min read
+- id: date_format
+  translation: January 2, 2006
+- id: date_format_month
+  translation: January
+- id: date_format_year
+  translation: '2006'
+- id: page_not_found
+  translation: Page not found
+- id: page_does_not_exist
+  translation: The page you are looking for does not exist.
+- id: powered_by
+  translation: Powered by
+- id: theme_by
+  translation: Theme by
+- id: languages
+  translation: Languages
+- id: certificate
+  translation: View certificate
+- id: section_pub
+  translation: Publications
+- id: btn_book
+  translation: Book
+- id: btn_cite
+  translation: Cite
+- id: btn_share
+  translation: Share
+- id: btn_pdf
+  translation: PDF
+- id: btn_slides
+  translation: Slides
+- id: btn_code
+  translation: Code
+- id: btn_source
+  translation: Source Document
+- id: btn_video
+  translation: Video
+- id: search.placeholder
+  translation: Search...
+- id: search.no_results
+  translation: No results found
+- id: search.results_for
+  translation: Results for
+- id: theme_selector
+  translation: Display
+- id: theme_light
+  translation: Light
+- id: theme_dark
+  translation: Dark
+- id: theme_auto
+  translation: Automatic
