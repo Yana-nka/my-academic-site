@@ -1,0 +1,29 @@
+main:
+  - identifier: home
+    name: "Home"
+    url: "/en/"
+    weight: 10
+  - identifier: about
+    name: "About"
+    url: "/en/#about"
+    weight: 20
+  - identifier: skills
+    name: "Skills"
+    url: "/en/#skills"
+    weight: 30
+  - identifier: experience
+    name: "Experience"
+    url: "/en/#experience"
+    weight: 40
+  - identifier: accomplishments
+    name: "Accomplishments"
+    url: "/en/#accomplishments"
+    weight: 50
+  - identifier: posts
+    name: "Posts"
+    url: "/en/post/"
+    weight: 60
+  - identifier: tags
+    name: "Tags"
+    url: "/en/tags/"
+    weight: 70
