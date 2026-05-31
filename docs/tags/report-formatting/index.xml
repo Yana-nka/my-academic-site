@@ -13,6 +13,35 @@
     </image>
     
     <item>
+      <title>Report Formatting</title>
+      <link>https://yana-nka.github.io/my-academic-site/en/post/report-formatting/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/en/post/report-formatting/</guid>
+      <description>&lt;h2 id=&#34;структура-отчёта&#34;&gt;Структура отчёта&lt;/h2&gt;
+&lt;p&gt;Любой научный или технический отчёт должен содержать следующие разделы:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Титульный лист&lt;/strong&gt; — название работы, автор, дата&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Introduction&lt;/strong&gt; — цель работы, актуальность&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Основная часть&lt;/strong&gt; — описание выполнения работы&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Результаты&lt;/strong&gt; — полученные данные и их анализ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Заключение&lt;/strong&gt; — выводы по работе&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Список литературы&lt;/strong&gt; — использованные источники&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;требования-к-оформлению&#34;&gt;Требования к оформлению&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Шрифт: Times New Roman, 14pt&lt;/li&gt;
+&lt;li&gt;Межстрочный интервал: 1.5&lt;/li&gt;
+&lt;li&gt;Поля: левое 30мм, правое 10мм, верхнее/нижнее 20мм&lt;/li&gt;
+&lt;li&gt;Нумерация страниц: снизу по центру&lt;/li&gt;
+&lt;li&gt;Рисунки и таблицы должны иметь подписи&lt;/li&gt;
+&lt;li&gt;Формулы нумеруются в круглых скобках&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
+&lt;p&gt;Правильное оформление отчёта — важная часть учебного процесса. Оно приучает к аккуратности и дисциплине.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Оформление отчёта</title>
       <link>https://yana-nka.github.io/my-academic-site/post/report-formatting/</link>
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
