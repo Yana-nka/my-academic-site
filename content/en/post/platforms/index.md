@@ -1,9 +1,33 @@
 ---
-title: "\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u043d\u0430 \u043d\u0430\u0443\u0447\u043d\u044b\u0445 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430\u0445"
+title: "Registration on Scientific Platforms"
 subtitle: "eLibrary, Google Scholar, ORCID"
-summary: "\u041e\u0431\u0437\u043e\u0440 \u043d\u0430\u0443\u0447\u043d\u044b\u0445 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c"
+summary: "Overview of scientific platforms for researchers"
 date: 2026-05-30T00:00:00+03:00
 draft: false
+tags: ["lab", "platforms"]
 ---
 
-Важный шаг для исследователя.
+## Registration on Scientific Platforms
+
+Scientific platforms help researchers share their work, track citations, and collaborate globally.
+
+### Key Platforms
+
+**eLibrary** — Russian scientific electronic library for publications and citation tracking.
+
+**Google Scholar** — freely accessible web search engine for scholarly literature across disciplines.
+
+**ORCID** — persistent digital identifier that distinguishes you from other researchers.
+
+### Why Register
+
+- Increase visibility of your research
+- Track citations and metrics
+- Connect with other researchers
+- Simplify manuscript submission
+
+### Steps
+
+1. Create an ORCID iD
+2. Set up a Google Scholar profile
+3. Register on relevant platforms for your field

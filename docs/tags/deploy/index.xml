@@ -106,5 +106,38 @@
 </description>
     </item>
     
+    <item>
+      <title>Week 4</title>
+      <link>https://yana-nka.github.io/my-academic-site/en/post/week4/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0300</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/en/post/week4/</guid>
+      <description>&lt;h2 id=&#34;week-4--individual-project&#34;&gt;Week 4 — Individual Project&lt;/h2&gt;
+&lt;p&gt;This week focuses on creating a multilingual academic website using Hugo and GitHub Pages.&lt;/p&gt;
+&lt;h3 id=&#34;goals&#34;&gt;Goals&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Set up a bilingual (RU/EN) Hugo site&lt;/li&gt;
+&lt;li&gt;Configure domain and hosting&lt;/li&gt;
+&lt;li&gt;Add proper navigation and content structure&lt;/li&gt;
+&lt;li&gt;Deploy via GitHub Pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tools-used&#34;&gt;Tools Used&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hugo&lt;/strong&gt; — static site generator&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wowchemy&lt;/strong&gt; — academic theme&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt; — hosting&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Git&lt;/strong&gt; — version control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;p&gt;A fully functional bilingual academic website with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;About section in both languages&lt;/li&gt;
+&lt;li&gt;Skills, experience, and accomplishments&lt;/li&gt;
+&lt;li&gt;Blog posts in RU and EN&lt;/li&gt;
+&lt;li&gt;Language switching via globe icon&lt;/li&gt;
+&lt;li&gt;Responsive design&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

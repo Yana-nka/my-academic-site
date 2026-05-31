@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bibliography | Мой академический сайт</title>
+    <link>https://yana-nka.github.io/my-academic-site/tags/bibliography/</link>
+      <atom:link href="https://yana-nka.github.io/my-academic-site/tags/bibliography/index.xml" rel="self" type="application/rss+xml" />
+    <description>bibliography</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0300</lastBuildDate>
+    <image>
+      <url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url>
+      <title>bibliography</title>
+      <link>https://yana-nka.github.io/my-academic-site/tags/bibliography/</link>
+    </image>
+    
+    <item>
+      <title>Working with Bibliography</title>
+      <link>https://yana-nka.github.io/my-academic-site/en/post/bibliography/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0300</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/en/post/bibliography/</guid>
+      <description>&lt;h2 id=&#34;working-with-bibliography&#34;&gt;Working with Bibliography&lt;/h2&gt;
+&lt;p&gt;Bibliographic management is an essential skill for any researcher. This guide covers the basics of working with references, citations, and bibliography in academic writing.&lt;/p&gt;
+&lt;h3 id=&#34;why-bibliography-matters&#34;&gt;Why Bibliography Matters&lt;/h3&gt;
+&lt;p&gt;Proper citation gives credit to original authors, allows readers to trace sources, and demonstrates the scholarly foundation of your work.&lt;/p&gt;
+&lt;h3 id=&#34;reference-management-tools&#34;&gt;Reference Management Tools&lt;/h3&gt;
+&lt;p&gt;Several tools can help manage references:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zotero&lt;/strong&gt; — open-source reference manager&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mendeley&lt;/strong&gt; — reference manager with PDF organization&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;EndNote&lt;/strong&gt; — comprehensive reference management suite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;citation-styles&#34;&gt;Citation Styles&lt;/h3&gt;
+&lt;p&gt;Common styles include APA, MLA, Chicago, and IEEE. Choose the style appropriate for your field of study.&lt;/p&gt;
+&lt;h3 id=&#34;tips&#34;&gt;Tips&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Keep references organized from the start&lt;/li&gt;
+&lt;li&gt;Use consistent formatting&lt;/li&gt;
+&lt;li&gt;Verify all citations before submission&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

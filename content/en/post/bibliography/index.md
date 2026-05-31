@@ -1,9 +1,34 @@
 ---
-title: "\u0420\u0430\u0431\u043e\u0442\u0430 \u0441 \u0431\u0438\u0431\u043b\u0438\u043e\u0433\u0440\u0430\u0444\u0438\u0435\u0439"
-subtitle: "\u041e\u0441\u043d\u043e\u0432\u044b \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0441\u0441\u044b\u043b\u043a\u0430\u043c\u0438"
-summary: "\u041a\u0430\u043a \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u0441 \u0431\u0438\u0431\u043b\u0438\u043e\u0433\u0440\u0430\u0444\u0438\u0435\u0439"
+title: "Working with Bibliography"
+subtitle: "Citation Management Basics"
+summary: "How to work with bibliography management"
 date: 2026-05-30T00:00:00+03:00
 draft: false
+tags: ["lab", "bibliography"]
 ---
 
-НеотъемлеMay часть исследования.
+## Working with Bibliography
+
+Bibliographic management is an essential skill for any researcher. This guide covers the basics of working with references, citations, and bibliography in academic writing.
+
+### Why Bibliography Matters
+
+Proper citation gives credit to original authors, allows readers to trace sources, and demonstrates the scholarly foundation of your work.
+
+### Reference Management Tools
+
+Several tools can help manage references:
+
+- **Zotero** — open-source reference manager
+- **Mendeley** — reference manager with PDF organization
+- **EndNote** — comprehensive reference management suite
+
+### Citation Styles
+
+Common styles include APA, MLA, Chicago, and IEEE. Choose the style appropriate for your field of study.
+
+### Tips
+
+- Keep references organized from the start
+- Use consistent formatting
+- Verify all citations before submission

@@ -1,9 +1,34 @@
 ---
-title: "\u042f\u0437\u044b\u043a\u0438 \u043d\u0430\u0443\u0447\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f"
+title: "Scientific Programming Languages"
 subtitle: "Python, R, Julia"
-summary: "\u041e\u0431\u0437\u043e\u0440 \u044f\u0437\u044b\u043a\u043e\u0432"
+summary: "Overview of scientific programming languages"
 date: 2026-05-30T00:00:00+03:00
 draft: false
+tags: ["lab", "scientific-programming"]
 ---
 
-Python — самый популярный.
+## Scientific Programming Languages
+
+Scientific computing relies on specialized programming languages that offer powerful libraries for data analysis, visualization, and computation.
+
+### Python
+
+Python is the most popular language for scientific computing with libraries such as:
+
+- **NumPy** — numerical computing
+- **SciPy** — scientific computing
+- **Matplotlib** — data visualization
+- **Pandas** — data manipulation
+- **scikit-learn** — machine learning
+
+### R
+
+R is specialized for statistical computing and graphics, widely used in academia and research.
+
+### Julia
+
+Julia combines high performance with ease of use, designed specifically for scientific and numerical computing.
+
+### Choosing a Language
+
+Consider your field, existing ecosystem, and performance requirements when selecting a scientific programming language.

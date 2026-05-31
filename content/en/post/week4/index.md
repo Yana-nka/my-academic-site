@@ -1,9 +1,36 @@
 ---
-title: "\u0427\u0435\u0442\u0432\u0435\u0440\u0442\u0430\u044f \u043d\u0435\u0434\u0435\u043b\u044f"
-subtitle: "\u0418\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u043f\u0440\u043e\u0435\u043a\u0442"
-summary: "\u041c\u043d\u043e\u0433\u043e\u044f\u0437\u044b\u0447\u043d\u043e\u0441\u0442\u044c"
+title: "Week 4"
+subtitle: "Individual Project"
+summary: "Multilingual website development"
 date: 2026-05-30T00:00:00+03:00
 draft: false
+tags: ["lab", "deploy", "hugo"]
 ---
 
-Расширение сайта.
+## Week 4 — Individual Project
+
+This week focuses on creating a multilingual academic website using Hugo and GitHub Pages.
+
+### Goals
+
+- Set up a bilingual (RU/EN) Hugo site
+- Configure domain and hosting
+- Add proper navigation and content structure
+- Deploy via GitHub Pages
+
+### Tools Used
+
+- **Hugo** — static site generator
+- **Wowchemy** — academic theme
+- **GitHub Pages** — hosting
+- **Git** — version control
+
+### Results
+
+A fully functional bilingual academic website with:
+
+- About section in both languages
+- Skills, experience, and accomplishments
+- Blog posts in RU and EN
+- Language switching via globe icon
+- Responsive design
