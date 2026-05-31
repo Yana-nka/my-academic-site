@@ -142,23 +142,17 @@
 
 
       {{ if and (site.IsMultiLingual) (site.Params.header.navbar.show_translations | default true) }}
-      <li class="nav-item dropdown i18n-dropdown">
-        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="{{ i18n "languages" | default "Languages" }}">
+      <li class="nav-item">
+        {{ $otherLink := site.GetPage "/" }}
+        {{ $otherLabel := "EN" }}
+        {{ if in $.RelPermalink "/en/" }}
+          {{ $otherLink = site.GetPage "/" }}
+          {{ $otherLabel = "RU" }}
+        {{ end }}
+        <a class="nav-link" href="{{ $otherLink.RelPermalink }}" aria-label="Language switch">
           <i class="fas fa-globe" aria-hidden="true"></i>
+          <span class="nav-link-language">{{ $otherLabel }}</span>
         </a>
-        <div class="dropdown-menu">
-          <div class="dropdown-item dropdown-item-active">
-            <span>{{ site.Language.LanguageName }}</span>
-          </div>
-          {{ range site.Home.AllTranslations }}
-            {{ if ne $.Lang .Lang }}
-              {{ $langCode := index site.Data.i18n.languages .Lang | default .Lang }}
-              <a class="dropdown-item" href="{{ .RelPermalink }}">
-                <span>{{ $langCode }}</span>
-              </a>
-            {{ end }}
-          {{ end }}
-        </div>
       </li>
       {{ end }}
     </ul>
