@@ -1,6 +1,9 @@
 ---
-title: Home
 type: widget_page
-headless: false
+widgets:
+  - header
+  - about
+  - skills
+  - experience
+  - posts
 ---
-
