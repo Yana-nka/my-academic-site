@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>version-control-systems | Мой академический сайт</title>
+    <link>https://yana-nka.github.io/my-academic-site/tags/version-control-systems/</link>
+      <atom:link href="https://yana-nka.github.io/my-academic-site/tags/version-control-systems/index.xml" rel="self" type="application/rss+xml" />
+    <description>version-control-systems</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url>
+      <title>version-control-systems</title>
+      <link>https://yana-nka.github.io/my-academic-site/tags/version-control-systems/</link>
+    </image>
+    
+    <item>
+      <title>Introduction to Version Control with Git</title>
+      <link>https://yana-nka.github.io/my-academic-site/en/post/version-control-git/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/en/post/version-control-git/</guid>
+      <description>&lt;h2 id=&#34;what-is-git&#34;&gt;What is Git?&lt;/h2&gt;
+&lt;p&gt;Git is a distributed version control system that tracks changes in files and helps coordinate work on projects among multiple people.&lt;/p&gt;
+&lt;h2 id=&#34;core-concepts&#34;&gt;Core Concepts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Repository&lt;/strong&gt; &amp;ndash; storage of files and their change history&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commit&lt;/strong&gt; &amp;ndash; a snapshot of changes with a description&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Branch&lt;/strong&gt; &amp;ndash; an independent line of development&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Merge&lt;/strong&gt; &amp;ndash; combining changes from different branches&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conflict&lt;/strong&gt; &amp;ndash; when changes in the same file conflict with each other&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;basic-commands&#34;&gt;Basic Commands&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Command&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;git init&lt;/td&gt;
+&lt;td&gt;Create a new repository&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git add&lt;/td&gt;
+&lt;td&gt;Stage files for commit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git commit -m &amp;ldquo;message&amp;rdquo;&lt;/td&gt;
+&lt;td&gt;Create a commit&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git push&lt;/td&gt;
+&lt;td&gt;Send commits to remote server&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git pull&lt;/td&gt;
+&lt;td&gt;Get changes from remote server&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git branch&lt;/td&gt;
+&lt;td&gt;Manage branches&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;typical-workflow&#34;&gt;Typical Workflow&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Create or clone a repository&lt;/li&gt;
+&lt;li&gt;Create a branch for your changes&lt;/li&gt;
+&lt;li&gt;Make changes and commit them&lt;/li&gt;
+&lt;li&gt;Push the branch and create a pull request&lt;/li&gt;
+&lt;li&gt;Merge after review&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Git is an essential tool for any developer. It simplifies collaboration and makes it almost impossible to lose work.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

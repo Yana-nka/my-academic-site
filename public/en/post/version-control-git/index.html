@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: 31 мая 2026 г. --><html lang="ru-RU" >
+<!-- Last Published: 31 May 2026 г. --><html lang="ru-RU" >
 
 
 <head>
@@ -267,7 +267,7 @@
 
 
 
-  <meta name="author" content="Яна Кулаженкова" />
+  <meta name="author" content="Yana Kulazhenkova" />
 
 
 
@@ -275,7 +275,7 @@
 
   
 
-<meta name="description" content="Introduction в Git: основные команды и принципы работы" />
+<meta name="description" content="Basic Git concepts: commits, branches, merging" />
 
 
 
@@ -316,10 +316,10 @@
   
 
 <meta property="og:type" content="website" />
-<meta property="og:site_name" content="Мой академический сайт" />
+<meta property="og:site_name" content="My Academic Site" />
 <meta property="og:url" content="https://yana-nka.github.io/my-academic-site/en/post/version-control-git/" />
-<meta property="og:title" content="Version Control. Git | Мой академический сайт" />
-<meta property="og:description" content="Introduction в Git: основные команды и принципы работы" /><meta property="og:image" content="https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png" /><meta property="og:locale" content="ru-RU" />
+<meta property="og:title" content="Introduction to Version Control with Git | My Academic Site" />
+<meta property="og:description" content="Basic Git concepts: commits, branches, merging" /><meta property="og:image" content="https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png" /><meta property="og:locale" content="ru-RU" />
 
   
     <meta
@@ -353,7 +353,7 @@
 
 
   
-  <title>Version Control. Git | Мой академический сайт</title>
+  <title>Introduction to Version Control with Git | My Academic Site</title>
 
   
   
@@ -453,11 +453,11 @@ html {
   <div class="container-xl">
 
     
-    <span class="navbar-brand">Мой академический сайт</span>
+    <span class="navbar-brand">My Academic Site</span>
     
 
     <button type="button" class="navbar-toggler" data-toggle="collapse"
-            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Переключить навигацию">
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
       <span><i class="fas fa-bars"></i></span>
     </button>
 
@@ -499,7 +499,7 @@ html {
         
 
           <li class="nav-item">
-            <a class="nav-link" href="/my-academic-site/"><span>Home</span></a>
+            <a class="nav-link" href="/my-academic-site/en/"><span>Home</span></a>
           </li>
 
         
@@ -542,7 +542,7 @@ html {
         
 
           <li class="nav-item">
-            <a class="nav-link" href="/my-academic-site/#about"><span>About</span></a>
+            <a class="nav-link" href="/my-academic-site/en/#about"><span>About</span></a>
           </li>
 
         
@@ -585,7 +585,7 @@ html {
         
 
           <li class="nav-item">
-            <a class="nav-link" href="/my-academic-site/#skills"><span>Skills</span></a>
+            <a class="nav-link" href="/my-academic-site/en/#skills"><span>Skills</span></a>
           </li>
 
         
@@ -628,7 +628,7 @@ html {
         
 
           <li class="nav-item">
-            <a class="nav-link" href="/my-academic-site/#experience"><span>Experience</span></a>
+            <a class="nav-link" href="/my-academic-site/en/#experience"><span>Experience</span></a>
           </li>
 
         
@@ -671,7 +671,7 @@ html {
         
 
           <li class="nav-item">
-            <a class="nav-link" href="/my-academic-site/#accomplishments"><span>Accomplishments</span></a>
+            <a class="nav-link" href="/my-academic-site/en/#accomplishments"><span>Accomplishments</span></a>
           </li>
 
         
@@ -709,7 +709,7 @@ html {
         
 
           <li class="nav-item">
-            <a class="nav-link" href="/my-academic-site/post/"><span>Posts</span></a>
+            <a class="nav-link" href="/my-academic-site/en/post/"><span>Posts</span></a>
           </li>
 
         
@@ -747,7 +747,7 @@ html {
         
 
           <li class="nav-item">
-            <a class="nav-link" href="/my-academic-site/tags/"><span>Tags</span></a>
+            <a class="nav-link" href="/my-academic-site/en/tags/"><span>Tags</span></a>
           </li>
 
         
@@ -809,10 +809,10 @@ html {
   
   
 <div class="article-container pt-3">
-  <h1>Version Control. Git</h1>
+  <h1>Introduction to Version Control with Git</h1>
 
   
-  <p class="page-subtitle">Основы работы с системой контроля версий</p>
+  <p class="page-subtitle">Fundamentals of working with the Git system</p>
   
 
   
@@ -829,10 +829,10 @@ html {
     
     
       
-          Обновлено
+          Updated
       
     
-    мая 31, 2026
+    May 31, 2026
   </span>
   
 
@@ -864,61 +864,61 @@ html {
   <div class="article-container">
 
     <div class="article-style">
-      <h2 id="что-такое-git">Что такое Git?</h2>
-<p>Git — это распределённая система контроля версий, которая позволяет отслеживать изменения в файлах и координировать работу над проектами нескольких человек.</p>
-<h2 id="основные-понятия">Основные понятия</h2>
+      <h2 id="what-is-git">What is Git?</h2>
+<p>Git is a distributed version control system that tracks changes in files and helps coordinate work on projects among multiple people.</p>
+<h2 id="core-concepts">Core Concepts</h2>
 <ul>
-<li><strong>Репозиторий</strong> — хранилище файлов и истории их изменений</li>
-<li><strong>Коммит</strong> — сохранение изменений с описанием</li>
-<li><strong>Ветка (branch)</strong> — отдельная линия разработки</li>
-<li><strong>Слияние (merge)</strong> — объединение изменений из разных веток</li>
-<li><strong>Конфликт</strong> — ситуация, когда изменения в одной и той же части файла противоречат друг другу</li>
+<li><strong>Repository</strong> &ndash; storage of files and their change history</li>
+<li><strong>Commit</strong> &ndash; a snapshot of changes with a description</li>
+<li><strong>Branch</strong> &ndash; an independent line of development</li>
+<li><strong>Merge</strong> &ndash; combining changes from different branches</li>
+<li><strong>Conflict</strong> &ndash; when changes in the same file conflict with each other</li>
 </ul>
-<h2 id="основные-команды">Основные команды</h2>
+<h2 id="basic-commands">Basic Commands</h2>
 <table>
 <thead>
 <tr>
-<th>Команда</th>
-<th>Описание</th>
+<th>Command</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>git init</code></td>
-<td>Создать новый репозиторий</td>
+<td>git init</td>
+<td>Create a new repository</td>
 </tr>
 <tr>
-<td><code>git clone</code></td>
-<td>Скопировать удалённый репозиторий</td>
+<td>git add</td>
+<td>Stage files for commit</td>
 </tr>
 <tr>
-<td><code>git add</code></td>
-<td>Добавить файлы в индекс</td>
+<td>git commit -m &ldquo;message&rdquo;</td>
+<td>Create a commit</td>
 </tr>
 <tr>
-<td><code>git commit</code></td>
-<td>Создать коммит</td>
+<td>git push</td>
+<td>Send commits to remote server</td>
 </tr>
 <tr>
-<td><code>git push</code></td>
-<td>Отправить изменения на сервер</td>
+<td>git pull</td>
+<td>Get changes from remote server</td>
 </tr>
 <tr>
-<td><code>git pull</code></td>
-<td>Получить изменения с сервера</td>
-</tr>
-<tr>
-<td><code>git branch</code></td>
-<td>Управление ветками</td>
-</tr>
-<tr>
-<td><code>git merge</code></td>
-<td>Слияние веток</td>
+<td>git branch</td>
+<td>Manage branches</td>
 </tr>
 </tbody>
 </table>
-<h2 id="заключение">Заключение</h2>
-<p>Git — незаменимый инструмент для любого разработчика. Он упрощает совместную работу и помогает не потерять изменения.</p>
+<h2 id="typical-workflow">Typical Workflow</h2>
+<ol>
+<li>Create or clone a repository</li>
+<li>Create a branch for your changes</li>
+<li>Make changes and commit them</li>
+<li>Push the branch and create a pull request</li>
+<li>Merge after review</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>Git is an essential tool for any developer. It simplifies collaboration and makes it almost impossible to lose work.</p>
 
     </div>
 
@@ -932,7 +932,7 @@ html {
   
   <a class="badge badge-light" href="/my-academic-site/tags/lab/">lab</a>
   
-  <a class="badge badge-light" href="/my-academic-site/tags/version-control-git/">version-control-git</a>
+  <a class="badge badge-light" href="/my-academic-site/tags/version-control-systems/">version-control-systems</a>
   
 </div>
 
@@ -953,7 +953,7 @@ html {
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fversion-control-git%2F&amp;text=Version&#43;Control.&#43;Git" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fversion-control-git%2F&amp;text=Introduction&#43;to&#43;Version&#43;Control&#43;with&#43;Git" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -970,7 +970,7 @@ html {
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fversion-control-git%2F&amp;t=Version&#43;Control.&#43;Git" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fversion-control-git%2F&amp;t=Introduction&#43;to&#43;Version&#43;Control&#43;with&#43;Git" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -989,7 +989,7 @@ html {
         
       
       <li>
-        <a href="mailto:?subject=Version%20Control.%20Git&amp;body=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fversion-control-git%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Introduction%20to%20Version%20Control%20with%20Git&amp;body=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fversion-control-git%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1006,7 +1006,7 @@ html {
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fversion-control-git%2F&amp;title=Version&#43;Control.&#43;Git" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fversion-control-git%2F&amp;title=Introduction&#43;to&#43;Version&#43;Control&#43;with&#43;Git" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1023,7 +1023,7 @@ html {
       
       
       <li>
-        <a href="whatsapp://send?text=Version&#43;Control.&#43;Git%20https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fversion-control-git%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Introduction&#43;to&#43;Version&#43;Control&#43;with&#43;Git%20https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fversion-control-git%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1040,7 +1040,7 @@ html {
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fversion-control-git%2F&amp;title=Version&#43;Control.&#43;Git" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fversion-control-git%2F&amp;title=Introduction&#43;to&#43;Version&#43;Control&#43;with&#43;Git" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

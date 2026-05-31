@@ -13,6 +13,36 @@
     </image>
     
     <item>
+      <title>Academic Report Formatting Standards</title>
+      <link>https://yana-nka.github.io/my-academic-site/en/post/report-formatting/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/en/post/report-formatting/</guid>
+      <description>&lt;h2 id=&#34;report-structure&#34;&gt;Report Structure&lt;/h2&gt;
+&lt;p&gt;Every scientific or technical report should include the following sections:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Title page&lt;/strong&gt; &amp;ndash; title, author, institution&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Introduction&lt;/strong&gt; &amp;ndash; purpose, objectives, relevance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Main body&lt;/strong&gt; &amp;ndash; description of the work performed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Results&lt;/strong&gt; &amp;ndash; data obtained, analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conclusion&lt;/strong&gt; &amp;ndash; findings and conclusions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;References&lt;/strong&gt; &amp;ndash; list of sources used&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;formatting-requirements&#34;&gt;Formatting Requirements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Font&lt;/strong&gt;: Times New Roman, 12pt or 14pt&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Line spacing&lt;/strong&gt;: 1.5&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Margins&lt;/strong&gt;: left 30mm, right 10mm, top 20mm, bottom 20mm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Page numbering&lt;/strong&gt;: centered at the bottom&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Figures and tables&lt;/strong&gt;: must have captions and be numbered sequentially&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;citations&#34;&gt;Citations&lt;/h2&gt;
+&lt;p&gt;References are numbered in square brackets, e.g., [1]. All sources must be listed in the reference section.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Proper formatting is an important part of the academic process. It teaches discipline and attention to detail, and ensures your work meets professional standards.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Continuous Integration and Continuous Deployment (CI/CD)</title>
       <link>https://yana-nka.github.io/my-academic-site/en/post/cicd/</link>
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
@@ -22,17 +52,17 @@
 &lt;p&gt;Developers frequently (sometimes several times a day) merge their changes into a common repository. Each change is automatically built and tested. This allows for early detection of errors.&lt;/p&gt;
 &lt;h2 id=&#34;key-benefits&#34;&gt;Key Benefits&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Early error detection&lt;/strong&gt; — problems are identified immediately after changes are made&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Fast feedback&lt;/strong&gt; — developers know immediately if their code works&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Reduced integration risks&lt;/strong&gt; — regular merging prevents large, complex conflicts&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Automated deployment&lt;/strong&gt; — each successful change can be automatically deployed to a staging or production environment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Early error detection&lt;/strong&gt; &amp;ndash; problems are identified immediately after changes are made&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fast feedback&lt;/strong&gt; &amp;ndash; developers know immediately if their code works&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reduced integration risks&lt;/strong&gt; &amp;ndash; regular merging prevents large, complex conflicts&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automated deployment&lt;/strong&gt; &amp;ndash; each successful change can be automatically deployed to a staging or production environment&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;popular-cicd-services&#34;&gt;Popular CI/CD Services&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitLab CI/CD&lt;/strong&gt; — built-in solution for GitLab repositories&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GitHub Actions&lt;/strong&gt; — popular tool integrated with GitHub&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Jenkins&lt;/strong&gt; — flexible and widely used automation server&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CircleCI, Travis CI&lt;/strong&gt; — cloud services for teams&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitLab CI/CD&lt;/strong&gt; &amp;ndash; built-in solution for GitLab repositories&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Actions&lt;/strong&gt; &amp;ndash; popular tool integrated with GitHub&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jenkins&lt;/strong&gt; &amp;ndash; flexible and widely used automation server&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CircleCI, Travis CI&lt;/strong&gt; &amp;ndash; cloud services for teams&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;CI/CD helps teams deliver software faster, more reliably, and with higher quality. It is an essential part of modern DevOps practices.&lt;/p&gt;
@@ -47,16 +77,16 @@
       <description>&lt;h2 id=&#34;presentation-tools&#34;&gt;Presentation Tools&lt;/h2&gt;
 &lt;p&gt;There are various tools for creating presentations:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Classic editors&lt;/strong&gt; — PowerPoint, LibreOffice Impress, Keynote&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Online services&lt;/strong&gt; — Google Slides, Canva, Prezi&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Professional tools&lt;/strong&gt; — LaTeX Beamer, reveal.js&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Academic standards&lt;/strong&gt; — specific templates for conferences&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Classic editors&lt;/strong&gt; &amp;ndash; PowerPoint, LibreOffice Impress, Keynote&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Online services&lt;/strong&gt; &amp;ndash; Google Slides, Canva, Prezi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Professional tools&lt;/strong&gt; &amp;ndash; LaTeX Beamer, reveal.js&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Academic standards&lt;/strong&gt; &amp;ndash; specific templates for conferences&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;rules-for-good-presentations&#34;&gt;Rules for Good Presentations&lt;/h2&gt;
 &lt;h3 id=&#34;1-text-on-slides&#34;&gt;1. Text on Slides&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Large font (at least 24pt)&lt;/li&gt;
-&lt;li&gt;Minimal text — short bullet points&lt;/li&gt;
+&lt;li&gt;Minimal text &amp;ndash; short bullet points&lt;/li&gt;
 &lt;li&gt;No more than 10 lines per slide&lt;/li&gt;
 &lt;li&gt;Key messages only&lt;/li&gt;
 &lt;/ul&gt;
@@ -70,7 +100,7 @@
 &lt;h3 id=&#34;3-structure&#34;&gt;3. Structure&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Title slide with the topic, author, and date&lt;/li&gt;
-&lt;li&gt;Overview — main points you will cover&lt;/li&gt;
+&lt;li&gt;Overview &amp;ndash; main points you will cover&lt;/li&gt;
 &lt;li&gt;Content slides with supporting material&lt;/li&gt;
 &lt;li&gt;Conclusion slide summarizing key takeaways&lt;/li&gt;
 &lt;/ul&gt;
@@ -80,166 +110,195 @@
     </item>
     
     <item>
-      <title>Lightweight Markup Languages. Markdown</title>
-      <link>https://yana-nka.github.io/my-academic-site/en/post/markdown-lightweight/</link>
-      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://yana-nka.github.io/my-academic-site/en/post/markdown-lightweight/</guid>
-      <description>&lt;h2 id=&#34;что-такое-markdown&#34;&gt;Что такое Markdown?&lt;/h2&gt;
-&lt;p&gt;Markdown — это легковесный язык разметки, созданный Джоном Грубером в 2004 году. Он позволяет форматировать текст с помощью простого синтаксиса и конвертировать его в HTML.&lt;/p&gt;
-&lt;h2 id=&#34;основные-элементы-синтаксиса&#34;&gt;Основные элементы синтаксиса&lt;/h2&gt;
-&lt;h3 id=&#34;заголовки&#34;&gt;Заголовки&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Заголовок 1
-## Заголовок 2
-### Заголовок 3
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;списки&#34;&gt;Списки&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;- Элемент 1
-- Элемент 2
-  - Подэлемент
-
-1. Первый
-2. Второй
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;ссылки-и-изображения&#34;&gt;Ссылки и изображения&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[Текст ссылки](https://example.com)
-![Альтернативный текст](image.png)
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;применение&#34;&gt;Применение&lt;/h2&gt;
-&lt;p&gt;Markdown широко используется в:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Документации проектов (README.md)&lt;/li&gt;
-&lt;li&gt;Блогах и статических сайтах (Hugo, Jekyll)&lt;/li&gt;
-&lt;li&gt;Системах управления знаниями (Obsidian, Notion)&lt;/li&gt;
-&lt;li&gt;Мессенджерах (Telegram, Discord)&lt;/li&gt;
-&lt;li&gt;Платформах для разработчиков (GitHub, GitLab)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
-&lt;p&gt;Markdown — простой и удобный язык разметки, который стал стандартом для документации в IT.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Markup Languages. LaTeX</title>
+      <title>Introduction to LaTeX for Scientific Papers</title>
       <link>https://yana-nka.github.io/my-academic-site/en/post/latex-markup/</link>
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
       <guid>https://yana-nka.github.io/my-academic-site/en/post/latex-markup/</guid>
-      <description>&lt;h2 id=&#34;что-такое-latex&#34;&gt;Что такое LaTeX?&lt;/h2&gt;
-&lt;p&gt;LaTeX — это система вёрстки документов, основанная на языке TeX. Она широко используется в академической среде для подготовки scientific публикаций, диссертаций и отчётов.&lt;/p&gt;
-&lt;h2 id=&#34;преимущества-latex&#34;&gt;Преимущества LaTeX&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;what-is-latex&#34;&gt;What is LaTeX?&lt;/h2&gt;
+&lt;p&gt;LaTeX is a professional typesetting system widely used in academia. It is the standard for writing scientific papers, dissertations, theses, and journal articles.&lt;/p&gt;
+&lt;h2 id=&#34;why-latex&#34;&gt;Why LaTeX?&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Профессиональное качество вёрстки&lt;/li&gt;
-&lt;li&gt;Автоматическая нумерация формул, таблиц и рисунков&lt;/li&gt;
-&lt;li&gt;Удобная работа с библиографией (BibTeX)&lt;/li&gt;
-&lt;li&gt;Поддержка сложных математических формул&lt;/li&gt;
-&lt;li&gt;Версионирование через Git (текстовый формат)&lt;/li&gt;
-&lt;li&gt;Бесплатное и кроссплатформенное ПО&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Professional quality&lt;/strong&gt; &amp;ndash; produces beautifully formatted documents&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automatic numbering&lt;/strong&gt; &amp;ndash; of sections, tables, figures, and equations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Convenient bibliography management&lt;/strong&gt; &amp;ndash; BibTeX integration&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Support for complex mathematical formulas&lt;/strong&gt; &amp;ndash; the best tool for equations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plain text format&lt;/strong&gt; &amp;ndash; works with any text editor and version control&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Free and cross-platform&lt;/strong&gt; &amp;ndash; runs on Windows, macOS, and Linux&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;пример-документа&#34;&gt;Пример документа&lt;/h2&gt;
+&lt;h2 id=&#34;basic-structure&#34;&gt;Basic Structure&lt;/h2&gt;
+&lt;p&gt;A minimal LaTeX document:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\documentclass&lt;/span&gt;{article}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\title&lt;/span&gt;{Моя первая статья}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\author&lt;/span&gt;{Яна Кулаженкова}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\title&lt;/span&gt;{My First Article}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\author&lt;/span&gt;{Author Name}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\begin&lt;/span&gt;{document}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\maketitle&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\section&lt;/span&gt;{Introduction}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Текст введения...
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Your text here...
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;\end&lt;/span&gt;{document}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;формулы-в-latex&#34;&gt;Формулы в LaTeX&lt;/h2&gt;
-&lt;p&gt;LaTeX позволяет красиво оформлять математические формулы:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;$E = mc^2$ — встроенная формула&lt;/li&gt;
-&lt;li&gt;$$\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$ — выключенная формула&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
-&lt;p&gt;LaTeX — стандарт для scientific публикаций. Освоив его, вы сможете профессионально оформлять любые документы.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;formulas&#34;&gt;Formulas&lt;/h2&gt;
+&lt;p&gt;Inline formula: $E = mc^2$
+Displayed formula:&lt;/p&gt;
+&lt;p&gt;$$ \int_{-\infty}^{\infty} e^{-x^2},dx = \sqrt{\pi} $$&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Once you master LaTeX, you can professionally format any academic document. It is an essential tool for researchers and students in STEM fields.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Report Formatting</title>
-      <link>https://yana-nka.github.io/my-academic-site/en/post/report-formatting/</link>
-      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://yana-nka.github.io/my-academic-site/en/post/report-formatting/</guid>
-      <description>&lt;h2 id=&#34;структура-отчёта&#34;&gt;Структура отчёта&lt;/h2&gt;
-&lt;p&gt;Любой научный или технический отчёт должен содержать следующие разделы:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Титульный лист&lt;/strong&gt; — название работы, автор, дата&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Introduction&lt;/strong&gt; — цель работы, актуальность&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Основная часть&lt;/strong&gt; — описание выполнения работы&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Результаты&lt;/strong&gt; — полученные данные и их анализ&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Заключение&lt;/strong&gt; — выводы по работе&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Список литературы&lt;/strong&gt; — использованные источники&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;требования-к-оформлению&#34;&gt;Требования к оформлению&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Шрифт: Times New Roman, 14pt&lt;/li&gt;
-&lt;li&gt;Межстрочный интервал: 1.5&lt;/li&gt;
-&lt;li&gt;Поля: левое 30мм, правое 10мм, верхнее/нижнее 20мм&lt;/li&gt;
-&lt;li&gt;Нумерация страниц: снизу по центру&lt;/li&gt;
-&lt;li&gt;Рисунки и таблицы должны иметь подписи&lt;/li&gt;
-&lt;li&gt;Формулы нумеруются в круглых скобках&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
-&lt;p&gt;Правильное оформление отчёта — важная часть учебного процесса. Оно приучает к аккуратности и дисциплине.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Version Control. Git</title>
+      <title>Introduction to Version Control with Git</title>
       <link>https://yana-nka.github.io/my-academic-site/en/post/version-control-git/</link>
       <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
       <guid>https://yana-nka.github.io/my-academic-site/en/post/version-control-git/</guid>
-      <description>&lt;h2 id=&#34;что-такое-git&#34;&gt;Что такое Git?&lt;/h2&gt;
-&lt;p&gt;Git — это распределённая система контроля версий, которая позволяет отслеживать изменения в файлах и координировать работу над проектами нескольких человек.&lt;/p&gt;
-&lt;h2 id=&#34;основные-понятия&#34;&gt;Основные понятия&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;what-is-git&#34;&gt;What is Git?&lt;/h2&gt;
+&lt;p&gt;Git is a distributed version control system that tracks changes in files and helps coordinate work on projects among multiple people.&lt;/p&gt;
+&lt;h2 id=&#34;core-concepts&#34;&gt;Core Concepts&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Репозиторий&lt;/strong&gt; — хранилище файлов и истории их изменений&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Коммит&lt;/strong&gt; — сохранение изменений с описанием&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ветка (branch)&lt;/strong&gt; — отдельная линия разработки&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Слияние (merge)&lt;/strong&gt; — объединение изменений из разных веток&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Конфликт&lt;/strong&gt; — ситуация, когда изменения в одной и той же части файла противоречат друг другу&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repository&lt;/strong&gt; &amp;ndash; storage of files and their change history&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commit&lt;/strong&gt; &amp;ndash; a snapshot of changes with a description&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Branch&lt;/strong&gt; &amp;ndash; an independent line of development&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Merge&lt;/strong&gt; &amp;ndash; combining changes from different branches&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conflict&lt;/strong&gt; &amp;ndash; when changes in the same file conflict with each other&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;основные-команды&#34;&gt;Основные команды&lt;/h2&gt;
+&lt;h2 id=&#34;basic-commands&#34;&gt;Basic Commands&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th&gt;Команда&lt;/th&gt;
-&lt;th&gt;Описание&lt;/th&gt;
+&lt;th&gt;Command&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;code&gt;git init&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Создать новый репозиторий&lt;/td&gt;
+&lt;td&gt;git init&lt;/td&gt;
+&lt;td&gt;Create a new repository&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;code&gt;git clone&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Скопировать удалённый репозиторий&lt;/td&gt;
+&lt;td&gt;git add&lt;/td&gt;
+&lt;td&gt;Stage files for commit&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;code&gt;git add&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Добавить файлы в индекс&lt;/td&gt;
+&lt;td&gt;git commit -m &amp;ldquo;message&amp;rdquo;&lt;/td&gt;
+&lt;td&gt;Create a commit&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;code&gt;git commit&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Создать коммит&lt;/td&gt;
+&lt;td&gt;git push&lt;/td&gt;
+&lt;td&gt;Send commits to remote server&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;code&gt;git push&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Отправить изменения на сервер&lt;/td&gt;
+&lt;td&gt;git pull&lt;/td&gt;
+&lt;td&gt;Get changes from remote server&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;code&gt;git pull&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Получить изменения с сервера&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;git branch&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Управление ветками&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;git merge&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Слияние веток&lt;/td&gt;
+&lt;td&gt;git branch&lt;/td&gt;
+&lt;td&gt;Manage branches&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
-&lt;p&gt;Git — незаменимый инструмент для любого разработчика. Он упрощает совместную работу и помогает не потерять изменения.&lt;/p&gt;
+&lt;h2 id=&#34;typical-workflow&#34;&gt;Typical Workflow&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Create or clone a repository&lt;/li&gt;
+&lt;li&gt;Create a branch for your changes&lt;/li&gt;
+&lt;li&gt;Make changes and commit them&lt;/li&gt;
+&lt;li&gt;Push the branch and create a pull request&lt;/li&gt;
+&lt;li&gt;Merge after review&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Git is an essential tool for any developer. It simplifies collaboration and makes it almost impossible to lose work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Markdown -- Lightweight Markup Language</title>
+      <link>https://yana-nka.github.io/my-academic-site/en/post/markdown-lightweight/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/en/post/markdown-lightweight/</guid>
+      <description>&lt;h2 id=&#34;what-is-markdown&#34;&gt;What is Markdown?&lt;/h2&gt;
+&lt;p&gt;Markdown is a lightweight markup language created by John Gruber in 2004. It allows you to format plain text using simple, intuitive syntax and convert it to HTML.&lt;/p&gt;
+&lt;h2 id=&#34;basic-syntax&#34;&gt;Basic Syntax&lt;/h2&gt;
+&lt;h3 id=&#34;headers&#34;&gt;Headers&lt;/h3&gt;
+&lt;h1 id=&#34;header-1&#34;&gt;Header 1&lt;/h1&gt;
+&lt;h2 id=&#34;header-2&#34;&gt;Header 2&lt;/h2&gt;
+&lt;h3 id=&#34;header-3&#34;&gt;Header 3&lt;/h3&gt;
+&lt;h3 id=&#34;lists&#34;&gt;Lists&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Item 1&lt;/li&gt;
+&lt;li&gt;Item 2
+&lt;ul&gt;
+&lt;li&gt;Sub-item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;links-and-images&#34;&gt;Links and Images&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;url&#34;&gt;Link text&lt;/a&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image.jpg&#34; alt=&#34;Alt text&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;p&gt;Inline code or code blocks with triple backticks.&lt;/p&gt;
+&lt;h2 id=&#34;applications&#34;&gt;Applications&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt; for software projects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Blogs&lt;/strong&gt; &amp;ndash; static site generators (like Hugo)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Knowledge management&lt;/strong&gt; &amp;ndash; Notion, Obsidian&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chat platforms&lt;/strong&gt; &amp;ndash; Discord, Telegram, Slack&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Developer platforms&lt;/strong&gt; &amp;ndash; GitHub README files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Markdown is a simple, convenient format that has become the standard for documentation and text formatting on the web.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Step-by-Step Deployment Guide for a Bilingual Hugo Website on GitHub Pages</title>
+      <link>https://yana-nka.github.io/my-academic-site/en/post/github-deploy/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/en/post/github-deploy/</guid>
+      <description>&lt;h2 id=&#34;how-to-deploy-your-site-for-free&#34;&gt;How to Deploy Your Site for Free&lt;/h2&gt;
+&lt;p&gt;This guide covers deploying a bilingual (Russian/English) Hugo + Wowchemy site to GitHub Pages.&lt;/p&gt;
+&lt;h2 id=&#34;preparation&#34;&gt;Preparation&lt;/h2&gt;
+&lt;p&gt;Before deployment, you will need:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A ready-to-build Hugo site with Wowchemy&lt;/li&gt;
+&lt;li&gt;A GitHub repository for your site&lt;/li&gt;
+&lt;li&gt;Basic knowledge of git and command line&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-and-deploy-step-by-step&#34;&gt;Build and Deploy: Step by Step&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Build the site&lt;/strong&gt;: Run `hugo` to generate the `public/` directory&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Copy to docs/&lt;/strong&gt;: Run `cp -r public/* docs/` (GitHub Pages serves from the `docs` folder)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commit&lt;/strong&gt;: `git add -A &amp;amp;&amp;amp; git commit -m &amp;ldquo;deploy&amp;rdquo;`&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Push&lt;/strong&gt;: `git push origin main`&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Pages settings&lt;/strong&gt;: Branch `main`, folder `/docs`&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom domain&lt;/strong&gt;: Can be configured in the repository settings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Free hosting with automatic HTTPS&lt;/li&gt;
+&lt;li&gt;Automatic build after each push&lt;/li&gt;
+&lt;li&gt;Simple and fast workflow&lt;/li&gt;
+&lt;li&gt;Professional appearance for your academic portfolio&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -706,14 +765,6 @@
       <link>https://yana-nka.github.io/my-academic-site/en/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://yana-nka.github.io/my-academic-site/en/home/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://yana-nka.github.io/my-academic-site/en/post/github-deploy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yana-nka.github.io/my-academic-site/en/post/github-deploy/</guid>
       <description></description>
     </item>
     

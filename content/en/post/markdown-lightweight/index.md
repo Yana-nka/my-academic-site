@@ -1,52 +1,46 @@
 ---
-title: "Lightweight Markup Languages. Markdown"
-subtitle: "Простой язык для форматирования текста"
+title: "Markdown -- Lightweight Markup Language"
+subtitle: "Simple formatting for text documents"
 date: 2026-05-30
-summary: "Markdown Basics: Syntax and Applications"
-tags: ["lab", "markdown-lightweight"]
+summary: "Markdown syntax and its applications"
+tags: ["lab", "markdown-markup"]
 ---
 
-## Что такое Markdown?
+## What is Markdown?
 
-Markdown — это легковесный язык разметки, созданный Джоном Грубером в 2004 году. Он позволяет форматировать текст с помощью простого синтаксиса и конвертировать его в HTML.
+Markdown is a lightweight markup language created by John Gruber in 2004. It allows you to format plain text using simple, intuitive syntax and convert it to HTML.
 
-## Основные элементы синтаксиса
+## Basic Syntax
 
-### Заголовки
+### Headers
 
-```
-# Заголовок 1
-## Заголовок 2
-### Заголовок 3
-```
+# Header 1
+## Header 2
+### Header 3
 
-### Списки
+### Lists
 
-```
-- Элемент 1
-- Элемент 2
-  - Подэлемент
+- Item 1
+- Item 2
+  - Sub-item
 
-1. Первый
-2. Второй
-```
+### Links and Images
 
-### Ссылки и изображения
+[Link text](url)
+![Alt text](image.jpg)
 
-```
-[Текст ссылки](https://example.com)
-![Альтернативный текст](image.png)
-```
+### Code
 
-## Применение
+Inline code or code blocks with triple backticks.
 
-Markdown широко используется в:
-- Документации проектов (README.md)
-- Блогах и статических сайтах (Hugo, Jekyll)
-- Системах управления знаниями (Obsidian, Notion)
-- Мессенджерах (Telegram, Discord)
-- Платформах для разработчиков (GitHub, GitLab)
+## Applications
 
-## Заключение
+- **Documentation** for software projects
+- **Blogs** -- static site generators (like Hugo)
+- **Knowledge management** -- Notion, Obsidian
+- **Chat platforms** -- Discord, Telegram, Slack
+- **Developer platforms** -- GitHub README files
 
-Markdown — простой и удобный язык разметки, который стал стандартом для документации в IT.
+## Conclusion
+
+Markdown is a simple, convenient format that has become the standard for documentation and text formatting on the web.

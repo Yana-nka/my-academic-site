@@ -1,31 +1,34 @@
 ---
-title: "Report Formatting"
-subtitle: "Структура и правила оформления отчётов"
+title: "Academic Report Formatting Standards"
+subtitle: "Structure and requirements for scientific reports"
 date: 2026-05-30
-summary: "How to properly format a lab report"
+summary: "Formatting rules for lab reports and academic papers"
 tags: ["lab", "report-formatting"]
 ---
 
-## Структура отчёта
+## Report Structure
 
-Любой научный или технический отчёт должен содержать следующие разделы:
+Every scientific or technical report should include the following sections:
 
-1. **Титульный лист** — название работы, автор, дата
-2. **Introduction** — цель работы, актуальность
-3. **Основная часть** — описание выполнения работы
-4. **Результаты** — полученные данные и их анализ
-5. **Заключение** — выводы по работе
-6. **Список литературы** — использованные источники
+1. **Title page** -- title, author, institution
+2. **Introduction** -- purpose, objectives, relevance
+3. **Main body** -- description of the work performed
+4. **Results** -- data obtained, analysis
+5. **Conclusion** -- findings and conclusions
+6. **References** -- list of sources used
 
-## Требования к оформлению
+## Formatting Requirements
 
-- Шрифт: Times New Roman, 14pt
-- Межстрочный интервал: 1.5
-- Поля: левое 30мм, правое 10мм, верхнее/нижнее 20мм
-- Нумерация страниц: снизу по центру
-- Рисунки и таблицы должны иметь подписи
-- Формулы нумеруются в круглых скобках
+- **Font**: Times New Roman, 12pt or 14pt
+- **Line spacing**: 1.5
+- **Margins**: left 30mm, right 10mm, top 20mm, bottom 20mm
+- **Page numbering**: centered at the bottom
+- **Figures and tables**: must have captions and be numbered sequentially
 
-## Заключение
+## Citations
 
-Правильное оформление отчёта — важная часть учебного процесса. Оно приучает к аккуратности и дисциплине.
+References are numbered in square brackets, e.g., [1]. All sources must be listed in the reference section.
+
+## Conclusion
+
+Proper formatting is an important part of the academic process. It teaches discipline and attention to detail, and ensures your work meets professional standards.

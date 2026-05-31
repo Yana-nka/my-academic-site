@@ -14,19 +14,18 @@ Developers frequently (sometimes several times a day) merge their changes into a
 
 ## Key Benefits
 
-- **Early error detection** — problems are identified immediately after changes are made
-- **Fast feedback** — developers know immediately if their code works
-- **Reduced integration risks** — regular merging prevents large, complex conflicts
-- **Automated deployment** — each successful change can be automatically deployed to a staging or production environment
+- **Early error detection** -- problems are identified immediately after changes are made
+- **Fast feedback** -- developers know immediately if their code works
+- **Reduced integration risks** -- regular merging prevents large, complex conflicts
+- **Automated deployment** -- each successful change can be automatically deployed to a staging or production environment
 
 ## Popular CI/CD Services
 
-- **GitLab CI/CD** — built-in solution for GitLab repositories
-- **GitHub Actions** — popular tool integrated with GitHub
-- **Jenkins** — flexible and widely used automation server
-- **CircleCI, Travis CI** — cloud services for teams
+- **GitLab CI/CD** -- built-in solution for GitLab repositories
+- **GitHub Actions** -- popular tool integrated with GitHub
+- **Jenkins** -- flexible and widely used automation server
+- **CircleCI, Travis CI** -- cloud services for teams
 
 ## Conclusion
 
 CI/CD helps teams deliver software faster, more reliably, and with higher quality. It is an essential part of modern DevOps practices.
-

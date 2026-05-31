@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github-deploy | Мой академический сайт</title>
+    <link>https://yana-nka.github.io/my-academic-site/tags/github-deploy/</link>
+      <atom:link href="https://yana-nka.github.io/my-academic-site/tags/github-deploy/index.xml" rel="self" type="application/rss+xml" />
+    <description>github-deploy</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png</url>
+      <title>github-deploy</title>
+      <link>https://yana-nka.github.io/my-academic-site/tags/github-deploy/</link>
+    </image>
+    
+    <item>
+      <title>Step-by-Step Deployment Guide for a Bilingual Hugo Website on GitHub Pages</title>
+      <link>https://yana-nka.github.io/my-academic-site/en/post/github-deploy/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://yana-nka.github.io/my-academic-site/en/post/github-deploy/</guid>
+      <description>&lt;h2 id=&#34;how-to-deploy-your-site-for-free&#34;&gt;How to Deploy Your Site for Free&lt;/h2&gt;
+&lt;p&gt;This guide covers deploying a bilingual (Russian/English) Hugo + Wowchemy site to GitHub Pages.&lt;/p&gt;
+&lt;h2 id=&#34;preparation&#34;&gt;Preparation&lt;/h2&gt;
+&lt;p&gt;Before deployment, you will need:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A ready-to-build Hugo site with Wowchemy&lt;/li&gt;
+&lt;li&gt;A GitHub repository for your site&lt;/li&gt;
+&lt;li&gt;Basic knowledge of git and command line&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-and-deploy-step-by-step&#34;&gt;Build and Deploy: Step by Step&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Build the site&lt;/strong&gt;: Run `hugo` to generate the `public/` directory&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Copy to docs/&lt;/strong&gt;: Run `cp -r public/* docs/` (GitHub Pages serves from the `docs` folder)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Commit&lt;/strong&gt;: `git add -A &amp;amp;&amp;amp; git commit -m &amp;ldquo;deploy&amp;rdquo;`&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Push&lt;/strong&gt;: `git push origin main`&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;configuration&#34;&gt;Configuration&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Pages settings&lt;/strong&gt;: Branch `main`, folder `/docs`&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Custom domain&lt;/strong&gt;: Can be configured in the repository settings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Free hosting with automatic HTTPS&lt;/li&gt;
+&lt;li&gt;Automatic build after each push&lt;/li&gt;
+&lt;li&gt;Simple and fast workflow&lt;/li&gt;
+&lt;li&gt;Professional appearance for your academic portfolio&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

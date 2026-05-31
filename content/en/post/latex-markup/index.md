@@ -1,44 +1,46 @@
 ---
-title: "Markup Languages. LaTeX"
-subtitle: "Профессиональная система вёрстки документов"
+title: "Introduction to LaTeX for Scientific Papers"
+subtitle: "Typesetting system for academic writing"
 date: 2026-05-30
-summary: "Introduction в LaTeX для scientific работ"
+summary: "Basics of LaTeX: formulas, structure, document creation"
 tags: ["lab", "latex-markup"]
 ---
 
-## Что такое LaTeX?
+## What is LaTeX?
 
-LaTeX — это система вёрстки документов, основанная на языке TeX. Она широко используется в академической среде для подготовки scientific публикаций, диссертаций и отчётов.
+LaTeX is a professional typesetting system widely used in academia. It is the standard for writing scientific papers, dissertations, theses, and journal articles.
 
-## Преимущества LaTeX
+## Why LaTeX?
 
-- Профессиональное качество вёрстки
-- Автоматическая нумерация формул, таблиц и рисунков
-- Удобная работа с библиографией (BibTeX)
-- Поддержка сложных математических формул
-- Версионирование через Git (текстовый формат)
-- Бесплатное и кроссплатформенное ПО
+- **Professional quality** -- produces beautifully formatted documents
+- **Automatic numbering** -- of sections, tables, figures, and equations
+- **Convenient bibliography management** -- BibTeX integration
+- **Support for complex mathematical formulas** -- the best tool for equations
+- **Plain text format** -- works with any text editor and version control
+- **Free and cross-platform** -- runs on Windows, macOS, and Linux
 
-## Пример документа
+## Basic Structure
+
+A minimal LaTeX document:
 
 ```latex
 \documentclass{article}
-\title{Моя первая статья}
-\author{Яна Кулаженкова}
+\title{My First Article}
+\author{Author Name}
 \begin{document}
 \maketitle
 \section{Introduction}
-Текст введения...
+Your text here...
 \end{document}
 ```
 
-## Формулы в LaTeX
+## Formulas
 
-LaTeX позволяет красиво оформлять математические формулы:
+Inline formula: $E = mc^2$
+Displayed formula:
 
-- $E = mc^2$ — встроенная формула
-- $$\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$ — выключенная формула
+$$ \int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi} $$
 
-## Заключение
+## Conclusion
 
-LaTeX — стандарт для scientific публикаций. Освоив его, вы сможете профессионально оформлять любые документы.
+Once you master LaTeX, you can professionally format any academic document. It is an essential tool for researchers and students in STEM fields.

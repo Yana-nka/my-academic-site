@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: 31 мая 2026 г. --><html lang="ru-RU" >
+<!-- Last Published: 31 May 2026 г. --><html lang="ru-RU" >
 
 
 <head>
@@ -267,7 +267,7 @@
 
 
 
-  <meta name="author" content="Яна Кулаженкова" />
+  <meta name="author" content="Yana Kulazhenkova" />
 
 
 
@@ -275,7 +275,7 @@
 
   
 
-<meta name="description" content="" />
+<meta name="description" content="How to deploy a bilingual Hugo/Wowchemy site to GitHub Pages for free" />
 
 
 
@@ -316,27 +316,32 @@
   
 
 <meta property="og:type" content="website" />
-<meta property="og:site_name" content="Мой академический сайт" />
+<meta property="og:site_name" content="My Academic Site" />
 <meta property="og:url" content="https://yana-nka.github.io/my-academic-site/en/post/github-deploy/" />
-<meta property="og:title" content="Мой академический сайт" />
-<meta property="og:description" content="" /><meta property="og:image" content="https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png" /><meta property="og:locale" content="ru-RU" />
+<meta property="og:title" content="Step-by-Step Deployment Guide for a Bilingual Hugo Website on GitHub Pages | My Academic Site" />
+<meta property="og:description" content="How to deploy a bilingual Hugo/Wowchemy site to GitHub Pages for free" /><meta property="og:image" content="https://yana-nka.github.io/my-academic-site/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_box_center_3.png" /><meta property="og:locale" content="ru-RU" />
 
   
+    <meta
+      property="article:published_time"
+      content="2026-05-30T00:00:00&#43;00:00"
+    />
   
-    <meta property="article:modified_time" content="2026-05-31T04:36:28&#43;00:00">
   
-
-
-
-
-
-
-
+    <meta property="article:modified_time" content="2026-05-31T07:44:19&#43;00:00">
   
 
 
 
 
+
+
+
+  
+
+
+
+
   
   
   
@@ -348,7 +353,7 @@
 
 
   
-  <title>Мой академический сайт</title>
+  <title>Step-by-Step Deployment Guide for a Bilingual Hugo Website on GitHub Pages | My Academic Site</title>
 
   
   
@@ -448,11 +453,11 @@ html {
   <div class="container-xl">
 
     
-    <span class="navbar-brand">Мой академический сайт</span>
+    <span class="navbar-brand">My Academic Site</span>
     
 
     <button type="button" class="navbar-toggler" data-toggle="collapse"
-            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Переключить навигацию">
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
       <span><i class="fas fa-bars"></i></span>
     </button>
 
@@ -494,7 +499,7 @@ html {
         
 
           <li class="nav-item">
-            <a class="nav-link" href="/my-academic-site/"><span>Home</span></a>
+            <a class="nav-link" href="/my-academic-site/en/"><span>Home</span></a>
           </li>
 
         
@@ -537,7 +542,7 @@ html {
         
 
           <li class="nav-item">
-            <a class="nav-link" href="/my-academic-site/#about"><span>About</span></a>
+            <a class="nav-link" href="/my-academic-site/en/#about"><span>About</span></a>
           </li>
 
         
@@ -580,7 +585,7 @@ html {
         
 
           <li class="nav-item">
-            <a class="nav-link" href="/my-academic-site/#skills"><span>Skills</span></a>
+            <a class="nav-link" href="/my-academic-site/en/#skills"><span>Skills</span></a>
           </li>
 
         
@@ -623,7 +628,7 @@ html {
         
 
           <li class="nav-item">
-            <a class="nav-link" href="/my-academic-site/#experience"><span>Experience</span></a>
+            <a class="nav-link" href="/my-academic-site/en/#experience"><span>Experience</span></a>
           </li>
 
         
@@ -666,7 +671,7 @@ html {
         
 
           <li class="nav-item">
-            <a class="nav-link" href="/my-academic-site/#accomplishments"><span>Accomplishments</span></a>
+            <a class="nav-link" href="/my-academic-site/en/#accomplishments"><span>Accomplishments</span></a>
           </li>
 
         
@@ -704,7 +709,7 @@ html {
         
 
           <li class="nav-item">
-            <a class="nav-link" href="/my-academic-site/post/"><span>Posts</span></a>
+            <a class="nav-link" href="/my-academic-site/en/post/"><span>Posts</span></a>
           </li>
 
         
@@ -742,7 +747,7 @@ html {
         
 
           <li class="nav-item">
-            <a class="nav-link" href="/my-academic-site/tags/"><span>Tags</span></a>
+            <a class="nav-link" href="/my-academic-site/en/tags/"><span>Tags</span></a>
           </li>
 
         
@@ -804,8 +809,10 @@ html {
   
   
 <div class="article-container pt-3">
-  <h1></h1>
+  <h1>Step-by-Step Deployment Guide for a Bilingual Hugo Website on GitHub Pages</h1>
 
+  
+  <p class="page-subtitle">Free hosting for your Hugo academic site</p>
   
 
   
@@ -822,10 +829,10 @@ html {
     
     
       
-          Обновлено
+          Updated
       
     
-    мая 31, 2026
+    May 31, 2026
   </span>
   
 
@@ -857,7 +864,35 @@ html {
   <div class="article-container">
 
     <div class="article-style">
-      
+      <h2 id="how-to-deploy-your-site-for-free">How to Deploy Your Site for Free</h2>
+<p>This guide covers deploying a bilingual (Russian/English) Hugo + Wowchemy site to GitHub Pages.</p>
+<h2 id="preparation">Preparation</h2>
+<p>Before deployment, you will need:</p>
+<ul>
+<li>A ready-to-build Hugo site with Wowchemy</li>
+<li>A GitHub repository for your site</li>
+<li>Basic knowledge of git and command line</li>
+</ul>
+<h2 id="build-and-deploy-step-by-step">Build and Deploy: Step by Step</h2>
+<ol>
+<li><strong>Build the site</strong>: Run `hugo` to generate the `public/` directory</li>
+<li><strong>Copy to docs/</strong>: Run `cp -r public/* docs/` (GitHub Pages serves from the `docs` folder)</li>
+<li><strong>Commit</strong>: `git add -A &amp;&amp; git commit -m &ldquo;deploy&rdquo;`</li>
+<li><strong>Push</strong>: `git push origin main`</li>
+</ol>
+<h2 id="configuration">Configuration</h2>
+<ul>
+<li><strong>GitHub Pages settings</strong>: Branch `main`, folder `/docs`</li>
+<li><strong>Custom domain</strong>: Can be configured in the repository settings</li>
+</ul>
+<h2 id="features">Features</h2>
+<ul>
+<li>Free hosting with automatic HTTPS</li>
+<li>Automatic build after each push</li>
+<li>Simple and fast workflow</li>
+<li>Professional appearance for your academic portfolio</li>
+</ul>
+
     </div>
 
     
@@ -865,6 +900,14 @@ html {
 
 
 
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/my-academic-site/tags/lab/">lab</a>
+  
+  <a class="badge badge-light" href="/my-academic-site/tags/github-deploy/">github-deploy</a>
+  
+</div>
 
 
 
@@ -883,7 +926,7 @@ html {
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fgithub-deploy%2F&amp;text=" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fgithub-deploy%2F&amp;text=Step-by-Step&#43;Deployment&#43;Guide&#43;for&#43;a&#43;Bilingual&#43;Hugo&#43;Website&#43;on&#43;GitHub&#43;Pages" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -900,7 +943,7 @@ html {
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fgithub-deploy%2F&amp;t=" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fgithub-deploy%2F&amp;t=Step-by-Step&#43;Deployment&#43;Guide&#43;for&#43;a&#43;Bilingual&#43;Hugo&#43;Website&#43;on&#43;GitHub&#43;Pages" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -919,7 +962,7 @@ html {
         
       
       <li>
-        <a href="mailto:?subject=&amp;body=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fgithub-deploy%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Step-by-Step%20Deployment%20Guide%20for%20a%20Bilingual%20Hugo%20Website%20on%20GitHub%20Pages&amp;body=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fgithub-deploy%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -936,7 +979,7 @@ html {
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fgithub-deploy%2F&amp;title=" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fgithub-deploy%2F&amp;title=Step-by-Step&#43;Deployment&#43;Guide&#43;for&#43;a&#43;Bilingual&#43;Hugo&#43;Website&#43;on&#43;GitHub&#43;Pages" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -953,7 +996,7 @@ html {
       
       
       <li>
-        <a href="whatsapp://send?text=%20https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fgithub-deploy%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Step-by-Step&#43;Deployment&#43;Guide&#43;for&#43;a&#43;Bilingual&#43;Hugo&#43;Website&#43;on&#43;GitHub&#43;Pages%20https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fgithub-deploy%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -970,7 +1013,7 @@ html {
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fgithub-deploy%2F&amp;title=" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fyana-nka.github.io%2Fmy-academic-site%2Fen%2Fpost%2Fgithub-deploy%2F&amp;title=Step-by-Step&#43;Deployment&#43;Guide&#43;for&#43;a&#43;Bilingual&#43;Hugo&#43;Website&#43;on&#43;GitHub&#43;Pages" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

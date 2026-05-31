@@ -1,36 +1,42 @@
 ---
-title: "Version Control. Git"
-subtitle: "Основы работы с системой контроля версий"
+title: "Introduction to Version Control with Git"
+subtitle: "Fundamentals of working with the Git system"
 date: 2026-05-30
-summary: "Introduction в Git: основные команды и принципы работы"
-tags: ["lab", "version-control-git"]
+summary: "Basic Git concepts: commits, branches, merging"
+tags: ["lab", "version-control-systems"]
 ---
 
-## Что такое Git?
+## What is Git?
 
-Git — это распределённая система контроля версий, которая позволяет отслеживать изменения в файлах и координировать работу над проектами нескольких человек.
+Git is a distributed version control system that tracks changes in files and helps coordinate work on projects among multiple people.
 
-## Основные понятия
+## Core Concepts
 
-- **Репозиторий** — хранилище файлов и истории их изменений
-- **Коммит** — сохранение изменений с описанием
-- **Ветка (branch)** — отдельная линия разработки
-- **Слияние (merge)** — объединение изменений из разных веток
-- **Конфликт** — ситуация, когда изменения в одной и той же части файла противоречат друг другу
+- **Repository** -- storage of files and their change history
+- **Commit** -- a snapshot of changes with a description
+- **Branch** -- an independent line of development
+- **Merge** -- combining changes from different branches
+- **Conflict** -- when changes in the same file conflict with each other
 
-## Основные команды
+## Basic Commands
 
-| Команда | Описание |
-|---|---|
-| `git init` | Создать новый репозиторий |
-| `git clone` | Скопировать удалённый репозиторий |
-| `git add` | Добавить файлы в индекс |
-| `git commit` | Создать коммит |
-| `git push` | Отправить изменения на сервер |
-| `git pull` | Получить изменения с сервера |
-| `git branch` | Управление ветками |
-| `git merge` | Слияние веток |
+| Command | Description |
+|---------|-------------|
+| git init | Create a new repository |
+| git add | Stage files for commit |
+| git commit -m "message" | Create a commit |
+| git push | Send commits to remote server |
+| git pull | Get changes from remote server |
+| git branch | Manage branches |
 
-## Заключение
+## Typical Workflow
 
-Git — незаменимый инструмент для любого разработчика. Он упрощает совместную работу и помогает не потерять изменения.
+1. Create or clone a repository
+2. Create a branch for your changes
+3. Make changes and commit them
+4. Push the branch and create a pull request
+5. Merge after review
+
+## Conclusion
+
+Git is an essential tool for any developer. It simplifies collaboration and makes it almost impossible to lose work.
