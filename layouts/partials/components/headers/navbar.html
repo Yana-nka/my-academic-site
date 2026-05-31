@@ -84,16 +84,21 @@
         {{ $menuName := .Name }}
         {{ if eq $lang "en" }}
           {{ if eq .Identifier "home" }}{{ $menuName = "Home" }}{{ end }}
+          {{ if eq .Identifier "about" }}{{ $menuName = "About" }}{{ end }}
+          {{ if eq .Identifier "skills" }}{{ $menuName = "Skills" }}{{ end }}
+          {{ if eq .Identifier "experience" }}{{ $menuName = "Experience" }}{{ end }}
+          {{ if eq .Identifier "accomplishments" }}{{ $menuName = "Accomplishments" }}{{ end }}
           {{ if eq .Identifier "posts" }}{{ $menuName = "Posts" }}{{ end }}
           {{ if eq .Identifier "tags" }}{{ $menuName = "Tags" }}{{ end }}
         {{ else }}
           {{ if eq .Identifier "home" }}{{ $menuName = "Главная" }}{{ end }}
+          {{ if eq .Identifier "about" }}{{ $menuName = "Обо мне" }}{{ end }}
+          {{ if eq .Identifier "skills" }}{{ $menuName = "Навыки" }}{{ end }}
+          {{ if eq .Identifier "experience" }}{{ $menuName = "Опыт" }}{{ end }}
+          {{ if eq .Identifier "accomplishments" }}{{ $menuName = "Достижения" }}{{ end }}
           {{ if eq .Identifier "posts" }}{{ $menuName = "Посты" }}{{ end }}
           {{ if eq .Identifier "tags" }}{{ $menuName = "Теги" }}{{ end }}
         {{ end }}
-
-          <li class="nav-item">
-            <a class="nav-link {{if and $highlight_active_link $is_link_in_current_path }} active{{end}}" href="{{.URL | relLangURL}}"{{ if and $is_widget_page $is_same_page }} data-target="{{$hash}}"{{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>
               {{- .Pre -}}<span>{{ $menuName | safeHTML }}</span>{{- .Post -}}
             </a>
           </li>

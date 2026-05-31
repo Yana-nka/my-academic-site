@@ -3,11 +3,27 @@ main:
     name: "Home"
     url: "/"
     weight: 10
+  - identifier: about
+    name: "About"
+    url: "/#about"
+    weight: 20
+  - identifier: skills
+    name: "Skills"
+    url: "/#skills"
+    weight: 30
+  - identifier: experience
+    name: "Experience"
+    url: "/#experience"
+    weight: 40
+  - identifier: accomplishments
+    name: "Accomplishments"
+    url: "/#accomplishments"
+    weight: 50
   - identifier: posts
     name: "Posts"
     url: "/post/"
-    weight: 20
+    weight: 60
   - identifier: tags
     name: "Tags"
     url: "/tags/"
-    weight: 30
+    weight: 70
