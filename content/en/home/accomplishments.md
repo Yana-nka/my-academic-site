@@ -31,4 +31,12 @@ item:
     organization: "RUDN University"
     organization_url: ""
     certificate_url: ""
+  - title: "Introduction to Linux"
+    url: "https://stepik.org/cert/3244634"
+    summary: "Stepik course with honors «Introduction to Linux»"
+    date_start: "2026-05-31"
+    date_end: ""
+    organization: "Stepik"
+    organization_url: "https://stepik.org/"
+    certificate_url: "https://stepik.org/cert/3244634"
 ---
