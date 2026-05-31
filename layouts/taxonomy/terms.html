@@ -7,29 +7,31 @@
     <div class="article-style">{{ . }}</div>
   {{ end }}
 
-  {{ $isEnglish := in .RelPermalink "/en/" }}
-  
-  {{ $allTags := slice }}
-  {{ range site.AllPages }}
-    {{ if and (eq .Kind "page") (in .RelPermalink "/post/") }}
-      {{ $thisIsEnglish := in .RelPermalink "/en/" }}
-      {{ if eq $isEnglish $thisIsEnglish }}
-        {{ range .Params.tags }}
-          {{ $allTags = $allTags | append . }}
-        {{ end }}
+  {{-  := "/en/" -}}
+  {{- if not (in .RelPermalink "/en/") -}}
+    {{-  = "/" -}}
+  {{- end -}}
+
+  {{-  := slice -}}
+  {{- range .Pages -}}
+    {{-  := slice -}}
+    {{- range .Pages -}}
+      {{- if or (and (eq  "/en/") (in .RelPermalink "/en/")) (and (ne  "/en/") (not (in .RelPermalink "/en/"))) -}}
+        {{-  =  | append . -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if gt (len ) 0 -}}
+      {{-  =  | append . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{ if gt (len ) 0 }}
+    <div class="tag-cloud">
+      {{ range  }}
+        <a href="{{ .RelPermalink }}" class="tag-cloud-link">{{ .Title }}</a>
       {{ end }}
-    {{ end }}
+    </div>
   {{ end }}
-  
-  {{ $uniqueTags := $allTags | uniq | sort }}
-
-  <div class="tag-cloud">
-    {{ range $uniqueTags }}
-      {{ $slug := urlize . }}
-      <a href="{{ printf "./%s/" $slug }}" class="tag-cloud-link">{{ . }}</a>
-    {{ end }}
-  </div>
-
 </div>
 
 {{- end -}}

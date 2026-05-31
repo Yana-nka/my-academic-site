@@ -7,18 +7,17 @@
     <div class="article-style">{{ . }}</div>
   {{ end }}
 
-  {{/* Filter pages by current language using RelPermalink */}}
-  {{  := "/en/" }}
-  {{ if not (in .RelPermalink "/en/") }}
-    {{  = "/" }}
-  {{ end }}
+  {{-  := "/en/" -}}
+  {{- if not (in .RelPermalink "/en/") -}}
+    {{-  = "/" -}}
+  {{- end -}}
   
-  {{  := slice }}
-  {{ range .Pages }}
-    {{ if or (and (eq  "/en/") (in .RelPermalink "/en/")) (and (ne  "/en/") (not (in .RelPermalink "/en/"))) }}
-      {{  =  | append . }}
-    {{ end }}
-  {{ end }}
+  {{-  := slice -}}
+  {{- range .Pages -}}
+    {{- if or (and (eq  "/en/") (in .RelPermalink "/en/")) (and (ne  "/en/") (not (in .RelPermalink "/en/"))) -}}
+      {{-  =  | append . -}}
+    {{- end -}}
+  {{- end -}}
 
   {{  := .Paginate  }}
   {{ range ,  := .Pages }}
