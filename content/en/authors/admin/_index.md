@@ -1,7 +1,7 @@
 ---
 slug: admin
 title: Yana Kulazhenkova
-role: Student of NKAbd-03-25
+role: "Student of group NKAbd-03-25"
 avatar:
   filename: avatar.jpg
 bio: RUDN University student
