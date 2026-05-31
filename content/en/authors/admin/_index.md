@@ -1,4 +1,5 @@
 ---
+slug: admin
 title: Yana Kulazhenkova
 role: Student of NKAbd-03-25
 avatar:
