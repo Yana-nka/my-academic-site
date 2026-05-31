@@ -21,7 +21,7 @@
       <a class="navbar-brand" href="{{ site.Home.RelPermalink }}">{{ site.Params.header.navbar.logo.text }}</a>
       {{ end }}
     {{ else }}
-    <a class="navbar-brand" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
+    <span class="navbar-brand">{{ i18n "site_title" | default site.Title }}</span>
     {{ end }}
 
     <button type="button" class="navbar-toggler" data-toggle="collapse"

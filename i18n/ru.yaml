@@ -1,3 +1,5 @@
+- id: site_title
+  translation: Мой академический сайт
 - id: about
   translation: Обо мне
 - id: skills

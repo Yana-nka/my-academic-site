@@ -1,3 +1,5 @@
+- id: site_title
+  translation: My Academic Site
 - id: about
   translation: Biography
 - id: skills
