@@ -25,7 +25,7 @@ social:
     link: https://github.com/Yana-nka
   - icon: envelope
     icon_pack: fas
-    link: mailto:kulazhenkow@gmail.com
+    link: mailto:1032253497@rudn.ru
 superuser: true
 user_groups:
   - Студенты
